@@ -1,0 +1,79 @@
+{
+    "hug": {
+        "name": "Abrazo",
+        "text": "¡{user} abrazó a {who}!",
+        "count": "¡{who} ha sido abrazado por {user} un total de {count} veces!",
+        "first": "¡Ellos se abrazaron por primera vez!",
+        "button": "¡Un abrazo!"
+    },
+    "pat": {
+        "name": "Pat",
+        "text": "¡{user} palmeó la cabeza de {who}!",
+        "count": "¡{who} ha sido acariciado por {user} un total de {count} veces!",
+        "first": "¡Han sido acariciados por primera vez!",
+        "button": "¡Pat back!"
+    },
+    "kiss": {
+        "name": "Beso",
+        "text": "¡{user} besó a {who}!",
+        "count": "¡{who} ha sido besado por {user} un total de {count} veces!",
+        "first": "¡Beso por primera vez!",
+        "button": "¡Devuélveles el beso!"
+    },
+    "lick": {
+        "name": "Lengüetazo",
+        "text": "¡{user} lamió {who}!",
+        "count": "¡{who} ha sido lamió por {user} un total de {count} veces!",
+        "first": "¡Los han lamido por primera vez!",
+        "button": "¡Lame de vuelta!"
+    },
+    "highfive": {
+        "name": "Choca esos cinco",
+        "text": "¡{user} choca los cinco con {who}!",
+        "count": "¡{who} ha sido chocado los cinco por {user}, {count} times!",
+        "first": "¡Es la primera vez que {who} recibe un choca esos cinco de {user}!",
+        "button": "¡Choca esos cinco!"
+    },
+    "bonk": {
+        "name": "Bonk",
+        "text": "{user} ¡golpeó juguetonamente la cabeza de {who}!",
+        "count": "¡{who} ha sido golpeado por {user} {count} veces!",
+        "first": " ¡{who} acaba de ser follado por {user} por primera vez!",
+        "button": "¡Devolver el golpe!"
+    },
+    "poke": {
+        "name": "Cutucar",
+        "text": "{user} pinchó {who}!",
+        "count": "¡{who} ha sido pinchado por {user} {count} veces!",
+        "first": "¡{who} ha sido pinchado por {user} por primera vez!",
+        "button": "¡Pellizcar la espalda!"
+    },
+    "bite": {
+        "name": "Mordida",
+        "text": "¡{user} mordió {who}!",
+        "count": "¡{who} ha sido mordido por {user} {count} veces!",
+        "first": "¡{who} experimentó su primer mordisco juguetón de {user}!",
+        "button": "¡Muérdelos!"
+    },
+    "kick": {
+        "name": "Patada",
+        "text": "¡{user} le dio a {who} una patada amistosa!",
+        "count": "¡{who} ha sido pateado por {user} {count} veces!",
+        "first": "¡{who} acaba de recibir su primera patada amistosa de {user}!",
+        "button": "¡Dales una patada!"
+    },
+    "slap": {
+        "name": "Bofetada",
+        "text": "{user} abofeteado {who}!",
+        "count": "¡{who} ha sido abofeteado por {user} {count} veces!",
+        "first": "¡{who} acaba de abofeteado por {user} por primera vez!",
+        "button": "¡Devuelve la bofetada!"
+    },
+    "blowjob": {
+        "name": "Mamada",
+        "text": "¡{user} le hizo una mamada a {who}!",
+        "count": "¡{who} tuvo una mamada de {user} un total de {count} veces!",
+        "first": "¡Era su primera mamada!",
+        "button": "¡Devuélveme el favor!"
+    }
+}

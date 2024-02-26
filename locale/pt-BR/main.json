@@ -1,0 +1,795 @@
+{
+    "emoji": "🇧🇷",
+    "language": "Português (Brasil)",
+    "types": {
+        "waifu": "Waifu",
+        "husbando": "Husbando",
+        "card": "Carta",
+        "gem": "Gema",
+        "item": "Item",
+        "background": "Fundo"
+    },
+    "suffixes": {
+        "st": "º",
+        "nd": "º",
+        "rd": "º",
+        "th": "º"
+    },
+    "lewd": "sensual",
+    "command": "comando",
+    "interaction": "interação",
+    "status": {
+        "0": "O bot está iniciando.\nPor favor, espere um momento.",
+        "1": "A parada de manutenção está em andamento.\nVoltaremos em breve."
+    },
+    "didYouKnow": "Você sabia que...",
+    "anonymous": "Anônimo",
+    "harem": {
+        "title": "Harém de {username}",
+        "tip": "Verifique os detalhes da carta selecionada com {command:card}.",
+        "page": "Página",
+        "mobile": "Em dispositivos móveis? Ative a versão móvel com /{prefix}settings.",
+        "selectSort": "Ordenar o harém por..."
+    },
+    "titles": {
+        "player": "Jogador",
+        "friend": "Amigo de {bot}",
+        "enthusiast": "Entusiasta de {bot}",
+        "lover": "Amante de {bot}",
+        "partner": "Parceiro de {bot}",
+        "contributor": "Contribuidor de {bot}",
+        "artist": "Artista de {bot}",
+        "team": "Equipe myWaifu.Top",
+        "translator": "Tradutor",
+        "star": "Estrela da Comunidade",
+        "top": "Top 1 Contribuidor",
+        "developer": "Desenvolvedor de {bot}"
+    },
+    "rarity": "Raridade",
+    "tags": "Marcadores",
+    "name": "Nome",
+    "ID": "ID",
+    "noResults": "Nenhum resultado encontrado.",
+    "everyMonth": "Todo Mês",
+    "modals": {
+        "0": {
+            "title": "Pesquisa",
+            "inputs": [
+                {
+                    "label": "Nome (opcional)",
+                    "placeholder": "O nome da carta (ex. Nazuna Nanakusa)."
+                },
+                {
+                    "label": "ID da Carta (opcional)",
+                    "placeholder": "O ID da carta (ex. ABC-123)."
+                }
+            ]
+        },
+        "1": {
+            "title": "Ir para página",
+            "inputs": [
+                {
+                    "label": "Número da página",
+                    "placeholder": "Um número inteiro entre {min} e {max}."
+                }
+            ]
+        },
+        "2": {
+            "title": "Definir quantidade",
+            "inputs": [
+                {
+                    "label": "Quantidade do item",
+                    "placeholder": "Um número inteiro entre {min} e {max}."
+                }
+            ]
+        },
+        "3": {
+            "title": "Encontrar personagem",
+            "inputs": [
+                {
+                    "label": "Nome",
+                    "placeholder": "Nome do personagem"
+                }
+            ]
+        },
+        "4": {
+            "title": "Configurar filtro de data",
+            "inputs": [
+                {
+                    "label": "Após",
+                    "placeholder": "YYYY-MM-DD"
+                },
+                {
+                    "label": "Antes",
+                    "placeholder": "YYYY-MM-DD"
+                }
+            ]
+        },
+        "5": {
+            "title": "Definir intervalo dos números",
+            "inputs": [
+                {
+                    "label": "Maior que",
+                    "placeholder": "Um número inteiro."
+                },
+                {
+                    "label": "Menor que",
+                    "placeholder": "Um número inteiro."
+                }
+            ]
+        },
+        "6": {
+            "title": "Pesquisar no guia",
+            "inputs": [
+                {
+                    "label": "Pesquisa",
+                    "placeholder": "Digite as palavras-chave que você deseja procurar."
+                }
+            ]
+        },
+        "card": {
+            "label": "ID da carta",
+            "placeholder": "Digite o ID da carta que você gostaria de adicionar (por exemplo, \"ABC-123\")."
+        },
+        "currency": {
+            "label": "Quantidade de recursos",
+            "placeholder": "Informe a quantidade de recursos que você deseja adicionar."
+        },
+        "background": {
+            "label": "ID do Fundo",
+            "placeholder": "Informe o ID do plano de fundo que você deseja adicionar (por exemplo, \"5\")."
+        },
+        "card-global": [
+            {
+                "label": "ID da carta",
+                "placeholder": "Informe o ID da carta (ex. ABC\")."
+            },
+            {
+                "label": "Intervalo de Número de copia (opcional)",
+                "placeholder": "Intervalo do número de cópia da carta (por exemplo, \"1-5\" ou simplesmente \"5\")."
+            },
+            {
+                "label": "Intervalo de Afeição (opcional)",
+                "placeholder": "Intervalo da afeição da carta (por exemplo, \"50-90\" ou simplesmente \"120\")."
+            },
+            {
+                "label": "Personalidade (opcional)",
+                "placeholder": "Personalidade da carta (por exemplo, \"tsundere\" ou \"yandere\")."
+            }
+        ]
+    },
+    "card": {
+        "locked": "Esta carta está bloqueada atualmente devido a uma oferta de troca ativa ou leilão. Para gerenciá-la, comece recusando a oferta usando o comando {command:trade list} ou {command:auctionhouse}.",
+        "working": "Esta carta está atualmente envolvido em um negócio ativo. Para gerenciá-la, comece removendo-a da posição de trabalho."
+    },
+    "tagList": {
+        "trade": "Disponível para troca",
+        "sell": "Pode ser vendido",
+        "square": "Quadrado",
+        "triangle": "Triângulo",
+        "circle": "Círculo"
+    },
+    "tagUnlist": {
+        "trade": "Trocas desativadas",
+        "sell": "Não pode ser vendido"
+    },
+    "roll": {
+        "adjectives": [
+            "Legal",
+            "Incrível",
+            "Fofa",
+            "Extra",
+            "Criativa",
+            "Determinada",
+            "Engraçada",
+            "Amigável",
+            "Ajudante",
+            "Gentil",
+            "Paciente",
+            "Educada",
+            "Incrível",
+            "Fabulosa",
+            "Linda",
+            "Perfeita",
+            "Super",
+            "Esplêndida",
+            "Tirar o Fôlego",
+            "Destemida",
+            "Amável",
+            "Otimista"
+        ],
+        "titles": [
+            "Uma nova {type} apareceu!",
+            "Olha que {type}!",
+            "Uau, um novo {type}!",
+            "Woop... Um novo {type} está aqui!",
+            "Wha?! Um novo {type}!"
+        ],
+        "descriptions": [
+            "Uhull!",
+            "Que graça!",
+            "Oba! Que legal!"
+        ],
+        "owned": {
+            "hasEqual": "Você já tem um {type} **idêntico** no seu harém!",
+            "hasGreaterAndLess": "Você possui uma versão deste {type} de raridade ambos **maiores** e **menor**.",
+            "hasLess": "Você possui este {type}, mas com uma raridade **menor**.",
+            "hasGreater": "Você possui este {type}, mas com uma raridade **maior**.",
+            "hasNot": "Este é o primeiro {type} desses no seu harém!"
+        },
+        "newWaifu": "**Parabéns, {user}**!\n\n{card} entrou no seu harém!",
+        "variant": "É um variante {variant}!",
+        "tip": "Use {command:harem} para ver todos os seus personagens!",
+        "wish": "Seu desejo se realizou!",
+        "wishEnded": "Pelo menos um dos seus desejos terminou."
+    },
+    "personalities": {
+        "tsundere": "Tsundere",
+        "deredere": "Deredere",
+        "yandere": "Yandere",
+        "dandere": "Dandere",
+        "kuudere": "Kuudere",
+        "himedere": "Himedere"
+    },
+    "buttons": {
+        "sell": "Vender",
+        "rollAgain": "Rolar novamente",
+        "visitStore": "Visite {store}!"
+    },
+    "rarities": {
+        "none": "Qualquer",
+        "common": "Comum",
+        "uncommon": "Incomum",
+        "rare": "Raro",
+        "super-rare": "Super-Raro",
+        "ultra-rare": "Ultra-Raro",
+        "legendary": "Lendário",
+        "mythic": "Mítico",
+        "exclusive": "Exclusivo",
+        "super-exclusive": "Super-Exclusivo",
+        "ultra-exclusive": "Ultra-Exclusivo",
+        "prestigious": "Prestigioso",
+        "developer": "Desenvolvedor"
+    },
+    "inventory": {
+        "noItems": "*Você não possui nenhum item.\nVisite o {command:store} e gaste algumas das suas moedas!*"
+    },
+    "trade": {
+        "tip": "**Dica:** Ao criar uma troca, um botão especial \"Adicionar à troca\" aparecerá no comando {command:card}. Use-o para adicionar rapidamente cartas à sua troca.",
+        "offer": {
+            "description": "Nesta seção, você pode adicionar ou remover os bens que você deseja **oferecer**."
+        },
+        "request": {
+            "description": "Nesta seção, você pode adicionar ou remover os bens que você deseja **receber**."
+        },
+        "types": {
+            "card": "Cartas",
+            "item": "Itens",
+            "currency": "Moedas",
+            "background": "Fundos"
+        }
+    },
+    "categories": {
+        "cards": "Cartas",
+        "economy": "Economia",
+        "trading": "Trocas & Leilões",
+        "user": "Usuário",
+        "utils": "Utilitários",
+        "help": "Ajuda & Guias"
+    },
+    "settings": {
+        "general": "Geral",
+        "privacy": "Privacidade",
+        "notifications": "Notificações",
+        "locale": {
+            "name": "Idioma",
+            "description": "Mude o idioma do bot."
+        },
+        "activeTitle": {
+            "name": "Título ativo",
+            "description": "Selecione o título visível em seu harém."
+        },
+        "mobile": {
+            "name": "Versão Móvel",
+            "description": "Ligar/desligar a versão móvel do bot."
+        },
+        "alerts": {
+            "name": "Notificações de voto",
+            "description": "Ligar/desligar as notificações de voto a cada 12 horas."
+        },
+        "bidNotifications": {
+            "name": "Notificações de Leilões",
+            "description": "Ligar/desligar as notificações relacionadas aos leilões."
+        },
+        "sellConfirm": {
+            "name": "Confirmação de Venda",
+            "description": "Exige um clique adicional para cada ação de venda."
+        },
+        "harem": {
+            "name": "Harém Público",
+            "description": "Permita que outras pessoas vejam seu harém."
+        },
+        "profile": {
+            "name": "Perfil Público",
+            "description": "Permitir que outras pessoas vejam o seu perfil."
+        },
+        "trades": {
+            "name": "Aceitar Ofertas de Troca",
+            "description": "Permitir enviar ofertas de troca."
+        },
+        "leaderboards": {
+            "name": "Visível em Placares",
+            "description": "Aparecer nas classificações globais."
+        },
+        "businessNotifications": {
+            "name": "Notificações de Negócios",
+            "description": "Receba notificações de seus eventos comerciais."
+        }
+    },
+    "store": {
+        "tips": {
+            "general": "Use seus itens no {command:inventory}.",
+            "gifts": "Use seus presentes no painel de encontros - {command:date}."
+        }
+    },
+    "patreon": {
+        "commandTip": "Use o comando {command:patreon} para acompanhar os seus marcos e benefícios de membro.",
+        "newPatron": {
+            "title": "Obrigado!",
+            "description": "**Ei!** Estou muito feliz por você ter decidido me apoiar!\nIsso realmente significa muito! 😊",
+            "giftsHeader": "Como um presente de boas-vindas, você recebeu",
+            "cyclicHeader": "Durante seu apoio você receberá (e acabará de receber) as seguintes",
+            "cyclicInfo": "...e você também já recebeu agora."
+        },
+        "renewPatron": {
+            "title": "Os benefícios mensais chegaram!",
+            "description": "**Ei**! Obrigado por seu apoio este mês! Eu muito aprecio! 😊",
+            "giftsHeader": "Você mantém seus benefícios anteriores, passivos e também recebeu"
+        },
+        "cancel": {
+            "title": "Sua assinatura no Patreon foi cancelada!",
+            "description": "**Ei!** Parece que você cancelou a sua inscrição no Patreon!\nInfelizmente, tenho que tirar seus benefícios.\n\nObrigado por todo o suporte!\n**Espero que você continue curtindo {bot}!**"
+        },
+        "benefits": {
+            "title": "Título {titleName}, lhe concedendo:",
+            "daily": "{daily} Rolls Adicionais Todos os Dias",
+            "energy": "{energy} Pontos de Energia Todos os Dias",
+            "favorites": "{favorites} Espaços Adicionais de Favoritos",
+            "auctions": "Limite de {auctions} Leilões ou Ofertas Ativos",
+            "auctionsDuration": "{auctionsDuration} dias de duração para Leilões e ofertas",
+            "features": "Leilões e Ofertas em Destaque",
+            "custom": "Opções de Personalização",
+            "role": "Cargo Especial em nosso [Servidor de Suporte]({server})",
+            "cardsFirst": "Cartas exclusivas a cada mês, começando com:",
+            "cards": "Cartas Exclusivas (mês: {month}):",
+            "backgroundsFirst": "Fundos Exclusivos a cada mês, começando com:",
+            "backgrounds": "Fundos Exclusivos (mês: {month}):",
+            "awesomeItems": "Itens incríveis todo mês:",
+            "specialRole": "Cargo especial em nosso [Servidor Discord]({config:urls.server})!"
+        }
+    },
+    "auctions": {
+        "turnOff": "Desligue essas notificações com {command:settings}.",
+        "overbid": "Seu pedido no **Leilão #{code}** foi passado!",
+        "buyout": "O **Leilão #{code}** terminou - alguém pagou o preço de compra!\nSuas moedas foram devolvidas.",
+        "end": "O **Leilão #{code}** acabou - **{winner}** ganhou com o maior lance de **{coins}** moedas!\nAs moedas dos outros participantes foram devolvidas.",
+        "win": "Parabéns, você ganhou o **Leilão #{code}** com o maior lance de **{coins}**! A nova carta foi adicionado ao seu harém.",
+        "owner": "O **Leilão #{code}** terminou! Você recebeu **{coins}** moedas. A carta foi removido do seu harém.",
+        "ownerNoBids": "O **Leilão #{code}** terminou! Ninguém deu um lance - a carta foi devolvido para seu harém.\nMais sorte da próxima vez!"
+    },
+    "leaderboards": {
+        "coins": {
+            "title": "10 Jogadores Mais Ricos",
+            "description": "A classificação abaixo exibe os 10 melhores jogadores com a maior quantidade de moedas."
+        },
+        "gems": {
+            "title": "Top 10 Coletores de Gemas",
+            "description": "A classificação abaixo exibe os 10 melhores jogadores com o maior número de gemas."
+        },
+        "rolls": {
+            "title": "Top 10 Viciados em Rolar",
+            "description": "A classificação abaixo exibe os 10 melhores jogadores com a maior quantidade total de rolls utilizadas."
+        },
+        "sells": {
+            "title": "Top 10 Vendedores sem Corações",
+            "description": "A classificação abaixo exibe os 10 melhores jogadores com a maior quantidade de moedas obtidas com a venda de cartas."
+        },
+        "cafe": {
+            "title": "Top 10 Melhores Cafeterias",
+            "description": "A classificação abaixo exibe as 10 maiores cafeterias com a maior renda."
+        },
+        "votes": {
+            "title": "Top 10 Votadores",
+            "description": "A classificação abaixo exibe os 10 melhores jogadores com as sequências de votos mais altas."
+        }
+    },
+    "filters": {
+        "rarity": {
+            "name": "Raridade",
+            "description": "Filtrar cartas de acordo com suas raridades."
+        },
+        "duplicate": {
+            "name": "Duplicadas",
+            "description": "Filtrar cartas baseados se você tem duplicadas."
+        },
+        "tags": {
+            "name": "Marcadores",
+            "description": "Filtrar cartas por suas marcações."
+        },
+        "date": {
+            "name": "Data do Roll",
+            "description": "Filtrar as cartas por data em que elas foram rodadas."
+        },
+        "print": {
+            "name": "Número da cópia",
+            "description": "Filtrar cartas por números de cópia."
+        }
+    },
+    "vote": {
+        "notifications": {
+            "title": "Notificação de Voto",
+            "description": "Agora você pode votar em **{bot}** em **{website}**!\nPara votar, aperte o primeiro botão abaixo."
+        },
+        "thanks": "Obrigado por votar! **Significa muito mesmo!**",
+        "miss": "**Ops!** Você perdeu um dia e sua sequência diária foi reiniciada...",
+        "streak": "Este é o seu **{streak}° voto consecutivo!** Continue assim! 🔥",
+        "nextMilestone": "Próximo marco: **{nextMilestone} votos consecutivos!**"
+    },
+    "youHaveReceived": "Você recebeu:",
+    "additionalRolls": "rolls adicionais",
+    "coins": "moedas",
+    "voteEveryDay": "Vote diariamente para elevar a sua **sequência de votos** e receber melhores recompensas!",
+    "enableNotificationsTip": "Ative as **notificações de voto** para nunca perder a sua sequência! Verifique {command:settings}!",
+    "dailyVoteRewards": "Recompensas de Voto Diário",
+    "dailyVoteRewardsDesc": "**Seu primeiro voto do dia está aqui!** Lembre-se de votar diariamente para recompensas únicas. Continue por um mês inteiro para desbloquear fundos e cartas especiais. Não se esqueça, as recompensas atuais expiram até o final do mês!",
+    "voteT": "Votar",
+    "patreonCards": "Raridades Patreon exclusivas para os nossos apoiantes ({command:patreon}).",
+    "balance": "Saldo",
+    "actions": "Ações",
+    "auctionHasEnded": "Esse leilão terminou.",
+    "auctionOwner": "Você é o vendedor do leilão. Você não pode cancelar o leilão a não ser que não tenha lances nele.",
+    "participantName": "Você participa deste leilão sob o nome \"{name}\".",
+    "noBidding": "Você não está participando atualmente nesse leilão.\nFaça um lance para entrar.",
+    "minimumBid": "Lance mínimo",
+    "buyOutPrice": "Preço de Compra",
+    "expires": "Expira",
+    "latestBids": "Últimos Lances",
+    "you": "Você",
+    "noBidsYet": "Sem lances ainda.",
+    "buyout": "Comprar",
+    "gem": "Gema",
+    "coin": "Moeda",
+    "nothing": "Nada",
+    "sortBy": "Ordenar por",
+    "auction": "Leilão",
+    "bidders": "licitantes",
+    "ends": "Termina",
+    "offer": "Oferta",
+    "offered": "Oferecido",
+    "requested": "Solicitado",
+    "noResultsFound": "Nenhum resultado encontrado.",
+    "auctionFooters": {
+        "auction": [
+            "Mostrando {auctions} do total de {auctionsCount} leilões.",
+            "Mostrando {auctions} de {auctionsCount} seus leilões.",
+            "Mostrando {auctions} dos leilões {auctionsCount} que você deu um lance.",
+            "Mostrando {auctions} dos leilões {auctionsCount} que você pode dar um lance."
+        ],
+        "offer": [
+            "Mostrando {auctions} do total de {auctionsCount} ofertas.",
+            "Mostrando {auctions} de {auctionsCount} suas ofertas."
+        ]
+    },
+    "auctionTitles": {
+        "auction": [
+            "Todos os leilões",
+            "Meus leilões",
+            "Meus lances",
+            "Leilões que eu posso dar um lance"
+        ],
+        "offer": [
+            "Todas as ofertas",
+            "Minhas ofertas"
+        ]
+    },
+    "selectAnAuctionToSeeItsDetails": "Selecione um leilão para ver seus detalhes...",
+    "selectAnOfferToSeeItsDetails": "Selecione uma oferta para ver seus detalhes...",
+    "workersDescription": "Gerencie seus funcionários de forma eficaz atribuindo-os a posições de emprego específicas. Tenha em mente que cada carta possui preferências de trabalho distintas, com base em suas características de personalidade. Obtenha informações sobre a correlação entre a personalidade e a eficiência do emprego, remetendo para o Guia.",
+    "noWorkers": "Atualmente, você não tem nenhum cartão atribuído a este negócio. Para atribuir cartas, você precisa maximizar a afeição feita por {command:date}, e, em seguida, clique no botão \"Atribuir uma tarefa\" no painel de encontro.",
+    "choosePosition": "Escolha uma posição...",
+    "remove": "Remover",
+    "removeFromTheBusiness": "Remova do negócio.",
+    "selectCardToManageIt": "Selecione um cartão para gerenciá-lo...",
+    "hasUnassigned": "Você tem cartas não atribuídas. Para melhorar as estatísticas do seu negócio, coloque-os para uma das posições de trabalho disponíveis.",
+    "unassigned": "Não Atribuído",
+    "working": "Trabalhando",
+    "upgradesDescription": "Melhora as capacidades de seus negócios e facilita o seu crescimento.",
+    "buyFirst": "Compre {upgrade} primeiro.",
+    "selectAnUpgradeToBuyIt": "Selecione uma melhoria para comprá-la...",
+    "upgrades": "melhorias",
+    "startABusiness": "Iniciar um negócio",
+    "startBusinessDescription": "Você ainda não começou este negócio. Para começar e ganhar Gemas, clique no botão abaixo e crie um nome do negócio. Lembre-se, o nome escolhido deve seguir as regras de nome e não pode ser alterado mais tarde.",
+    "energy": "Energia",
+    "startEarningPassively": "Comece a ganhar passivamente atribuindo uma carta à posição **{positionName}**.",
+    "clickerDetails": "Uma vez iniciado, ganha {perMinute} por minuto por **{minutes} minutos** ({hours}h). Para em {stops}.",
+    "welcomeBackManager": "Bem-vindo de volta, gerente! Você pode gerenciar seu negócio, usando os botões fornecidos abaixo. Se quiser mostrar sua renda em uma classificação pública, use o comando {command:leaderboards}. Gaste suas gemas recebidas no {command:gemporium}.",
+    "startServing": "Começar a servir",
+    "stopServing": "Parar de Servir (+{gems})",
+    "payout": "Pagamento (+{gems})",
+    "sellCoffee": "Vender Café! ({energy}/{maxEnergy}🗲)",
+    "cardSpecial": "A carta abaixo é uma carta especial que pode não ser mais acessível. Cartas especiais são normalmente adquiridas através de votações diárias e vários eventos.",
+    "cardPatreon": "A carta abaixo é uma recompensa exclusiva para os membros do Patreon. Para adquiri-lo, torne-se um Patrono: {command:patreon}.",
+    "characters": "Personagens",
+    "series": "Série",
+    "author": "Autor",
+    "rolled": "Rolado",
+    "sold": "Vendido",
+    "ownedByYou": "Pertence a você",
+    "title": "Título",
+    "type": "Tipo",
+    "totalPulls": "Total de Rolagens",
+    "owned": "Possui",
+    "availableSince": "Disponível Desde",
+    "banners": "Banners",
+    "yes": "Sim",
+    "no": "Não",
+    "congratsUser": "Parabéns, {user}!",
+    "successfullyRolled": "Você rolou com sucesso **{cardAmount} cartas**!",
+    "andMore": "...e mais {count}.",
+    "multiRoll": "{times}x Multi-Roll",
+    "rollAgainTimes": "Role novamente (x{times})",
+    "cardRemoved": "Esta carta foi vendida",
+    "thisCardDoesntExist": "Esta carta não existe mais. Se você encontrar essa mensagem ao navegar por sua lista de rolls múltiplos, ela indica que você chegou ao final da lista de cartões rolados. Os cartões restantes servem como espaços reservados para aqueles que você vendeu durante o processo de navegação dos cartões.",
+    "sell": "Vender",
+    "obtained": "Obtida",
+    "personality": "Personalidade",
+    "affection": "Afeição",
+    "youOwn": "você tem uma cópia desta carta.",
+    "selectGift": "Selecione um presente...",
+    "chooseAnAction": "Escolha uma ação...",
+    "dateWith": "Encontro com {who}",
+    "clear": "Limpar",
+    "filterTheCardTags": "Filtrar as marcações das cartas...",
+    "loading": "Carregando...",
+    "wishesCameTrue": "{count} de seus desejos se realizaram!",
+    "somethingWentWrong": "Algo deu errado...",
+    "raritiesA": "Raridades",
+    "onlyDuplicates": "Apenas duplicados",
+    "rollDate": "Data do Roll",
+    "after": "após",
+    "before": "antes",
+    "printNumber": "Número da cópia",
+    "greater": "maior que",
+    "lower": "menor que",
+    "nothingHasBeenAddedYet": "Nada foi adicionado ainda.",
+    "multiSell": "Vender Múltiplos",
+    "tryingToSell": "Você está tentando vender **{cardAmount} cartas** por {emoji:smallCoin}**{price}**.",
+    "areYouSure": "Você tem certeza?",
+    "thisActionCannotBeReverted": "Esta operação não pode ser revertida.",
+    "youHaveSold": "Você vendeu **{cardCount} cartas** por um preço total de {emoji:smallCoin}**{price}**.",
+    "yourBalance": "Seu saldo",
+    "editCardFilters": "Editar os filtros de cartas para venda exata. Os filtros selecionados serão combinados. A venda é permanente e irreversível. Cartas favoritas e cartas marcadas com \"não para venda\" não serão vendidos.",
+    "includedFilters": "Filtros Incluídos",
+    "excludedFilters": "Filtros Excluídos",
+    "chooseCardFilters": "Escolha os filtros das cartas...",
+    "showEligibleCards": "Mostrar cartas qualificadas ({count})",
+    "disabled": "Desativado",
+    "edit": "Editar...",
+    "editFilter": "Editar filtro...",
+    "earnGems": "Você pode receber **Gemas** aumentando a afeição das suas cartas e gerenciando os seus **negócios** - {command:business}. Torne-se um Patrono para receber gemas grátis a cada mês - {command:patreon}.",
+    "noActiveBanners": "Não há banners ativos.",
+    "comeBackLater": "Por favor, volte mais tarde!",
+    "rewards": "Recompensas",
+    "pull": "Rolar",
+    "single": "Único",
+    "multi": "Múltiplo",
+    "tooExpensive": "Caro demais!",
+    "buy": "Comprar",
+    "selectChapter": "Selecione um capítulo...",
+    "selectSubchapter": "Selecione um subcapítulo...",
+    "chooseAnItemAdd": "Escolha um item que deseja adicionar...",
+    "chooseAnItemRemove": "Remover um item da lista...",
+    "editRequested": "Editar itens solicitados",
+    "editOffered": "Editar itens oferecidos",
+    "tradingWith": "Trocando com {who}.",
+    "thisTradeCancelled": "Esta troca foi cancelada.",
+    "successNewOffer": "Você enviou uma nova oferta de troca com sucesso.",
+    "selectItem": "Selecione um item...",
+    "selectItemCategory": "Selecione uma categoria de item...",
+    "creatingPublic": "Criando de uma oferta de troca pública.",
+    "createDate": "Data da criação",
+    "finalizeDate": "Data de finalização",
+    "result": "Resultado",
+    "accepted": "Aceito",
+    "rejected": "Rejeitado",
+    "showingReceive": "Mostrando os itens que você receberá.",
+    "showingLose": "Mostrando os itens que você vai perder.",
+    "showingReceivePast": "Mostrando os itens que você deveria receber.",
+    "showingLosePast": "Mostrar os itens que você deveria perder.",
+    "permanentTradesWarning": "Lembre-se de que todas as negociações são permanentes e não podem ser desfeitas.",
+    "showingLoseAction": "Mostrar os itens que você vai perder.",
+    "showingReceiveAction": "Exibir os itens que você receberá.",
+    "showingReceivePastAction": "Mostrando os itens que você deveria receber.",
+    "showingLosePastAction": "Mostrar os itens que você deveria perder.",
+    "checkIncludedCards": "Verifique os detalhes dos cartões incluídos...",
+    "manageTradeOffer": "Gerenciar oferta de troca",
+    "tradeArchive": "Arquivo de trocas",
+    "inProcessOfCreating": "Você está no processo de criar uma oferta de troca.\nPor favor, finalize-a antes de ver as suas ofertas existentes.",
+    "tradeCreator": "Criador de Trocas",
+    "tradeA": "Troca",
+    "offerer": "Ofertante",
+    "recipient": "Destinatário",
+    "youWillReceive": "Você receberá",
+    "youWillLose": "Você perderá",
+    "their": "Deles",
+    "yours": "Para os seus",
+    "selectTrade": "Selecione uma oferta de trocas para gerenciá-la...",
+    "selectTradeDetails": "Selecione uma oferta de troca para visualizar seus detalhes...",
+    "activeTradeOffers": "Ofertas de troca ativas",
+    "tradeHistory": "Histórico de Trocas",
+    "tradeListInstructionsHistory": "Use os botões abaixo para navegar na lista de ofertas de troca ativas. Para criar uma nova oferta de troca, use o comando {command:trade new} e para ver seu histórico de negociação, use {command:trade history}.",
+    "tradeListInstructionsList": "Use os botões abaixo para navegar na lista de ofertas de troca ativas. Para criar uma nova oferta de troca, use o comando {command:trade new} e para visualizar suas trocas ativas, use {command:trade list}.",
+    "profile": "Perfil",
+    "haremA": "Harém",
+    "items": "itens",
+    "inventoryA": "Inventário",
+    "quantity": "Quantidade",
+    "welcomePatreon": "Bem-vindo, {title}.\nObrigado pelo suporte!\n\nEste é o seu **{count} mês** de apoio contínuo.",
+    "nextMilestones": "As próximas recompensas do marco estarão disponíveis em **{howMany}** meses.",
+    "nextBenefits": "**Próximos benefícios mensais** chegarão {date}.",
+    "patronPanel": "Painel Patrono",
+    "tier": "Nível",
+    "botsPatreon": "Patreon de {bot}",
+    "ifYouWantToSupport": "Se você quiser me apoiar, por favor considere [tornar-se meu Patrono]({config:urls.patreon})!\nConfira os benefícios que você pode receber!\nUse o botão abaixo para ler mais!",
+    "userProfile": "Perfil de {user}",
+    "joinDate": "Registrado em",
+    "gems": "Gemas",
+    "cards": "Cartas",
+    "cardsRolled": "Cartas Roladas",
+    "unusedRolls": "Rolls não utilizados",
+    "sellIncome": "Renda por venda",
+    "voteStreak": "Sequência de Votos",
+    "tradesMade": "Trocas Feitas",
+    "botsCommands": "Comandos de {bot}",
+    "firstTime": "Primeira vez usando {bot}? Saiba como começar com {command:guide}!",
+    "introduction": "Olá! Meu nome é **{bot}** e eu sou um **{config:botType}** bot do Discord.",
+    "usefulLinks": "Links Úteis",
+    "privacyPolicy": "Política de privacidade",
+    "removeData": "Remova seus dados",
+    "howToRemove": "{bot} armazena dados sobre as suas cartas em nosso banco de dados. Se você quiser removê-los, junte-se ao nosso [Servidor de Suporte]({config:urls.server}) e contacte-nos.",
+    "disclaimer": "Todos os personagens contidos nas imagens do bot são adultos. O bot e seus donos não possui direitos sobre nenhuma das imagens, ele pertence aos seus respectivos autores.",
+    "botsHelp": "Ajuda para {bot}",
+    "info": "Informação",
+    "commands": "Comandos",
+    "selectCategory": "Selecione uma categoria...",
+    "selectSetting": "Selecione uma configuração para editá-la...",
+    "selectOption": "Selecione uma opção...",
+    "extraRolls": "Rolls extras",
+    "dailyStreak": "Sequência diária",
+    "dailyStreakOff": "Sequência diária indisponível.",
+    "youCanVoteNow": "Você pode votar agora!",
+    "youCanVoteAgain": "Você pode votar novamente {date}.",
+    "voteDescription": "Ao votar em mim a cada 12 horas nos sites listados abaixo, você pode ganhar **rolls extras grátis** e receber **muitas recompensas incríveis**. Esse processo é totalmente gratuito e auxilia na expansão de {bot} para um público mais largo!\n\n**Vote todos os dias para elevar a sua sequência diária e receber melhores recompensas!**",
+    "availableVotes": "Votos disponíveis",
+    "votesOnCooldown": "Votos em cooldown",
+    "enableNotifications": "Habilite notificações de voto para nunca perder seus votos!",
+    "selectCharacter": "Selecione um personagem...",
+    "from": "de",
+    "findWish": "Use o botão abaixo para encontrar o personagem que deseja.",
+    "notCharacterFound": "Nenhum resultado encontrado. Se você não puder localizar o personagem desejado, isso indica que o personagem não está atualmente em nosso banco de dados. Você tem duas opções: selecione um personagem diferente ou utilize o sistema de contribuição para adicionar o personagem usando o comando {command:contribute}.",
+    "wishGranting": "Concessão de Desejo",
+    "rolls": "Rolls",
+    "chance": "Chance",
+    "wishlist": "Desejos",
+    "buyGranter": "Compre uma **garantia de desejo** para fazer um novo desejo! Visite {command:store}.",
+    "activeWishes": "Desejos ativos",
+    "placeBid": "Dar um lance",
+    "yourBid": "Seu Lance",
+    "enterBid": "Digite seu lance em moedas, mínimo {minimumBid}.",
+    "wonBuyout": "Você ganhou o **Leilão #{id}** pagando o preço de compra!",
+    "cancelAuction": "**Leilão #{id}** foi cancelado com sucesso.",
+    "cardId": "ID da carta",
+    "startingPrice": "Preço inicial",
+    "auctionDuration": "Duração do Leilão",
+    "enterIdOfTheCardYouWantToSell": "Informe o ID da carta que você deseja vender.",
+    "enterTheInitalBidForTheCard": "Digite o lance inicial para a carta.",
+    "enterTheBuyoutPrice": "Digite o preço de compra (opcional).",
+    "enterTheDuration": "Insira a duração do leilão em dias.",
+    "createAnAuction": "Criar um leilão",
+    "assignJob": "Atribuir um trabalho",
+    "chooseBusinessToJob": "Escolha um negócio para o qual você deseja atribuir esta carta. Tenha em mente que cartas atribuídas a uma tarefa não podem ser editadas, negociadas ou vendidas. Você pode remover uma carta de um negócio a qualquer momento.",
+    "chooseBusiness": "Escolha um negócio...",
+    "startBusiness": "Iniciar um negócio",
+    "businessName": "Nome do negócio",
+    "theNameOfYourBusiness": "O nome do seu negócio.",
+    "favorite": "Favoritar",
+    "unFavorite": "Remover dos Favoritos",
+    "changeCardsName": "Alterar nome da carta",
+    "newName": "Novo nome",
+    "inputTheCardsName": "Insira o novo nome da carta.",
+    "cardHasBeenSold": "**{card}** foi vendido.",
+    "selectCardTags": "Selecionar marcações da carta...",
+    "newColor": "Nova cor",
+    "description": "Descrição",
+    "hexOrStandarized": "Um valor hexadecimal ou nome de cor HTML padronizado.",
+    "notLongerThan": "Não mais do que {limit} caracteres, markdown está habilitado.",
+    "redeemCode": "Resgatar Código",
+    "enterCode": "Inserir código",
+    "enterYourGiftCode": "Digite o código do presente.",
+    "youHaveSuccesfullyUsed": "Você usou {item} com sucesso!",
+    "youhaveSuccesfullyActivated": "Você ativou o item selecionado com sucesso.",
+    "rename": "Renomear",
+    "editTags": "Editar marcações",
+    "youHaveSuccessfullyBought": "Você comprou {item} por {price} com sucesso!",
+    "youHaveSuccesfullyAddedCard": "Você adicionou uma nova carta à oferta de troca com sucesso.",
+    "tradeAccepted": "A oferta de troca foi aceita com sucesso.",
+    "tradeDeclined": "A oferta de troca foi recusada com sucesso.",
+    "viewTradeHistory": "Veja o seu histórico de trocas com o comando {command:trade history}.",
+    "successfulWish": "**Sucesso!**\nVocê adicionou com sucesso um novo desejo.\nVocê pode ver todos os seus desejos ativos com o comando {command:wishlist}.",
+    "chooseAction": "Escolha uma ação...",
+    "disabledOnNonNsfw": "Essa interação está desabilitada em canais que não são nsfw.",
+    "auctionCreated": "O leilão foi criado com sucesso.",
+    "succesfullyUpgraded": "Você melhorou **{cardName}** com sucesso!",
+    "succesfullyRepersonalitied": "Você alterou com sucesso a personalidade de **{cardName}**!",
+    "selectEligibleCardRarities": "Selecionar raridades de cartas elegíveis...",
+    "successfullyAddedNewItem": "Você adicionou um novo item com sucesso à oferta de troca.",
+    "successfullyRemovedItem": "Você removeu com sucesso o item selecionado da oferta de troca.",
+    "addToTrade": "Adicionar à Troca",
+    "blocked": "A pessoa selecionada foi bloqueada com sucesso.",
+    "unblocked": "A pessoa selecionada foi desbloqueada com sucesso.",
+    "upgradeCard": "Melhorar uma carta",
+    "changePersonality": "Alterar personalidade",
+    "enterTheIdOfCard": "Digite o ID da carta que você gostaria de melhorar (por exemplo, \"ABC-123\")",
+    "alreadyMakingWish": "Você já está fazendo um desejo e a garantia desejo utilizada foi devolvido. Vamos agora avançar com a criação do desejo inacabado.",
+    "itemsNoLongerExist": "Itens incluídos nesta oferta não existem mais.",
+    "pulledOn": "Você rolou com sucesso no banner **{bannerName}** e recebeu:",
+    "redeemed": "Você resgatou com sucesso um código de presente e recebeu:",
+    "giftCode": "Código de presente",
+    "pullAgain": "Rolar novamente",
+    "externalEmojisError": "Parece que o cargo **(@)everyone / padrão** não tem permissão para usar emojis externos. Consequentemente, a maioria dos recursos do bot pode não funcionar corretamente.\n\nSe você for o administrador do servidor, para evitar esse problema, por favor, conceda permissão para usar emojis externos para a função (@)everyone. Você tem a opção de fazer isso para todo o servidor ou apenas para o canal em que o bot será usado.\n\nSe optar por não fazer nenhum ajuste, você poderá ignorar esse aviso usando o botão fornecido abaixo. No entanto, lembre-se de que isso interromperá a maioria das funcionalidades do bot e reduzirá significativamente sua clareza.",
+    "ignore": "Ignorar",
+    "ignored": "Você ignorou o aviso com sucesso.",
+    "slots": "Espaços",
+    "tradeAcceptDM": "A oferta de troca com o ID **#{id}** foi aceita por **@{user}**.",
+    "tradeRejectDM": "A oferta de troca com ID **#{id}** foi rejeitada por **@{user}**.",
+    "tradeCancelDM": "A oferta de troca com ID **#{id}** foi cancelada por **@{user}**.",
+    "newTrade": "Uma nova oferta de troca foi recebida de **@{user}**.\nPara aceitar ou rejeitar a troca, use o comando {command:trade list} em qualquer servidor ou nos botões abaixo. Se você deseja bloquear esta pessoa e parar de receber ofertas de troca deles, você pode usar o comando {command:block}.",
+    "cantView": "Eu não tenho permissão para visualizar esse canal.",
+    "hello": "Olá!",
+    "welcomeMessage": "Olá, meu nome é **{bot}**!\n\n**Obrigado por me convidar!**\n\n{emoji:card} Se você quiser começar a **rolar cartas incríveis**, apenar usar o comando {command:roll}!\n{emoji:help} Se você **requer assistência em começar**, use o comando {command:guide}!\n{emoji:policy} Para uma **lista compreensível de comandos**, use o comando {command:help commands}!\n\n**Te desejo o melhor da sorte e muita felicidade!**",
+    "startRolling": "Comece a Rolar!",
+    "voteFor": "Vote em {bot}!",
+    "voteOn": "Vote em {website}",
+    "visitStore": "Visite {config:store}!",
+    "youHaveReached": "Você atingiu o limite diário!",
+    "youHaveHitLimit": "Você atingiu o limite diário de rolls de {limit}!\nSeus rolls serão reabastecidos {timestamp}.",
+    "butWaitTheresMore": "Mas espere, tem mais!\nVocê pode receber **rolls gratuitos a cada 12 horas** se você votar em mim!",
+    "orBecomePatron": "Ou torne-se um **Patrono** para desbloquear até **{config.title:(name=lover)daily} rolls diários adicionais** e mais benefícios exclusivos! Use {command:patreon} para ler mais!",
+    "gotSomeExtra": "Tem uns **{config:currency}s** extras por aí? Troque-os para mais rolls em **{config:store}**! Só usar o comando {command:store}!",
+    "voteOnFor": "Vote em **{website}** por **{rolls} rolls**!",
+    "changelog": "Relatório de Mudanças",
+    "changeloged": "{bot} acabou de ser atualizado para o último lançamento {version}!\nPara explorar as últimas funcionalidades e modificações, utilize o comando {command:changelog} ou clique no botão abaixo!",
+    "update": "atualização",
+    "version": "Versão {number}",
+    "guide": "Guia",
+    "toAppear": "Para aparecer nas classificações, habilite-as nas suas configurações de privacidade - {command:settings}.",
+    "cafeLimit": "O banco da sua cafeteria está cheio!",
+    "visitCafe": "Sua cafeteria parou de funcionar por atingir o limite do banco. Por favor, utilize o comando {command:business café} e receba as suas {emoji:gem} **Gemas**!",
+    "inBids": "+ {value} em lances",
+    "credits": "Créditos",
+    "translation": "Tradução em português por @tanagura.",
+    "cardAuthor": "Cartas de Patrono por [{config:artist.name}]({config:artist.url}).",
+    "imageSource": "Origem da Imagem",
+    "reportCard": "Denunciar imagem",
+    "removedCard": "Removemos esta carta porque ela violava as nossas diretrizes de contribuição. Esta decisão não é o resultado das suas acções, mas o resultado das nossas próprias acções e das nossas alterações às regras. Pedimos sinceramente desculpas por qualquer inconveniência causada, mas esta ação foi necessária. Infelizmente você não poderá mais ver esta carta. No entanto, nós fornecemos três opções de compensação, que você pode acessar utilizando os botões abaixo:\n\n1. **Para re-rolar o cartão:** Clicando no primeiro botão, você pode optar por re-rolar o cartão. O novo cartão que você recebe terá a mesma raridade que o anterior. Além disso, se o número de cópia da carta for abaixo de {min}, nós tentaremos atribuir um número de cópia com um valor similar para manter a consistência (não garantida, e provavelmente falhará para cartas não-míticas). A personalidade e o afeto permanecerão os mesmos.\n2. **Receba uma ticket de roll:** Clicar no segundo botão permitirá que você receba um ticket de roll da mesma raridade. Este ticket de roll será armazenado no seu inventário, no qual você pode acessar usando o comando {command:inventory}. Se a sua carta tiver uma raridade especial, como raridade do Patreon, você também receberá uma melhoria de Patreon. Para cartas com número de cópia abaixo de {min}, também lhe enviaremos moedas calculadas usando a seguinte fórmula: {formula}, onde x representa o número de cópia.\n3. **Vender a carta:** Você pode simplesmente vender a carta pelo seu valor base. \n4. **Mantenha a carta:** Não removeremos totalmente a carta, mas sua imagem não será mais visível e será substituída por uma padrão.\n\n**É importante ter em mente que ambas as ações removerão permanentemente a carta atual de sua coleção. Se você optar por não tomar qualquer ação, a carta será automaticamente removida após um mês. No entanto, note que você só pode solicitar a compensação se a carta não estiver atualmente envolvida em nenhuma negociação, leilão ou empresa.**\n\nSe você não concordar com as opções de compensação disponíveis e acreditar que o seu carta é particularmente único junte-se ao nosso Servidor de Suporte e contate-nos.",
+    "reRoll": "Re-rolar",
+    "getTicket": "Obter um Ticket",
+    "keep": "Manter",
+    "successfullyRecompensate": "Você recebeu a compensação selecionada com sucesso.",
+    "actionRequired": "Ação Necessária",
+    "browseRemoved": "Procurar todas as cartas removidas",
+    "turnAllIntoTickets": "Transforme todos em tickets",
+    "areYouSureTickets": "Tem certeza que deseja remover {count} cartas do seu harém e transformá-los em tickets de rolagem?",
+    "streakRestore": "Você pode recuperar sua sequência perdida pagando **{emoji:smallCoin}{cost}**.\nAja rapidamente! Clique no botão abaixo antes de **24 horas** passar.",
+    "restoredSuccess": "Sua sequência foi restaurada."
+}

@@ -1,0 +1,14 @@
+{
+    "contribute": {
+        "title": "¡Contribuye al {bot}!",
+        "description": "¡Ayúdenos a **ampliar la base de datos de tarjetas**!\n Cargue sus tarjetas en nuestro sitio web y reciba recompensas.\n\nPor cada subida **aprobada**, recibirás **{config:contribute.perUpload} {emoji:smallCoin}{config:currency}s**. Una vez que tengas **{config:contribute.roleRequirement} cargas aprobadas**, se te concederá el estatus de **{bot}'s Contributor**, ¡que viene con un límite de tiradas diarias permanentemente ampliado!\n\nÚnete a nuestro [Support Server]({config:urls.server}) para seguir el estado de tus subidas.\n\nTambién estamos buscando **traductores** que puedan ayudarnos a traducir {bot} a diferentes idiomas. Encontrarás más información en nuestro [Servidor de soporte]({config:urls.server})!"
+    },
+    "invite": {
+        "title": "¡Invita a {bot}!",
+        "description": "Si lo deseas, ¡puedes añadirme a tu servidor!\nSolo tienes que [hacer clic aquí]({config:urls.invite}) o usar el botón de abajo.\nEstaré encantado de atenderte 😊"
+    },
+    "giveaways": {
+        "title": "Regalos",
+        "description": "¿A quién no le gusta recibir **objetos gratis**? Únete a nuestro **[servidor oficial de la comunidad]({config:urls.server})** y participa en sorteos diarios de objetos dentro del robot, monedas e incluso cartas únicas. Haz clic en el botón de abajo para unirte y participar en los sorteos."
+    }
+}

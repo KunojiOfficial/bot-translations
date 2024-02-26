@@ -1,0 +1,14 @@
+{
+    "contribute": {
+        "title": "Contribute to {bot}!",
+        "description": "Help us **expand the cards database**!\n Upload your cards on our website and receive rewards.\n\nFor every **approved** upload, you will receive **{config:contribute.perUpload} {emoji:smallCoin}{config:currency}s**. Once you have **{config:contribute.roleRequirement} approved uploads**, you will be granted the status of **{bot}'s Contributor**, which comes with a permanently expanded daily roll limit!\n\nJoin our [Support Server]({config:urls.server}) to keep track of the status of your uploads!\n\nWe are also looking for **translators** who could help us translate {bot} into different languages. More details are available on our [Support Server]({config:urls.server})!"
+    },
+    "invite": {
+        "title": "Invite {bot}!",
+        "description": "If you wish, you can add me to your server!\nJust [click here]({config:urls.invite}) or use the button below.\nI will be more than happy to be there for you. 😊"
+    },
+    "giveaways": {
+        "title": "Giveaways",
+        "description": "Who doesn't love receiving **free items**? Join our **[official community server]({config:urls.server})** and participate in daily giveaways of in-bot items, coins, and even unique cards! Click the button below to join and enter the giveaways."
+    }
+}

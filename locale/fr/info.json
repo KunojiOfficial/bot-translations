@@ -1,0 +1,14 @@
+{
+    "contribute": {
+        "title": "Contribue au {bot}!",
+        "description": "Aidez-nous **à élargir la base de données des cartes**!\n Envoyez vos cartes sur notre site Web et recevez des récompenses.\n\nPour chaque envoi **approuvé**, vous recevrez des **{config:contribute.perUpload} {emoji:smallCoin}{config:currency}s**. Une fois que vous aurez **{config:contribute.roleRequirement} envois approuvés**, vous obtiendrez le statut de **contributeur du {bot}**, qui s'accompagne d'une limite de lancement quotidienne étendue de manière permanente!\n\nRejoignez notre [Serveur d'assistance]({config:urls.server}) pour suivre l'état de vos envois!\n\nNous recherchons également des **traducteurs** qui pourraient nous aider à traduire {bot} dans différentes langues. Plus de détails sont disponibles sur notre [Support Server]({config:urls.server})!"
+    },
+    "invite": {
+        "title": "Invite {bot}!",
+        "description": "Si tu le souhaite, tu peux m'ajouter à ton serveur!\nIl te suffit de [cliquer ici]({config:urls.invite}) ou d'utiliser le bouton ci-dessous.\nJe serai plus qu'heureuse d'être là pour toi. 😊"
+    },
+    "giveaways": {
+        "title": "Giveaways",
+        "description": "Qui n'aime pas recevoir **des articles gratuits**? Rejoignez notre **[serveur officiel de la communauté]({config:urls.server})** et participez à des cadeaux quotidiens d'objets, de nazucoins et même de cartes uniques! Cliquez sur le bouton ci-dessous pour rejoindre et entrer dans les giveaways."
+    }
+}

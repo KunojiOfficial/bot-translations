@@ -1,0 +1,79 @@
+{
+    "hug": {
+        "name": "Ôm",
+        "text": "{user} đã ôm {who}!",
+        "count": "{who} đã được ôm bởi {user} tổng cộng {count} lần!",
+        "first": "Họ đã ôm nhau lần đầu tiên!",
+        "button": "Ôm ngược lại!"
+    },
+    "pat": {
+        "name": "Xoa",
+        "text": "{user} đã xoa đầu của {who}!",
+        "count": "{who} đã được xoa đầu bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên họ đã được xoa đầu!",
+        "button": "Vỗ lưng ngược lại!"
+    },
+    "kiss": {
+        "name": "Hôn",
+        "text": "{user} đã hôn {who}!",
+        "count": "{who} đã được hôn bởi {user} tổng cộng {count} lần!",
+        "first": "Họ đã hôn nhau lần đầu tiên!",
+        "button": "Hôn ngược lại!"
+    },
+    "lick": {
+        "name": "Liếm",
+        "text": "{user} liếm {who}!",
+        "count": "{who} đã bị liếm bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên họ bị liếm!",
+        "button": "Liếm ngược lại!"
+    },
+    "highfive": {
+        "name": "Đập tay",
+        "text": "{user} đập tay {who}!",
+        "count": "{who} đã đập tay với {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên {who} được nhận một cú đập tay từ {user}!",
+        "button": "Đập tay ngược lại!"
+    },
+    "bonk": {
+        "name": "Gõ đầu",
+        "text": "{user} gõ đầu {who}!",
+        "count": "{who} đã bị gõ đầu bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên {who} gõ đầu {user}!",
+        "button": "Gõ đầu ngược lại!"
+    },
+    "poke": {
+        "name": "Thọc lét",
+        "text": "{user} thọc lét {who}!",
+        "count": "{who} đã bị thọc lét bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên {who} thọc lét {user}!",
+        "button": "Thọc lét ngược lại!"
+    },
+    "bite": {
+        "name": "Cắn",
+        "text": "{user} cắn {who}!",
+        "count": "{who} đã bị cắn bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên {who} bị cắn bởi {user}!",
+        "button": "Cắn ngược lại!"
+    },
+    "kick": {
+        "name": "Đá đít",
+        "text": "{user} đá đít {who}!",
+        "count": "{who} đã bị đá đít bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên {who} bị đá đít bởi {user}!",
+        "button": "Đá đít ngược lại!"
+    },
+    "slap": {
+        "name": "Tát",
+        "text": "{user} tát mặt {who}!",
+        "count": "{who} đã bị tát bởi {user} tổng cộng {count} lần!",
+        "first": "Đây là lần đầu tiên {who} bị tát bởi {user}!",
+        "button": "Tát mặt nó lại!"
+    },
+    "blowjob": {
+        "name": "Blowjob",
+        "text": "{user} đã blowjob cho {who}!",
+        "count": "{who} đã được nhận blowjob từ {user} tổng cộng {count} lần!",
+        "first": "Đó là blowjob đầu tiên của họ!",
+        "button": "Trả lại ân tình nào!"
+    }
+}

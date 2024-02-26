@@ -1,0 +1,233 @@
+{
+    "properties": {
+        "cost": "Costo",
+        "rolls": "Roll",
+        "target": "Destinazione",
+        "effect": "Effetto",
+        "rarity": "Rarità",
+        "chance": "Probabilità",
+        "days": "Giorni",
+        "featured": "Caratteristiche",
+        "energy": "Energia",
+        "slots": "Slot Preferiti Extra",
+        "personality": "Personalità"
+    },
+    "rolls": {
+        "name": "Roll",
+        "description": "Compra e rolla ancora di più!",
+        "details": "Questi oggetti aggiungeranno ulteriori roll al tuo account e saranno automaticamente assegnati al momento dell'acquisto."
+    },
+    "upgraders": {
+        "name": "Potenziamenti",
+        "description": "Aggiungi stelle alla tua carta!",
+        "details": "Per migliorare la rarità della tua carta, acquista i potenziamenti! L'attributo \"Destinazione\" specifica la rarità a cui può essere applicata, mentre l'attributo \"Effetto\" indica la rarità risultante."
+    },
+    "auction-bells": {
+        "name": "Campane Asta",
+        "description": "Scambia le tue carte nella Casa d'Aste!",
+        "details": "Le Campane d'Asta sono utilizzate per creare offerte e aste all'interno della Casa d'Aste. L'attributo \"Giorni\" specifica la durata dell'offerta o dell'asta in fase di creazione."
+    },
+    "roll-tickets": {
+        "name": "Biglietti Roll",
+        "description": "Rolla una carta di una rarità garantita!",
+        "details": "I biglietti consentono di rollare senza consumare i tuoi roll regolari, assicurando che la carta risultante possiederà la rarità specificata negli attributi."
+    },
+    "wish-granters": {
+        "name": "Concessori dei Desideri",
+        "description": "Potenzia le probabilità del personaggio!",
+        "details": "I Concessori dei Desideri ti permettono di desiderare un personaggio specifico, aumentando la frequenza delle carte con quel personaggio. Puoi tenere traccia dei tuoi desideri correnti usando il comando {command:wishlist}."
+    },
+    "gifts": {
+        "name": "Regali",
+        "description": "Aumenta l'affetto delle tue carte!",
+        "details": "Stai cercando di rafforzare il legame con qualcuno di speciale? Considera di comprargli un regalo! Tuttavia, tieni presente che non tutti i doni saranno apprezzati da tutti. Sii selettivo e scegli saggiamente per evitare potenziali conseguenze negative."
+    },
+    "energy-drinks": {
+        "name": "Bevande Energetiche",
+        "description": "Ripristina parte della tua energia!",
+        "details": "Le bevande energetiche ripristinano l'energia necessaria per gli appuntamenti, aiutandoti a rimanere carico e carismatico durante gli incontri romantici. Ogni bevanda ripristina una diversa quantità di energia, indicata dall'attributo \"Energia\"."
+    },
+    "souls": {
+        "name": "Anime",
+        "description": "Cambia le personalità delle tue carte!",
+        "details": "Insoddisfatto dell'attuale personalità della tua carta? Trasformala con l'essenza di queste anime incantate!"
+    },
+    "miscellaneous": {
+        "name": "Altro",
+        "description": "Una serie di vari oggetti utili!",
+        "details": "Questi oggetti possono non rientrare in altre categorie, ma la loro utilità rimane indiscutibile!"
+    },
+    "backgrounds": {
+        "name": "Sfondi"
+    },
+    "rolls-1": {
+        "name": "Roll Spark",
+        "description": "Un roll aggiuntivo!"
+    },
+    "rolls-2": {
+        "name": "Doppio Roll",
+        "description": "Due al prezzo di 1.83!"
+    },
+    "rolls-5": {
+        "name": "Essenza di Roll",
+        "description": "Roll ancora più economici!"
+    },
+    "rolls-20": {
+        "name": "Blitz di Roll",
+        "description": "Un grande pacchetto di roll!"
+    },
+    "rolls-100": {
+        "name": "Sovraccarico di Roll",
+        "description": "Un camion pieno di roll!"
+    },
+    "upgrader-2": {
+        "name": "Potenziamento Non Comune"
+    },
+    "upgrader-3": {
+        "name": "Potenziamento Raro"
+    },
+    "upgrader-4": {
+        "name": "Potenziamento Super Raro"
+    },
+    "upgrader-5": {
+        "name": "Potenziamento Ultra Raro"
+    },
+    "upgrader-6": {
+        "name": "Potenziamento Leggendario"
+    },
+    "upgrader-21": {
+        "name": "Potenziamento dell'Amico"
+    },
+    "upgrader-22": {
+        "name": "Potenziamento dell'Entusiasta"
+    },
+    "upgrader-23": {
+        "name": "Potenziamento dell'Amante"
+    },
+    "upgrader-24": {
+        "name": "Potenziamento del Partner"
+    },
+    "roll-ticket-1": {
+        "name": "Biglietto Comune"
+    },
+    "roll-ticket-2": {
+        "name": "Biglietto Non Comune"
+    },
+    "roll-ticket-3": {
+        "name": "Biglietto Raro"
+    },
+    "roll-ticket-4": {
+        "name": "Biglietto Super Raro"
+    },
+    "roll-ticket-5": {
+        "name": "Biglietto Ultra Raro"
+    },
+    "roll-ticket-6": {
+        "name": "Biglietto Leggendario"
+    },
+    "roll-ticket-7": {
+        "name": "Biglietto Mitico"
+    },
+    "granter-weak": {
+        "name": "Concessore Debole"
+    },
+    "granter-medium": {
+        "name": "Concessore Medio"
+    },
+    "granter-strong": {
+        "name": "Concessore Maggiore"
+    },
+    "granter-patron-1": {
+        "name": "Concessore dell'Amico"
+    },
+    "granter-patron-2": {
+        "name": "Concessore dell'Entusiasta"
+    },
+    "granter-patron-3": {
+        "name": "Concessore dell'Amante"
+    },
+    "granter-patron-4": {
+        "name": "Concessore del Partner"
+    },
+    "auction-bell-1": {
+        "name": "Campana d'Asta di Bronzo"
+    },
+    "auction-bell-2": {
+        "name": "Campana d'Asta d'Argento"
+    },
+    "auction-bell-3": {
+        "name": "Campana d'Asta d'Oro"
+    },
+    "auction-bell-patron-1": {
+        "name": "Campana d'Asta di Diamante"
+    },
+    "auction-bell-patron-2": {
+        "name": "Campana d'Asta di Smeraldo"
+    },
+    "auction-bell-patron-3": {
+        "name": "Campana d'Asta Citrina"
+    },
+    "auction-bell-patron-4": {
+        "name": "Campana d'Asta di Rubino"
+    },
+    "fluffy-plushie": {
+        "name": "Peluche Morbidoso"
+    },
+    "player-photo": {
+        "name": "Foto del Giocatore"
+    },
+    "art-sketchbook": {
+        "name": "Quaderno di Schizzi d'Arte"
+    },
+    "mystery-novel": {
+        "name": "Romanzo Misterioso"
+    },
+    "tea-set": {
+        "name": "Set da Tè"
+    },
+    "decorated-mirror": {
+        "name": "Specchio Decorato Elegantemente"
+    },
+    "gaming-console": {
+        "name": "Console da Gioco"
+    },
+    "sparkling-jewelry": {
+        "name": "Gioielli Scintillanti"
+    },
+    "energy-drink-1": {
+        "name": "VitaliZest"
+    },
+    "energy-drink-2": {
+        "name": "ZapQuencher"
+    },
+    "energy-drink-3": {
+        "name": "ReviveX"
+    },
+    "fav-expander-1": {
+        "name": "Chiave dell'Harem"
+    },
+    "fav-expander-2": {
+        "name": "Cuore dell'Harem"
+    },
+    "gem": {
+        "name": "Gemma"
+    },
+    "blazing-soul": {
+        "name": "Anima Ardente"
+    },
+    "obsessive-soul": {
+        "name": "Anima Ossessiva"
+    },
+    "freezing-soul": {
+        "name": "Anima Ghiacciata"
+    },
+    "radiant-soul": {
+        "name": "Anima Radiante"
+    },
+    "noble-soul": {
+        "name": "Anima Nobile"
+    },
+    "silent-soul": {
+        "name": "Anima Silenziosa"
+    }
+}

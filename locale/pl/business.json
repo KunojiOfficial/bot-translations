@@ -1,0 +1,57 @@
+{
+    "types": {
+        "cafe": "kawiarnia"
+    },
+    "stats": {
+        "storedGems": "Zgromadzone Klejnoty",
+        "closesIn": "Zatrzyma się",
+        "closed": "Zatrzymane",
+        "totalIncome": "Łączny Przychód",
+        "businessLevel": "Poziom Biznesu",
+        "upgrades": "Ulepszenia",
+        "workers": "Pracownicy",
+        "passiveIncome": "Pasywny Przychód",
+        "servingTime": "Czas Serwowania",
+        "popularity": "Popularność",
+        "clickIncome": "Przychód Kliknięć",
+        "clickCapacity": "Ilość kliknięć",
+        "workerLimit": "Limit Pracowników",
+        "bankLimit": "Limit Banku",
+        "nextClick": "Następne kliknięcie"
+    },
+    "roles": {
+        "inactive": {
+            "name": "Nieprzypisane",
+            "description": "Nieprzypisane"
+        },
+        "barista": {
+            "name": "Barista",
+            "description": "Zwiększa przychód z kliknięć."
+        },
+        "server": {
+            "name": "Obsługa",
+            "description": "Zmniejsza czas serwowania."
+        },
+        "chef": {
+            "name": "Szef kuchni",
+            "description": "Zwiększa pasywny przychód."
+        },
+        "banker": {
+            "name": "Bankier",
+            "description": "Zwiększa limit przechowywanych klejnotów."
+        },
+        "cashier": {
+            "name": "Kasjer",
+            "description": "Zwiększa ilość kliknięć."
+        },
+        "promoter": {
+            "name": "Promotor",
+            "description": "Zwiększa popularność."
+        }
+    },
+    "upgrades": {
+        "expansion-1": "Powiększenie Personelu I",
+        "expansion-2": "Powiększenie Personelu II",
+        "expansion-3": "Powiększenie Personelu III"
+    }
+}

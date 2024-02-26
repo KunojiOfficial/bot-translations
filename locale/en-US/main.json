@@ -1,0 +1,774 @@
+{
+    "emoji": "🇬🇧",
+    "language": "English",
+    "types": {
+        "waifu": "Waifu",
+        "husbando": "Husbando",
+        "card": "Card",
+        "gem": "Gem",
+        "item": "Item",
+        "background": "Background"
+    },
+    "suffixes": {
+        "st": "st",
+        "nd": "nd",
+        "rd": "rd",
+        "th": "th"
+    },
+    "lewd": "lewd",
+    "command": "command",
+    "interaction": "interaction",
+    "status": {
+        "0": "The bot is starting up.\nPlease wait a moment.",
+        "1": "The maintenance break is in progress.\nWe will be back shortly."
+    },
+    "didYouKnow": "Did you know that...",
+    "anonymous": "Anonymous",
+    "harem": {
+        "title": "{username}'s Harem",
+        "tip": "Check the details of the selected card with {command:card}.",
+        "page": "Page",
+        "mobile": "On mobile? Turn on the mobile version with /{prefix}settings.",
+        "selectSort": "Sort the harem by..."
+    },
+    "titles": {
+        "player": "Player",
+        "friend": "{bot}'s Friend",
+        "enthusiast": "{bot}'s Enthusiast",
+        "lover": "{bot}'s Lover",
+        "partner": "{bot}'s Partner",
+        "contributor": "{bot}'s Contributor",
+        "artist": "{bot}'s Artist",
+        "team": "myWaifu.Top Team",
+        "translator": "Translator",
+        "star": "Community Star",
+        "top": "Top 1 Contributor",
+        "developer": "{bot}'s Developer"
+    },
+    "rarity": "Rarity",
+    "tags": "Tags",
+    "name": "Name",
+    "ID": "ID",
+    "noResults": "No results found.",
+    "everyMonth": "Every Month",
+    "modals": {
+        "0": {
+            "title": "Search",
+            "inputs": [{
+                "label": "Name (optional)",
+                "placeholder": "The name of the card (e.g. Nazuna Nanakusa)."
+            }, {
+                "label": "Card ID (optional)",
+                "placeholder": "The ID of the card (e.g. ABC-123)."
+            }]
+        },
+        "1": {
+            "title": "Go to page",
+            "inputs": [{
+                "label": "Page number",
+                "placeholder": "An integer number between {min} and {max}."
+            }]
+        },
+        "2": {
+            "title": "Define amount",
+            "inputs": [{
+                "label": "Item amount",
+                "placeholder": "An integer number between {min} and {max}."
+            }]
+        },
+        "3": {
+            "title": "Find character",
+            "inputs": [{
+                "label": "Name",
+                "placeholder": "Character name"
+            }]
+        },
+        "4": {
+            "title": "Set date filter",
+            "inputs": [{
+                "label": "After",
+                "placeholder": "YYYY-MM-DD"
+            }, {
+                "label": "Before",
+                "placeholder": "YYYY-MM-DD"
+            }]
+        },
+        "5": {
+            "title": "Set number range",
+            "inputs": [{
+                "label": "Greater than",
+                "placeholder": "An integer number."
+            }, {
+                "label": "Lower than",
+                "placeholder": "An integer number."
+            }]
+        },
+        "6": {
+            "title": "Search in guide",
+            "inputs": [{
+                "label": "Query",
+                "placeholder": "Enter the keywords you want to search for."
+            }]
+        },
+        "card": {
+            "label": "Card ID",
+            "placeholder": "Enter the ID of the card you would like to add (e.g. \"ABC-123\")."
+        },
+        "currency": {
+            "label": "Currency amount",
+            "placeholder": "Enter the amount of currency you wish to add."
+        },
+        "background": {
+            "label": "Background ID",
+            "placeholder": "Enter the ID of the background you would like to add (e.g. \"5\")."
+        },
+        "card-global": [{
+            "label": "Card ID",
+            "placeholder": "Enter the ID of the card (e.g. \"ABC\")."
+        }, {
+            "label": "Print Range (optional)",
+            "placeholder": "Range of the card's print number (e.g. \"1-5\" or simply \"5\")."
+        }, {
+            "label": "Affection Range (optional)",
+            "placeholder": "Range of the card's affection (e.g. \"50-90\" or simply \"120\")."
+        }, {
+            "label": "Personality (optional)",
+            "placeholder": "Card's personality (e.g. \"tsundere\" or \"yandere\")."
+        }]
+    },
+    "card": {
+        "locked": "This card is currently locked due to an active trade offer or auction. In order to manage it, please begin by declining the offer using the {command:trade list} or {command:auctionhouse} command.",
+        "working": "This card is presently engaged in an active business. To manage it, start by removing it from the job position."
+    },
+    "tagList": {
+        "trade": "Available for trade",
+        "sell": "Can be sold",
+        "square": "Square",
+        "triangle": "Triangle",
+        "circle": "Circle"
+    },
+    "tagUnlist": {
+        "trade": "Trades disabled",
+        "sell": "Cannot be sold"
+    },
+    "roll": {
+        "adjectives": [
+            "Cool",
+            "Amazing",
+            "Cute",
+            "Extra",
+            "Creative",
+            "Determined",
+            "Funny",
+            "Friendly",
+            "Helpful",
+            "Kind",
+            "Patient",
+            "Polite",
+            "Incredible",
+            "Fabulous",
+            "Gorgeous",
+            "Perfect",
+            "Super",
+            "Stunning",
+            "Breathtaking",
+            "Fearless",
+            "Lovely",
+            "Optimistic"
+        ],
+        "titles": [
+            "A new {type} has appeared!",
+            "Look at that {type}!",
+            "Wow, a new {type}!",
+            "Woop... A new {type} is here!",
+            "Wha?! A new {type}!"
+        ],
+        "descriptions": [
+            "Wohoo!",
+            "Such a cutie!",
+            "Yay! So cool!"
+        ],
+        "owned": {
+            "hasEqual": "You already have an **identical** {type} in your harem!",
+            "hasGreaterAndLess": "You own a version of this {type} of both **greater** and **lesser** rarity.",
+            "hasLess": "You own this {type}, but with a **lesser** rarity.",
+            "hasGreater": "You own this {type}, but with a **greater** rarity.",
+            "hasNot": "This is the first such {type} in your harem!"
+        },
+        "newWaifu": "**Congrats, {user}**!\n\n{card} has joined your harem!",
+        "variant": "It's a {variant} variant!",
+        "tip": "Use {command:harem} to check all of your characters!",
+        "wish": "Your wish came true!",
+        "wishEnded": "At least one of your wishes has ended."
+    },
+    "personalities": {
+        "tsundere": "Tsundere",
+        "deredere": "Deredere",
+        "yandere": "Yandere",
+        "dandere": "Dandere",
+        "kuudere": "Kuudere",
+        "himedere": "Himedere"
+    },
+    "buttons": {
+        "sell": "Sell",
+        "rollAgain": "Roll again",
+        "visitStore": "Visit the {store}!"
+    },
+    "rarities": {
+        "none": "Any",
+        "common": "Common",
+        "uncommon": "Uncommon",
+        "rare": "Rare",
+        "super-rare": "Super-Rare",
+        "ultra-rare": "Ultra-Rare",
+        "legendary": "Legendary",
+        "mythic": "Mythic",
+        "exclusive": "Exclusive",
+        "super-exclusive": "Super-Exclusive",
+        "ultra-exclusive": "Ultra-Exclusive",
+        "prestigious": "Prestigious",
+        "developer": "Developer"
+    },
+    "inventory": {
+        "noItems": "*You do not own any items.\nVisit the {command:store} and spend some of your coins!*"
+    },
+    "trade": {
+        "tip": "**Tip:** When creating a trade, a special \"Add to trade\" button will appear in the {command:card} command. Use it to quickly add cards to your trade.",
+        "offer": {
+            "description": "In this section, you can add or remove the goods you wish to **offer**."
+        },
+        "request": {
+            "description": "In this section, you can add or remove the goods you wish to **receive**."
+        },
+        "types": {
+            "card": "Cards",
+            "item": "Items",
+            "currency": "Currencies",
+            "background": "Backgrounds"
+        }
+    },
+    
+    "categories": {
+        "cards": "Cards",
+        "economy": "Economy",
+        "trading": "Trades & Auctions",
+        "user": "User",
+        "utils": "Utilities",
+        "help": "Help & Guides"
+    },
+    "settings": {
+        "general": "General",
+        "privacy": "Privacy",
+        "notifications": "Notifications",
+        "locale": {
+            "name": "Language",
+            "description": "Change the language of the bot."
+        },
+        "activeTitle": {
+            "name": "Active Title",
+            "description": "Choose the title visible on your harem."
+        },
+        "mobile": {
+            "name": "Mobile Version",
+            "description": "Turn on/off the mobile version of the bot."
+        },
+        "alerts": {
+            "name": "Vote Notifications",
+            "description": "Turn on/off the vote notifications every 12 hours."
+        },
+        "bidNotifications": {
+            "name": "Auctions Notifications",
+            "description": "Turn on/off the notifications related to the auctions."
+        },
+        "sellConfirm": {
+            "name": "Sell Confirmation",
+            "description": "Require additional button click for every sell action."
+        },
+        "harem": {
+            "name": "Public Harem",
+            "description": "Allow other people to see your harem."
+        }, 
+        "profile": {
+            "name": "Public Profile",
+            "description": "Allow other people to see your profile."
+        },
+        "trades": {
+            "name": "Accept Trade Offers",
+            "description": "Allow to send you trade offers."
+        },
+        "leaderboards": {
+            "name": "Visible on Leaderboards",
+            "description": "Appear on global leaderboards."
+        },
+        "businessNotifications": {
+            "name": "Business Notifications",
+            "description": "Receive notifications for your business events."
+        }
+    },
+    "store": {
+        "tips": {
+            "general": "Use your items in the {command:inventory}.",
+            "gifts": "Use your gifts in the dating panel - {command:date}."
+        }
+    },
+    "patreon": {
+        "commandTip": "Use the {command:patreon} command to keep track of your membership milestones and benefits.",
+        "newPatron": {
+            "title": "Thank you!",
+            "description": "**Heya!** I'm really happy that you have decided to support me!\nIt really means a lot! 😊",
+            "giftsHeader": "As a welcome gift, you've received",
+            "cyclicHeader": "During your membership you will be receiving (and have just received) the following",
+            "cyclicInfo": "...and you have also received now."
+        },
+        "renewPatron": {
+            "title": "Monthly benefits have arrived!",
+            "description": "**Heya**! Thanks for your support this month! I really appreciate it! 😊",
+            "giftsHeader": "You keep your previous, passive benefits and you've also received"
+        },
+        "cancel": {
+            "title": "Your Patreon membership has been canceled!",
+            "description": "**Heya!** It seems that you have canceled your Patreon membership!\nUnfortunately, I have to remove your benefits.\n\nThanks for all the support!\n**I hope you will continue enjoying {bot}!**"
+        },
+        "benefits": {
+            "title": "{titleName} Title, granting you:",
+            "daily": "{daily} Additional Rolls Every Day",
+            "energy": "{energy} Energy Points Every Day",
+            "favorites": "{favorites} Extra Favorite Slots",
+            "auctions": "{auctions} Active Auctions or Offers Limit",
+            "auctionsDuration": "{auctionsDuration} days for Auctions and Offers duration",
+            "features": "Featured Auctions and Offers",
+            "custom": "Customization Options",
+            "role": "Special Role on our [Support Server]({server})",
+            "cardsFirst": "Exclusive Cards every few months, starting with:",
+            "cards": "Exclusive Cards (month: {month}):",
+            "backgroundsFirst": "Exclusive Backgrounds every few months, starting with:",
+            "backgrounds": "Exclusive Backgrounds (month: {month}):",
+            "awesomeItems": "Awesome items every month:",
+            "specialRole": "Special role on our [Discord Server]({config:urls.server})!"
+        }
+    },
+    "auctions": {
+        "turnOff": "Turn off these notifications with {command:settings}.",
+        "overbid": "You were outbid in the **Auction #{code}**!",
+        "buyout": "The **Auction #{code}** has ended - someone has paid the buyout price!\nYour coins have been returned.",
+        "end": "The **Auction #{code}** has ended - **{winner}** has won with the highest bid of **{coins}** coins!\nThe coins of other bidders have been returned.",
+        "win": "Congratulations, you have won the **Auction #{code}** with the highest bid of **{coins}** coins! The new card has been added to your harem.",
+        "owner": "The **Auction #{code}** has ended! You have received **{coins}** coins. The card has been removed from your harem.",
+        "ownerNoBids": "The **Auction #{code}** has ended! Nobody has bid - the card has been returned to your harem.\nBetter luck next time!"
+    },
+    "leaderboards": {
+        "coins": {
+            "title": "Top 10 Wealthiest Players",
+            "description": "The ranking below displays the top 10 players with the highest amount of coins."
+        },
+        "gems": {
+            "title": "Top 10 Gem Hoarders",
+            "description": "The ranking below displays the top 10 players with the highest amount of gems."
+        },
+        "rolls": {
+            "title": "Top 10 Roll Addicts",
+            "description": "The ranking below displays the top 10 players with the highest amount of total rolls used."
+        },
+        "sells": {
+            "title": "Top 10 Heartless Sellers",
+            "description": "The ranking below displays the top 10 players with the highest amount of coins earned by selling cards."
+        },
+        "cafe": {
+            "title": "Top 10 Finest Cafés",
+            "description": "The ranking below displays the top 10 cafés with the highest income."
+        },
+        "votes": {
+            "title": "Top 10 Voters",
+            "description": "The ranking below displays the top 10 players with the highest vote streaks."
+        }
+    },
+    "filters": {
+        "rarity": {
+            "name": "Rarity",
+            "description": "Filter cards according to their rarities."
+        },
+        "duplicate": {
+            "name": "Duplicates",
+            "description": "Filter cards based on whether you own duplicates."
+        },
+        "tags": {
+            "name": "Tags",
+            "description": "Filter cards by their tags."
+        },
+        "date": {
+            "name": "Roll Date",
+            "description": "Filter cards by the date they were rolled."
+        },
+        "print": {
+            "name": "Print Number",
+            "description": "Filter cards by their print numbers."
+        }
+    },
+    "vote": {
+        "notifications": {
+            "title": "Vote Notification",
+            "description": "You can now vote for **{bot}** on **{website}**!\nTo vote, prease the first button below."
+        },
+        "thanks": "Thank you for voting! **It really means a lot!**",
+        "miss": "**Oops!** You missed a day and your daily streak has been reset...",
+        "streak": "This is your **{streak}-vote streak!** Keep it up! 🔥",
+        "nextMilestone": "Next milestone: **{nextMilestone} votes in a row!**"
+    },
+    "youHaveReceived": "You have received:",
+    "additionalRolls": "additional rolls",
+    "coins": "coins",
+    "voteEveryDay": "Vote every day to raise your **vote streak** and receive better rewards!",
+    "enableNotificationsTip": "Turn on the **vote notifications** to never lose your streak! Check {command:settings}!",
+    "dailyVoteRewards": "Daily Vote Rewards",
+    "dailyVoteRewardsDesc": "**Your first vote of the day is in!** Remember to vote daily for unique rewards. Keep it up for a whole month to unlock special backgrounds and cards. Don't forget, current rewards expire by the end of the month!",
+    "voteT": "Vote",
+    "patreonCards": "Exclusive Patreon rarities for our supporters ({command:patreon}).",
+    "balance": "Balance",
+    "actions": "Actions",
+    "auctionHasEnded": "This auction has ended.",
+    "auctionOwner": "You are the auction seller. You cannot cancel the auction unless there is no one bidding for it.",
+    "participantName": "You participate in this auction under the name \"{name}\".",
+    "noBidding": "You are not currently participating in this auction.\nPlace a bid to join.",
+    "minimumBid": "Minimum Bid",
+    "buyOutPrice": "Buyout Price",
+    "expires": "Expires",
+    "latestBids": "Latest Bids",
+    "you": "You",
+    "noBidsYet": "No bids yet.",
+    "buyout": "Buyout",
+    "gem": "Gem",
+    "coin": "Coin",
+    "nothing": "Nothing",
+    "sortBy": "Sort by",
+    "auction": "Auction",
+    "bidders": "bidders",
+    "ends": "Ends",
+    "offer": "Offer",
+    "offered": "Offered",
+    "requested": "Requested",
+    "noResultsFound": "No results found.",
+    "auctionFooters": {
+        "auction": [
+            "Showing {auctions} of total {auctionsCount} auctions.",
+            "Showing {auctions} of {auctionsCount} your auctions.",
+            "Showing {auctions} of {auctionsCount} auctions you bid in.",
+            "Showing {auctions} of {auctionsCount} auctions you can bid in."
+        ],
+        "offer": [
+            "Showing {auctions} of total {auctionsCount} offers.",
+            "Showing {auctions} of {auctionsCount} your offers."
+        ]
+    },
+    "auctionTitles": { 
+        "auction": [
+            "All auctions",
+            "My auctions",
+            "My bids",
+            "Auctions I can bid in"
+        ],
+        "offer": [
+            "All offers",
+            "My offers"
+        ]
+    },
+    "selectAnAuctionToSeeItsDetails": "Select an auction to see its details...",
+    "selectAnOfferToSeeItsDetails": "Select an offer to see its details...",
+    "workersDescription": "Effectively manage your workers by assigning them to specific job positions. Keep in mind that each card possesses distinct job preferences based on their personality traits. Gain insights into the correlation between personality and job efficiency by referring to the Guide.",
+    "noWorkers": "You currently have no cards assigned to this business. In order to assign cards, you need to maximize their affection by {command:date}, and then click on the \"Assign a Job\" button within the dating panel.",
+    "choosePosition": "Choose a position...",
+    "remove": "Remove",
+    "removeFromTheBusiness": "Remove from the business.",
+    "selectCardToManageIt": "Select a card to manage it...",
+    "hasUnassigned": "You have unassigned cards. To enhance your business's stats, allocate them to one of the available job positions.",
+    "unassigned": "Unassigned",
+    "working": "Working",
+    "upgradesDescription": "Upgrades enhance your business capabilities and facilitate its growth.",
+    "buyFirst": "Buy {upgrade} first.",
+    "selectAnUpgradeToBuyIt": "Select an upgrade to buy it...",
+    "upgrades": "upgrades",
+    "startABusiness": "Start a business",
+    "startBusinessDescription": "You haven't begun this business yet. To start and earn Gems, click the button below and come up with a business name. Remember, the chosen name must follow our naming rules and can't be changed later.",
+    "energy": "Energy",
+    "startEarningPassively": "Start earning passively by assigning a card to the **{positionName}** position.",
+    "clickerDetails": "Once started, earns {perMinute} per minute for **{minutes} minutes** ({hours}h). Stops at {stops}.",
+    "welcomeBackManager": "Welcome back, manager! You can manage your business, using the buttons provided below. If you want to showcase your income on a public leaderboard, use the command {command:leaderboards}. Spend your earned gems in the {command:gemporium}.",
+    "startServing": "Start Serving",
+    "stopServing": "Stop Serving (+{gems})",
+    "payout": "Payout (+{gems})",
+    "sellCoffee": "Sell Coffee! ({energy}/{maxEnergy}🗲)",
+    "cardSpecial": "The card below is a special card that may no longer be attainable. Special cards are typically acquired through daily voting and various events.",
+    "cardPatreon": "The card below is an exclusive reward for Patreon members. To acquire it, become a Patron: {command:patreon}.",
+    "characters": "Characters",
+    "series": "Series",
+    "author": "Author",
+    "rolled": "Rolled",
+    "sold": "Sold",
+    "ownedByYou": "Owned by You",
+    "title": "Title",
+    "type": "Type",
+    "totalPulls": "Total Pulls",
+    "owned": "Owned",
+    "availableSince": "Available Since",
+    "banners": "Banners",
+    "yes": "Yes",
+    "no": "No",
+    "congratsUser": "Congrats, {user}!",
+    "successfullyRolled": "You have successfully rolled **{cardAmount} cards**!",
+    "andMore": "...and {count} more.",
+    "multiRoll": "{times}x Multi-Roll",
+    "rollAgainTimes": "Roll again (x{times})",
+    "cardRemoved": "This card has been sold",
+    "thisCardDoesntExist": "This card no longer exists. If you encounter this message while browsing your multi-roll, it indicates that you have reached the end of the rolled cards list. The remaining cards serve as placeholders for those you have sold during the process of browsing cards.",
+    "sell": "Sell",
+    "obtained": "Obtained",
+    "personality": "Personality",
+    "affection": "Affection",
+    "youOwn": "you own a copy of this card.",
+    "selectGift": "Select a gift...",
+    "chooseAnAction": "Choose an action...",
+    "dateWith": "Date with {who}",
+    "clear": "Clear",
+    "filterTheCardTags": "Filter the card tags...",
+    "loading": "Loading...",
+    "wishesCameTrue": "{count} of your wishes came true!",
+    "somethingWentWrong": "Something went wrong...",
+    "raritiesA": "Rarities",
+    "onlyDuplicates": "Only Duplicates",
+    "rollDate": "Roll Date",
+    "after": "after",
+    "before": "before",
+    "printNumber": "Print Number",
+    "greater": "greater than",
+    "lower": "lower than",
+    "nothingHasBeenAddedYet": "Nothing has been added yet.",
+    "multiSell": "Multi Sell",
+    "tryingToSell": "You are trying to sell **{cardAmount} cards** for {emoji:smallCoin}**{price}**.",
+    "areYouSure": "Are you sure?",
+    "thisActionCannotBeReverted": "This action cannot be reverted.",
+    "youHaveSold": "You have sold **{cardCount} cards** for a total price of {emoji:smallCoin}**{price}**.",
+    "yourBalance": "Your balance",
+    "editCardFilters": "Edit card filters for precise selling. Selected filters will be combined. Selling is permanent and irreversible. Favorite cards and cards tagged with \"not for sell\" will not be sold.",
+    "includedFilters": "Included Filters",
+    "excludedFilters": "Excluded Filters",
+    "chooseCardFilters": "Choose the card filters...",
+    "showEligibleCards": "Show eligible cards ({count})",
+    "disabled": "Disabled",
+    "edit": "Edit...",
+    "editFilter": "Edit filter...",
+    "earnGems": "You can earn **Gems** by raising your cards' affection and managing your **Businesses** - {command:business}. Become a Patron to receive free Gems every month - {command:patreon}.",
+    "noActiveBanners": "There are no active banners.",
+    "comeBackLater": "Please come back later!",
+    "rewards": "Rewards",
+    "pull": "Pull",
+    "single": "Single",
+    "multi": "Multi",
+    "tooExpensive": "Too expensive!",
+    "buy": "Buy",
+    "selectChapter": "Select a chapter...",
+    "selectSubchapter": "Select a subchapter...",
+    "chooseAnItemAdd": "Choose an item you wish to add...",
+    "chooseAnItemRemove": "Remove an item from the list...",
+    "editRequested": "Edit requested items",
+    "editOffered": "Edit offered items",
+    "tradingWith": "Trading with {who}.",
+    "thisTradeCancelled": "This trade has been cancelled.",
+    "successNewOffer": "You have successfully sent a new trade offer.",
+    "selectItem": "Select an item...",
+    "selectItemCategory": "Select an item category...",
+    "creatingPublic": "Creating a public trade offer.",
+    "createDate": "Create date",
+    "finalizeDate": "Finalize date",
+    "result": "Result",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "showingReceive": "Showing the items you will receive.",
+    "showingLose": "Showing the items you will lose.",
+    "showingReceivePast": "Showing the items you were supposed to receive.",
+    "showingLosePast": "Showing the items you were supposed to lose.",
+    "permanentTradesWarning": "Remember that all trades are permanent and cannot be undone.",
+    "showingLoseAction": "Show the items you will lose.",
+    "showingReceiveAction": "Show the items you will receive.",
+    "showingReceivePastAction": "Showing the items you were supposed to receive.",
+    "showingLosePastAction": "Showing the items you were supposed to lose.",
+    "checkIncludedCards": "Check the details of included cards...",
+    "manageTradeOffer": "Manage trade offer",
+    "tradeArchive": "Trade archive",
+    "inProcessOfCreating": "You are currently in the process of creating a trade offer.\nPlease finalize it before you viewing your existing offers.",
+    "tradeCreator": "Trade Creator",
+    "tradeA": "Trade",
+    "offerer": "Offerer",
+    "recipient": "Recipient",
+    "youWillReceive": "You will receive",
+    "youWillLose": "You will lose",
+    "their": "Their",
+    "yours": "For yours",
+    "selectTrade": "Select a trade offer to manage it...",
+    "selectTradeDetails": "Select a trade offer to view its details...",
+    "activeTradeOffers": "Active trade offers",
+    "tradeHistory": "Trade history",
+    "tradeListInstructionsHistory": "Use the buttons below to navigate the list of active trade offers. To create a new trade offer, use the command {command:trade new} and to view your trade history, use {command:trade history}.",
+    "tradeListInstructionsList": "Use the buttons below to navigate the list of active trade offers. To create a new trade offer, use the command {command:trade new} and to view your active trades, use {command:trade list}.",
+    "profile": "Profile",
+    "haremA": "Harem",
+    "items": "items",
+    "inventoryA": "Inventory",
+    "quantity": "Quantity",
+    "welcomePatreon": "Welcome, {title}.\nThank you for the support!\n\nThis is your **{count} month** of continous membership.",
+    "nextMilestones": "Next milestone rewards will be available in **{howMany}** months.",
+    "nextBenefits": "**Next monthly benefits** will arrive {date}.",
+    "patronPanel": "Patron Panel",
+    "tier": "Tier",
+    "botsPatreon": "{bot}'s Patreon",
+    "ifYouWantToSupport": "If you want to support me, please consider [becoming my Patron]({config:urls.patreon})!\nCheck out the benefits you can receive!\nUse the button below to read more!",
+    "userProfile": "{user}'s Profile",
+    "joinDate": "Join Date",
+    "gems": "Gems",
+    "cards": "Cards",
+    "cardsRolled": "Cards Rolled",
+    "unusedRolls": "Unused Rolls",
+    "sellIncome": "Sell Income",
+    "voteStreak": "Vote Streak",
+    "tradesMade": "Trades Made",
+    "botsCommands": "{bot}'s Commands",
+    "firstTime": "First time using {bot}? Learn how to get started with {command:guide}!",
+    "introduction": "Hello! My name is **{bot}** and I am a **{config:botType}** Discord Bot.",
+    "usefulLinks": "Useful Links",
+    "privacyPolicy": "Privacy Policy",
+    "removeData": "Remove your Data",
+    "howToRemove": "{bot} stores data about your cards in our database. If you want to remove it, join our [Support Server]({config:urls.server}) and contact us.",
+    "disclaimer": "All characters contained in the bot's images are adult. The bot and its owners don't claim rights to any of the images, they belong to their respective authors.",
+    "botsHelp": "{bot}'s Help",
+    "info": "Info",
+    "commands": "Commands",
+    "selectCategory": "Select a category...",
+    "selectSetting": "Select a setting to edit it...",
+    "selectOption": "Select an option...",
+    "extraRolls": "Extra rolls",
+    "dailyStreak": "Daily streak",
+    "dailyStreakOff": "Daily streak unavailable.",
+    "youCanVoteNow": "You can vote now!",
+    "youCanVoteAgain": "You can vote again {date}.",
+    "voteDescription": "By voting for me **every 12 hours** on the websites listed below, you can earn **free extra rolls** and receive **many amazing rewards**. This process is entirely free and aids in expanding {bot}'s outreach to a wider audience!\n\n**Vote every day to rise your daily streak and receive better rewards!**",
+    "availableVotes": "Available Votes",
+    "votesOnCooldown": "Votes on Cooldown",
+    "enableNotifications": "Enable vote notifications to never miss your votes!",
+    "selectCharacter": "Select a character...",
+    "from": "from",
+    "findWish": "Use the button below, to find the character you want to wish for.",
+    "notCharacterFound": "No results were found. If you cannot locate the desired character, it indicates that the character is not currently in our database. You have two options: either select a different character or utilize the contribute system to add the character by using the {command:contribute} command.",
+    "wishGranting": "Wish Granting",
+    "rolls": "Rolls",
+    "chance": "Chance",
+    "wishlist": "Wishlist",
+    "buyGranter": "Buy a **wish granter** to make a new wish! Visit {command:store}.",
+    "activeWishes": "Active wishes",
+    "placeBid": "Place a bid",
+    "yourBid": "Your Bid",
+    "enterBid": "Enter your bid in coins, minimum {minimumBid}.",
+    "wonBuyout": "You've won the **Auction #{id}** by paying the buyout price!",
+    "cancelAuction": "**Auction #{id}** has been successfully cancelled.",
+    "cardId": "Card ID",
+    "startingPrice": "Starting Price",
+    "auctionDuration": "Auction Duration",
+    "enterIdOfTheCardYouWantToSell": "Enter ID of the card you want to sell.",
+    "enterTheInitalBidForTheCard": "Enter the initial bid for the card.",
+    "enterTheBuyoutPrice": "Enter the buyout price (optional).",
+    "enterTheDuration": "Enter the duration of the auction in days.",
+    "createAnAuction": "Create an auction",
+    "assignJob": "Assign a job",
+    "chooseBusinessToJob": "Choose a business to which you want to assign this card. Keep in mind that cards assigned to a job cannot be edited, traded, or sold. You can remove a card from a business at any time.",
+    "chooseBusiness": "Choose a business...",
+    "startBusiness": "Start a business",
+    "businessName": "Business Name",
+    "theNameOfYourBusiness": "The name of your business.",
+    "favorite": "Favorite",
+    "unFavorite": "Un-Favorite",
+    "changeCardsName": "Change card's name",
+    "newName": "New name",
+    "inputTheCardsName": "Input the card's new name.",
+    "cardHasBeenSold": "**{card}** has been sold.",
+    "selectCardTags": "Select card tags...",
+    "newColor": "New color",
+    "description": "Description",
+    "hexOrStandarized": "A hex value or standarized HTML color name.",
+    "notLongerThan": "Not longer than {limit} characters, markdown is enabled.",
+    "redeemCode": "Redeem code",
+    "enterCode": "Enter Code",
+    "enterYourGiftCode": "Enter your gift code.",
+    "youHaveSuccesfullyUsed": "You have successfully used {item}!",
+    "youhaveSuccesfullyActivated": "You have successfully activated the selected item.",
+    "rename": "Rename",
+    "editTags": "Edit Tags",
+    "youHaveSuccessfullyBought": "You have successfully bought {item} for {price}!",
+    "youHaveSuccesfullyAddedCard": "You have successfully added a new card to the trade offer.",
+    "tradeAccepted": "The trade offer has been successfully accepted.",
+    "tradeDeclined": "The trade offer has been successfully declined.",
+    "viewTradeHistory": "View your trade history with the {command:trade history} command.",
+    "successfulWish": "**Success!**\nYou have successfully added a new wish.\nYou can view all of your active wishes with the {command:wishlist} command.",
+    "chooseAction": "Choose an action...",
+    "disabledOnNonNsfw": "This interaction is disabled on non-nsfw channels.",
+    "auctionCreated": "The auction has been successfully created.",
+    "succesfullyUpgraded": "You have successfully upgraded **{cardName}**!",
+    "succesfullyRepersonalitied": "You have successfully changed the personality of **{cardName}**!",
+    "selectEligibleCardRarities": "Select eligible card rarities...",
+    "successfullyAddedNewItem": "You have successfully added a new item to the trade offer.",
+    "successfullyRemovedItem": "You have successfully removed the selected item from the trade offer.",
+    "addToTrade": "Add to trade",
+    "blocked": "The selected person has been successfully blocked.",
+    "unblocked": "The selected person has been successfully unblocked.",
+    "upgradeCard": "Upgrade a card",
+    "changePersonality": "Change personality",
+    "enterTheIdOfCard": "Enter the ID of card you want to upgrade, (e.g. \"ABC-123\")",
+    "alreadyMakingWish": "You are already in the process of making a wish, and the wish granter that was used has been returned. We will now proceed with the creation of the unfinished wish.",
+    "itemsNoLongerExist": "Items included in this offer no longer exist.",
+    "pulledOn": "You have successfully pulled on the **{bannerName}** banner and received:",
+    "redeemed": "You have successfully redeemed a gift code and received:",
+    "giftCode": "Gift code",
+    "pullAgain": "Pull again",
+    "externalEmojisError": "It appears that the **(@)everyone / default** role lacks permission to use external emojis. Consequently, most of the bot features may not function correctly.\n\nIf you're the server administrator, to prevent this issue, kindly grant permission to use external emojis for the (@)everyone role. You have the option to do this either for the entire server or solely for the channel where the bot will be employed.\n\nIf you opt not to make any adjustments, you can dismiss this warning using the button provided below. However, bear in mind that doing so will disrupt the majority of the bot's functionalities and significantly reduce its clarity.",
+    "ignore": "Ignore",
+    "ignored": "You have successfully ignored the warning.",
+    "slots": "Slots",
+    "tradeAcceptDM": "The trade offer with ID **#{id}** has been accepted by **@{user}**.",
+    "tradeRejectDM": "The trade offer with ID **#{id}** has been rejected by **@{user}**.",
+    "tradeCancelDM": "The trade offer with ID **#{id}** has been cancelled by **@{user}**.",
+    "newTrade": "A new trade offer has been received from **@{user}**.\nTo accept or reject the trade, use the command {command:trade list} on any server or the buttons below. If you wish to block this person and stop receiving trade offers from them, you can use the command {command:block}.",
+    "cantView": "I do not have permissions to view that channel.",
+    "hello": "Hello!",
+    "welcomeMessage": "Hi there, my name is **{bot}**!\n\n**Thank you for inviting me!**\n\n{emoji:card} If you're eager to begin **rolling incredible cards**, simply employ the {command:roll} command!\n{emoji:help} Should you **require assistance with starting out**, use the {command:guide} command!\n{emoji:policy} For a **comprehensive list of commands**, refer to the {command:help commands} command!\n\n**Wishing you the best of luck and lots of enjoyment!**",
+    "startRolling": "Start Rolling!",
+    "voteFor": "Vote for {bot}!",
+    "voteOn": "Vote on {website}",
+    "visitStore": "Visit {config:store}!",
+    "youHaveReached": "You have reached the daily limit!",
+    "youHaveHitLimit": "You've hit the daily roll limit of {limit}!\nYour rolls will be replenished {timestamp}.",
+    "butWaitTheresMore": "But wait, there's more!\nYou can earn **extra free rolls every 12 hours** if you vote for me!",
+    "orBecomePatron": "Or become a **Patron** to unlock up to **{config.title:(name=lover)daily} additional daily rolls** and more exclusive benefits! Use {command:patreon} to read more!",
+    "gotSomeExtra": "Got some extra **{config:currency}s** lying around? Trade them in for more rolls over at **{config:store}**! Just use the {command:store} command!",
+    "voteOnFor": "Vote on **{website}** for **{rolls} rolls**!",
+    "changelog": "Changelog",
+    "changeloged": "{bot} has just been upgraded to the latest {version} release!\nTo explore the latest features and modifications, employ the {command:changelog} command, or give the button below a click!",
+    "update": "update",
+    "version": "Version {number}",
+    "guide": "Guide",
+    "toAppear": "To appear on the leaderboards, enable them in your privacy settings - {command:settings}.",
+    "cafeLimit": "Your café's bank is full!",
+    "visitCafe": "Your café has stopped working because it has reached the bank limit. Please use the command {command:business café} and payout your {emoji:gem} **Gems**!",
+    "inBids": "+ {value} in bids",
+    "credits": "Credits",
+    "translation": "English translation by XYZ.",
+    "cardAuthor": "Patreon cards by [{config:artist.name}]({config:artist.url}).",
+    "imageSource": "Image Source",
+    "reportCard": "Report Image",
+    "removedCard": "We have removed this card because it violated our contribution guidelines. This decision is not a result of your actions, but rather a result of our own actions and changes in the rules. We sincerely apologize for any inconvenience caused, but this action was necessary. Unfortunately, you will no longer be able to see this card. However, we have provided three options for compensation, which you can access using the buttons below:\n\n1. **Re-roll the card:** By clicking the first button, you can choose to re-roll the card. The new card you receive will have the same rarity as the previous one. Additionally, if the print number of the card is below {min}, we will try to assign a print number with a similar value to maintain consistency (not guaranteed, and will probably fail for non-mythic cards). The personality and affection will stay the same.\n2. **Receive a roll ticket:** Clicking the second button will allow you to receive a roll ticket of the same rarity. This roll ticket will be stored in your inventory, which you can access using the {command:inventory} command. If your card has a special rarity, such as Patreon rarities, you will also receive a Patreon upgrader. For cards with a print number below {min}, we will also send you coins calculated using the following formula: {formula}, where x represents the print number.\n3. **Sell the card:** You can simply sell the card for its base value. \n4. **Keep the card:** We will not remove the card entirely, but its image will no longer be visible and will be replaced with a placeholder.\n\n**It is important to keep in mind that both actions will permanently remove the current card from your collection. If you choose not to take any action, the card will be automatically removed after a month. However, please note that you can only claim the compensation if the card is not currently involved in any trades, auctions, or businesses.**\n\nIf you do not agree with the available compensation options and believe that your card is particularly unique, join our Support Server and contact us.",
+    "reRoll": "Re-roll",
+    "getTicket": "Get a Ticket",
+    "keep": "Keep",
+    "successfullyRecompensate": "You have successfully received the selected compensation.",
+    "actionRequired": "Action Required",
+    "browseRemoved": "Browse all removed cards",
+    "turnAllIntoTickets": "Turn all into tickets",
+    "areYouSureTickets": "Are you sure you want to remove {count} cards from your harem and turn them into roll tickets?",
+    "streakRestore": "You can recover your lost streak by paying **{emoji:smallCoin}{cost}**.\nAct quickly! Click the button below before **24 hours** elapse.",
+    "restoredSuccess": "Your streak has been restored."
+}

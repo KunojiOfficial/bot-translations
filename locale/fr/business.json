@@ -1,0 +1,57 @@
+{
+    "types": {
+        "cafe": "café"
+    },
+    "stats": {
+        "storedGems": "Gemmes stockées",
+        "closesIn": "Arrêt",
+        "closed": "Arrêté",
+        "totalIncome": "Total des revenus",
+        "businessLevel": "Niveau d'affaires",
+        "upgrades": "Améliorations",
+        "workers": "Employés",
+        "passiveIncome": "Revenu Passif",
+        "servingTime": "Durée de service",
+        "popularity": "Popularité",
+        "clickIncome": "Cliquer Revenu",
+        "clickCapacity": "Capacité de clicks",
+        "workerLimit": "Limite d'employées",
+        "bankLimit": "Limite de stockage",
+        "nextClick": "Click suivant"
+    },
+    "roles": {
+        "inactive": {
+            "name": "Non assigné",
+            "description": "Non assigné"
+        },
+        "barista": {
+            "name": "Barista",
+            "description": "Augmente le revenu des clics."
+        },
+        "server": {
+            "name": "Serveur",
+            "description": "Diminue le temps de servage."
+        },
+        "chef": {
+            "name": "Cuisinier",
+            "description": "Augmente les revenus passifs."
+        },
+        "banker": {
+            "name": "Banquier",
+            "description": "Augmente la limite de stockage des gemmes."
+        },
+        "cashier": {
+            "name": "Caissier",
+            "description": "Augmente la capacité des clics."
+        },
+        "promoter": {
+            "name": "Promoteur",
+            "description": "Augmente la popularité."
+        }
+    },
+    "upgrades": {
+        "expansion-1": "Expansion de l'équipe I",
+        "expansion-2": "Expansion de l'équipe II",
+        "expansion-3": "Expansion de l'équipe III"
+    }
+}

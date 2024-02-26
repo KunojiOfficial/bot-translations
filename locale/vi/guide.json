@@ -1,0 +1,151 @@
+{
+    "topics": {
+        "howToStart": "Bắt đầu nào",
+        "detailedMechanics": "Chi tiết về cách sử dụng",
+        "commands": "Lệnh và điều khiển",
+        "dates": "Hẹn hò và tính cách",
+        "businesses": "Doanh nghiệp và gem",
+        "gemporium": "Gemporium và đồ trang trí"
+    },
+    "howToStart": {
+        "whatIs": {
+            "name": "{bot} là gì?",
+            "pages": [
+                "Chào mừng bạn đến với phần hướng dẫn! Tại đây, bạn sẽ tìm thấy tất cả sự trợ giúp bạn cần. Hãy bắt đầu với những điều cơ bản.\n\n**{bot} là gì?** {bot} là một Discord Bot {config:botType} cho phép bạn thu thập các thẻ tuyệt vời do cộng đồng đóng góp, tương tác với chúng hoặc trao đổi chúng với bạn bè của mình.\n\nHãy nhớ rằng, {bot} không yêu cầu bất kỳ quyền nào đối với các thẻ có sẵn để quay ra- chúng thuộc về người sáng tạo của chúng."
+            ]
+        },
+        "mobile": {
+            "name": "Phiên bản di động",
+            "pages": [
+                "Bạn có thể bỏ qua trang này nếu bạn đang sử dụng máy tính, máy tính xách tay hoặc bất kỳ thiết bị nào khác với màn hình lớn.\n\nDo các vấn đề về cỡ chữ của {bot} trên các thiết bị nhỏ hơn, chúng tôi cung cấp Phiên bản dành cho thiết bị di động thay đổi được bằng cách sử dụng {command:settings}. Tính năng này đặc biệt hữu ích nếu bạn đang chơi {bot} trên điện thoại."
+            ]
+        },
+        "roll": {
+            "name": "Quay ra thẻ",
+            "pages": [
+                "Quay thẻ là tính năng trung tâm của {bot}. Bắt đầu trò chơi bằng cách sử dụng lệnh {command:roll}.\nSau khi quay, một thẻ mới sẽ xuất hiện và được liên kết với tài khoản của bạn. Thông tin chi tiết hơn về thuộc tính thẻ sẽ được khám phá trong chương phụ dưới đây.\nTất cả các thẻ đã quay sẽ ở trong harem của bạn - nơi lưu trữ thẻ của bạn. Truy cập nó bằng cách nhập lệnh {command:harem}.\n\nNếu bạn thấy không thích thẻ quay ra, bạn có thể bán nó.\nViệc bán thẻ sẽ cho bạn tiền xu, để sử dụng trong {command:store}. Thông tin khác về việc này sẽ được thảo luận trong các chương phụ tới."
+            ]
+        },
+        "cardsHarems": {
+            "name": "Chỉ số cơ bản của thẻ",
+            "pages": [
+                "Mỗi thẻ quay ra sở hữu một thuộc tính hiếm. Để biết danh sách đầy đủ về tất cả các loại độ hiếm, hãy tham khảo chương dành riêng có tiêu đề \"Thuộc tính thẻ\". Hiện tại, chúng ta sẽ tập trung vào khái niệm độ hiếm được biểu thị bằng các ngôi sao, quyết định giá trị của thẻ. Một số độ hiếm sẽ mở khóa các tương tác đặc biệt, chẳng hạn như Hệ thống hẹn hò mà chúng ta sẽ thảo luận vào phần khác.\n\nCác thẻ đều mang ID độc nhất, chẳng hạn như \"ABC-123\". Các ID này phân biệt các thẻ chung, cho phép truy cập trên tất cả các máy chủ bằng {bot}. Ý nghĩa của ID rất đơn giản: phần đầu tiên, \"ABC\", biểu thị danh mục hình ảnh của thẻ, trong khi \"123\" biểu thị được quay ra vào lần thứ 123 của nó trong loạt thẻ \"ABC\".\n\nCác phiên bản tính cách tạo thêm sự đặc sắc cho các thẻ. Một lá bài, giống như ABC, có thể được chia thành nhiều tính cách. Những tính cách này tác động đến nhiều khía cạnh khác nhau của lối chơi mà chúng ta sẽ tìm hiểu sau, mỗi tính cách đều có điểm mạnh và điểm yếu riêng.\n\nBạn có thể sử dụng lệnh {command:card} để xem chi tiết thẻ cụ thể. Để làm vậy, bạn sẽ cần phải nhập ID của thẻ."
+            ]
+        },
+        "limits": {
+            "name": "Giớ hạn lượt quay, bỏ phiếu và danh hiệu",
+            "pages": [
+                "Theo mặc định, mỗi người chơi đều có một giới hạn lượt quay {config.title:(name=player)daily} mỗi ngày. Tuy nhiên, không cần phải lo lắng! Bạn có thể dễ dàng tăng giới hạn này thông qua nhiều hoạt động khác nhau, bao gồm cả việc bỏ phiếu cho {bot}.\nĐể bắt đầu, chỉ cần khởi chạy lệnh {command:vote}. Điều này sẽ cho phép bạn khám phá những lợi ích của việc bỏ phiếu, điều này cũng sẽ được trình bày chi tiết trong một phần riêng tronghướng dẫn.",
+                "{bot} giới thiệu hệ thống danh hiệu cho phép bạn tăng giới hạn lượt quay hàng ngày và nhận thêm nhiều phần thưởng. Rất nhiều vai trò thuộc hệ thống này và chúng sẽ được thảo luận chi tiết trong phần dành riêng có tiêu đề \"Danh hiệu và lợi ích của nó\".\n\nHiện tại, chúng ta sẽ đi sâu vào khái niệm Danh hiệu Patron. Những danh hiệu này có thể đạt được bằng cách ủng hộ dự án trên Patreon. Để tìm hiểu thêm về các đặc quyền liên quan, hãy tham khảo {command:patreon}."
+            ]
+        },
+        "economy": {
+            "name": "Cơ bản về kinh tế bot",
+            "pages": [
+                "Như đã đề cập trước đó, bạn có tùy chọn bán thẻ mà bạn không thích. Làm vậy sẽ khiến chúng bị xóa vĩnh viễn khỏi bộ sưu tập của bạn và bạn sẽ nhận được một lượng xu tương đương theo độ hiếm của thẻ.\n\nBạn có thể sử dụng đơn vị tiền này trong {command:store}, nơi có nhiều loại vật phẩm để bạn lựa chọn. Để bắt đầu, bạn có thể cân nhắc mua các lượt quay thêm để có thể vượt quá giới hạn quay hàng ngày và quay được thường xuyên hơn."
+            ]
+        },
+        "items": {
+            "name": "Vật phẩm và kho đồ",
+            "pages": [
+                "Khi truy cập {command:store}, bạn sẽ thấy nhiều danh mục mặt hàng khác nhau. Hầu hết các vật phẩm này có thể được sử dụng trong {command:inventory} của bạn sau khi mua.\n\nHãy tập trung vào các loại mặt hàng quan trọng nhất.\n\n**Đồ nâng cấp** cho phép bạn nâng cao độ hiếm của thẻ. **Vé quay** đảm bảo quay ra độ hiếm được chọn. **Điều ước** cho phép bạn tăng cơ hội quay trúng một nhân vật cụ thể."
+            ]
+        },
+        "trading": {
+            "name": "Trao đổi và đấu giá",
+            "pages": [
+                "{bot} cho phép bạn trao đổi thẻ, hình nền (sẽ được thảo luận trong chương \"Gemporium\") và tiền tệ với những người chơi khác.\n\nBạn có thể tham gia vào hai loại giao dịch: công khai và riêng tư. Đối với lời mời trao đổi riêng tư, hãy bắt đầu bằng lệnh {command:trade new} và làm theo hướng dẫn của bot. Hãy nhớ rằng, lời mời trao đổi riêng tư chỉ có thể thực hiện được với các thành viên khác trên máy chủ.\n\nĐể tạo một lời mời trao đổi công khai hiển thị trên tất cả các máy chủ bằng cách sử dụng {bot}, hãy sử dụng lệnh {command:auctionhouse}. Ở đó, bạn có thể bắt đầu đặt giá thầu cho một trong các thẻ của mình hoặc chuyển sang phần \"Đặt giá\" và tạo lời mời trao đổi cho các vật phẩm của mình."
+            ]
+        },
+        "other": {
+            "name": "Các tính năng khác",
+            "pages": [
+                "Với điều này, chúng ta sẽ kết thúc chương \"Bắt đầu nào\". Tuy nhiên, chúng ta vẫn chưa khám phá hết các tính năng của trò chơi.\n\nNếu bạn muốn tiếp tục đọc, vui lòng chuyển sang các chương tiếp theo. Ngoài ra, bạn có thể tự mình tìm hiểu các tính năng của trò chơi và tham khảo hướng dẫn nếu gặp khó khăn.\n\nNếu bạn vẫn cần hỗ trợ khi bắt đầu hoặc thấy mình không thể tìm thấy câu trả lời trong {command:guide}, đừng ngần ngại ghé qua [Máy ​​chủ hỗ trợ và cộng đồng]({config:urls.server} của chúng tôi). Chúng tôi rất sẵn lòng hỗ trợ bạn nếu có bất kỳ thắc mắc nào."
+            ]
+        }
+    },
+    "detailedMechanics": {
+        "rarities": {
+            "name": "Độ hiếm và cách để nhận chúng",
+            "pages": [
+                "Độ hiếm có thể được chia thành hai nhóm chính: độ hiếm có thể quay được và độ hiếm đặc biệt chỉ có thể đạt được thông qua các phương pháp đặc biệt khác.\n\nHãy bắt đầu bằng cách thảo luận về thẻ có thể quay được.\n\nTất cả những độ hiếm này có thể nhận được bằng cách sử dụng lệnh {command:roll}, nhưng mỗi độ hiếm đều có một cơ hội quay ra khác nhau.\n\n{rarities:rollable}\n\nTiếp theo, chúng ta có những độ hiếm đặc biệt như...\n{rarities:special}"
+            ]
+        },
+        "dailyRolls": {
+            "name": "Giải thích về lượt quay hàng ngày",
+            "pages": [
+                "Lượt quay hàng ngày là một tính năng quan trọng trong {bot}, cung cấp cho bạn tài nguyên để mở rộng bộ sưu tập thẻ của mình. Dưới đây là hướng dẫn nhanh để tận dụng tối đa chúng:\n\n1. **Thời gian hồi:** Các lượt quay hàng ngày được phục hồi hàng ngày vào lúc {resetHour}.\n2. **Số lượng quay:** Số lần quay hàng ngày thay đổi tùy theo danh hiệu của người chơi.\n3. **Giới hạn quay:** Hầu hết các danh hiệu đều có giới hạn lượt quay gấp bốn lần số lượt quay mặc định hàng ngày để duy trì sự cân bằng và ngăn chặn việc tích trữ lượt quay.\n\nTheo mặc định, bạn bắt đầu với các lượt quay {config.title:(name=player)daily} hàng ngày.\nNếu bạn có {config.title:(name=player)limit} lượt quay trở lên chưa sử dụng, bạn sẽ không nhận được thêm lượt quay nào vì bạn đã đạt đến giới hạn lượt quay.\n\nĐiều quan trọng cần lưu ý là người chơi có thể có nhiều danh hiệu, dẫn đến việc các lượt quay thêm cộng dồn do các danh hiệu khác nhau, trong khi giới hạn lượt quay được xác định bởi giới hạn của danh hiệu hiện đang được chọn.\n\nBây giờ, hãy xem danh sách các danh hiệu và giới hạn lượt quay tương ứng của chúng.\nLưu ý rằng số đầu tiên hiển thị số lượt quay bổ sung, tích lũy với các lượt quay từ các danh hiệu khác cũng như vai trò người chơi mặc định mà ai cũng có. Số thứ hai là giới hạn lượt quay.\n\n{titles}"
+            ]
+        }
+    },
+    "commands": {
+        "harem": {
+            "name": "Harem",
+            "pages": [
+                "{command:harem} là lệnh để truy cập và quản lý tất cả các thẻ của bạn. Dưới đây là danh sách các nút và chức năng tương ứng của chúng để giúp bạn điều hướng bộ sưu tập thẻ của mình:\n\n* {emoji:arrows.left} - trang trước\n* {emoji:arrows.right} - trang tiếp theo\n* {emoji:arrows.top} - thẻ trước\n* {emoji:arrows.bottom} - thẻ tiếp theo\n* {emoji:help} - hướng dẫn\n* {emoji:sort} - thay đổi cách sắp xếp\n* {emoji:tag} - chuyển sang hiển thị nhãn\n* {emoji:glass} - tìm kiếm theo tên hoặc ID\n* {emoji:select} - chọn thẻ"
+            ]
+        },
+        "auctionhouse": {
+            "name": "Sàn đấu giá",
+            "pages": [
+                "Sàn đấu giá là nơi bạn có thể tạo các cuộc đấu giá và mời giao dịch với người chơi {bot} trên toàn cầu. Dù bạn có chia sẻ máy chủ với người chơi khác hay không, mọi người đều có thể tham gia đấu giá hoặc chấp nhận đấu giá của bạn.\n\nDưới đây là danh sách các điều khiển lệnh hữu ích để giúp bạn điều hướng Nhà đấu giá:\n\n* {emoji:arrows.left} - trang trước\n* {emoji:arrows.right} - trang tiếp theo\n* {emoji:gavel} - danh sách đấu giá\n* {emoji:trade} - danh sách trao đổi\n* {emoji:help} - hướng dẫn\n* {emoji:sort} - thay đổi thứ tự sắp xếp\n* {emoji:glass} - tìm kiếm theo tên hoặc ID\n* {emoji:plus} - tạo phiên đấu giá hoặc trao đổi mới"
+            ]
+        }
+    },
+    "dates": {
+        "about": {
+            "name": "Thông tin về hệ thống hẹn hò",
+            "pages": [
+                "Hẹn hò là một cơ chế tùy chọn cho phép bạn tăng thiện cảm với các thẻ của mình. Điều quan trọng cần lưu ý là chỉ những thẻ có độ hiếm bằng hoặc cao hơn {minDateRarity} mới có thể hẹn hò được.\n\nMặc dù việc nâng cao thiện cảm thẻ là hoàn toàn không bắt buộc, bạn nên làm vậy để giao cho các thẻ của mình một công việc, cho phép bạn kiếm được gem trong nhiều hoạt động kinh doanh khác nhau."
+            ]
+        },
+        "deres": {
+            "name": "Các loại tính cách",
+            "pages": [
+                "Tính cách là một thuộc tính rất quan trọng của thẻ. Mỗi thẻ quay ra đều có một trong {dereCount} tính cách dere:\n\n{personalities}\n\nTính cách đóng một vai trò quan trọng trong việc xác định các khía cạnh khác nhau của thẻ của bạn, với tác dụng quan trọng nhất là mở khóa các tương tác trong hệ thống hẹn hò."
+            ]
+        },
+        "datePanel": {
+            "name": "Bảng hẹn hò, tâm trạng thẻ, quà tặng",
+            "pages": [
+                "Để bắt đầu hành trình hẹn hò của mình, bạn có thể sử dụng lệnh {command:date} và nhập ID của bất kỳ thẻ nào có độ hiếm bằng hoặc cao hơn {minDateRarity}. Ngoài ra, bạn có thể sử dụng lệnh {command:card} và nhấp vào nút \"Hẹn hò\".\n\nKhi làm vậy, bạn sẽ được chuyển đến bảng điều khiển hẹn hò. Tại đây, bạn sẽ gặp thấy các đoạn hội thoại ngắn, menu lựa chọn và các nút khác nhau.\n\nCác đoạn đối thoại bạn gặp sẽ khác nhau tùy thuộc vào tính cách của thẻ, nhưng điều đặc biệt quan trọng là biểu tượng cảm xúc hiển thị ở cuối cuộc đối thoại. Biểu tượng cảm xúc này biểu thị **tâm trạng** trên thẻ của bạn, với ba tùy chọn có thể có - 😡 tiêu cực, 😐 trung lập và 😄 tích cực.\n\nTâm trạng có ảnh hưởng đáng kể trong những tương tác tiếp theo và là một khía cạnh quan trọng của hệ thống hẹn hò.\n\n* Nếu tâm trạng **tiêu cực**, thẻ của bạn sẽ từ chối tương tác với bạn, tiêu tốn năng lượng của bạn.\n* Nếu tâm trạng **trung lập**, mọi tương tác tích cực sẽ chỉ mang lại cho bạn một nửa số điểm tình cảm.\n* Nếu tâm trạng **tích cực**, các tương tác của bạn sẽ được cộng thưởng đầy đủ.\n\nTâm trạng của thẻ của bạn sẽ giảm một cấp sau mỗi ba lần tương tác hoặc nếu bạn sử dụng các tương tác không chính xác mà thẻ của bạn không thích.\n\nĐể nâng cao tâm trạng cho thẻ của bạn, hãy truy cập {command:store} và mua một số quà tặng, sau đó tặng chúng cho thẻ của bạn bằng cách sử dụng menu lựa chọn trong bảng hẹn hò. Hãy nhớ rằng mỗi tính cách đều có những sở thích riêng biệt, bạn có thể nhận ra điều này nếu bạn quen thuộc với các tính cách anime/manga truyền thống. Nếu không, bạn luôn có thể thử nghiệm và khám phá chúng! Điều đáng lưu ý là tặng quà là loại tương tác duy nhất không cần bất kỳ năng lượng nào."
+            ]
+        },
+        "activities": {
+            "name": "Hoạt động để tăng thiện cảm",
+            "pages": [
+                "Khi bạn đã chắc rằng tâm trạng của thẻ là tích cực, bạn có thể bắt đầu tương tác với chúng. Các hoạt động này thuộc các danh mục khác nhau nhưng cách vận hành tương tự nhau, và chỉ khác nhau về năng lượng cần thiết và điểm thiện cảm kiếm được.\n\n**Điều quan trọng là tránh lặp lại liên tục cùng một hoạt động; thẻ sẽ không hài lòng nếu bạn làm vậy. Hãy luôn sáng tạo!**\n\nKhi chọn một hoạt động, bạn sẽ thấy nhiều biến thể khác nhau. Ví dụ: trong phần \"Khen\", bạn có thể khen ngợi gu thời trang, trí thông minh hoặc tài năng của thẻ của mình. Điều này bổ sung thêm một lớp thử thách - điều chỉnh hành động của bạn cho phù hợp với tính cách của lá bài.\n\nMỗi tính cách đều có những hoạt động ưa thích, không thích và trung lập. Nếu thẻ không thích thì sẽ giảm điểm thiện cảm, nếu thích thì sẽ được tăng, còn trung lập thì sẽ không có tác động gì.\n\nKhi bạn đã đạt tối đa thiện cảm với thẻ của mình, một nút mới, \"Giao việc\", sẽ được mở khóa. Sử dụng nó để gán thẻ cho một công việc, điều này sẽ được giải thích trong chương hướng dẫn tiếp theo."
+            ]
+        }
+    },
+    "businesses": {
+        "about": {
+            "name": "Thông tin về hệ thống kinh doanh",
+            "pages": [
+                "Các doanh nghiệp đóng vai trò là nguồn thu nhập chính của {emoji:gem} **gem**, nó rất quan trọng để quay ra các băng-rôn trong **Gemporium** (chi tiết trong chương tiếp theo). Các hoạt động kinh doanh này về cơ bản vận hành như những trò chơi nhỏ có thể chơi cùng với các thẻ của bạn, miễn là bạn tối đa hóa được thiện cảm của thẻ trước đó rồi (tham khảo chương cuối để biết chi tiết).\n\nHãy bắt đầu bằng cách liệt kê các doanh nghiệp hiện tại:\n{businesses}\n\nĐể bắt đầu bất kỳ hoạt động kinh doanh nào, hãy sử dụng lệnh tương ứng. Sau đó, truy cập bảng hẹn hò của thẻ và gán thẻ của bạn cho công việc đã chọn. Trong các chương phụ sau, chúng ta sẽ đi vào chi tiết cụ thể của từng loại doanh nghiệp."
+            ]
+        },
+        "cafe": {
+            "name": "Café",
+            "pages": [
+                "Quán cafe, lấy cảm hứng từ các trò chơi nhấp chuột gia tăng, xoay quanh việc phục vụ cà phê cho khách hàng, trong đó thẻ của bạn đảm nhận vai trò quan trọng là nhân viên. Để thành công trong lĩnh vực kinh doanh này, bạn có thể nâng cao các thuộc tính của quán cà phê của mình để có thu nhập thụ động hoặc bạn có thể nhấp nhận gem theo cách thủ công, mặc dù phải tốn năng lượng.\n\nMỗi thuộc tính tương ứng với một vị trí nhân viên cụ thể và việc quản lý phân công nhân viên của bạn sẽ tác động đến hiệu quả hoạt động của quán cafe của bạn. Đáng chú ý là các nhân vật trong thẻ sẽ có sở thích riêng của họ, và một số thậm chí có thể từ chối làm những vai trò không thích.\n\nHãy khám phá các thuộc tính, việc làm liên quan của họ và sở thích theo tính cách - chuyển sang trang tiếp theo.",
+                "1. **Thu nhập bị động** (Đầu bếp)\n Thu nhập thụ động cho phép quán cà phê của bạn phục vụ cà phê một cách tự động. Nó định lượng số lượng {emoji:gem} **gem** mà doanh nghiệp của bạn tạo ra mỗi phút phục vụ. Dandere là ứng cử viên lý tưởng cho vị trí Đầu bếp, xuất sắc trong vai trò này.\n2. **Thu nhập từ nhấp chuột** (Pha chế)\n Thu nhập từ lượt nhấp xác định số lượng {emoji:gem} **gem **bạn kiếm được với mỗi lần nhấp thủ công khi bán cà phê. Hãy nhớ rằng, mỗi cú nhấp chuột sẽ tiêu tốn năng lượng.\n Yandere tỏa sáng trong vai trò Baristas, mang lại hiệu quả làm việc cao nhất.\n3. **Thời gian phục vụ** (Bồi bàn)\n Thời gian phục vụ chỉ thời gian cần thiết để phục vụ cà phê cho một khách hàng. Vị trí này được Deredere ưa chuộng.\n4. **Giới hạn lần nhấp** (Thu ngân)\n Giới hạn lần nhấp quyết định số lần nhấp bạn có thể nhận, mỗi lần nhấp phục hồi sau mỗi 24 tiếng. Himedere là sự lựa chọn tuyệt vời cho vị trí Nhân viên thu ngân.\n5. ** Độ phổ biến** (Người quảng bá)\n Độ phổ biến sẽ đẩy cao hoạt động kinh doanh của bạn bằng cách thu hút nhiều khách hàng hơn. Mức độ phổ biến ngày càng tăng sẽ nhân thêm lần lên thu nhập lên {emoji:gem} **gem** của bạn, đặc biệt hiệu quả với Tsundere.\n6. **Giới hạn lưu trữ** (Kế toán)\n Giới hạn lưu trữ nâng cao giới hạn số lượng Gem mà doanh nghiệp của bạn có thể trữ được, cho phép doanh nghiệp chạy trong thời gian dài hơn trước khi đạt đến giới hạn. Đây là một vị trí hoàn hảo cho Kuudere.",
+                "Khi bạn đã chỉ định các thẻ đã chọn của mình vào vị trí hợp lý, bạn đã sẵn sàng bắt đầu phục vụ cà phê. Nhấp vào nút \"Bắt đầu phục vụ\" và kiên nhẫn đợi cho đến khi quá trình phục vụ hoàn tất. Sau đó, bạn có thể thu thập {emoji:gem} **gem** mà quán kiếm được.\n\nNhưng bạn nên làm gì với tất cả những {emoji:gem} **gem** này? Đối với điều này, hãy chuyển sang chương tiếp theo, nơi chúng tôi đi sâu vào **Gemporium**, và hướng dẫn bạn cách tận dụng tối đa loại tài nguyên khó kiếm được này."
+            ]
+        }
+    },
+    "gemporium": {
+        "about": {
+            "name": "Thông tin về Gemporium",
+            "pages": [
+                "Gemporium ({command:gemporium}) là một nơi thực sự hấp dẫn, bạn có thể sử dụng số gem kiếm được tại đây. Cứ sau vài tuần, Gemporium lại giới thiệu các băng-rôn mới, mà bạn có thể quay được bằng cách sử dụng {emoji:gem} **gem** quý giá của mình.\n\nNhững băng-rôn này là một kho tàng các phần thưởng đa dạng, bao gồm các vật phẩm và đồ trang trí. Hãy nhớ rằng một số băng-rôn có thể là hàng độc quyền chỉ xuất hiện giới hạn, không bao giờ quay trở lại, trong khi những băng-rôn khác sẽ có chu kỳ định kỳ, xuất hiện lại sau mỗi vài tháng.\n\nTrong các chương phụ sắp tới, chúng ta sẽ bắt đầu cuộc hành trình khám phá tất cả các loại đồ trang trí đang chờ lấy được trong Gemporium."
+            ]
+        },
+        "backgrounds": {
+            "name": "Hình nền",
+            "pages": [
+                "Hình nền đóng vai trò như một cách để cá nhân hóa diện mạo dàn harem hoặc hồ sơ của bạn, tạo thêm nét độc đáo cho trải nghiệm của bạn. Có hai loại nền riêng biệt, mỗi loại chỉ có thể được sử dụng theo các lệnh cụ thể được nêu ở trên.\n\nĐể khám phá chi tiết về các hình nền có sẵn, hãy sử dụng lệnh {command:album background} kết hợp với ID tương ứng của chúng. Để quản lý bộ sưu tập hình nền của bạn, hãy điều hướng đến {command:inventory} và truy cập danh mục Hình nền. Điều quan trọng cần lưu ý là bạn chỉ có thể có một nền hoạt động cho từng loại lệnh.\n\nNgoài ra, hình nền có thể được giao đổi. Bạn có tùy chọn trao đổi chúng trong {command:auctionhouse} hoặc tạo một lời mời trao đổi thông thường bằng cách sử dụng {command:trade new}. Hãy thoải mái tận dụng nghệ thuật đàm phán và trao đổi hình nền để làm phong phú thêm bộ sưu tập của bạn."
+            ]
+        }
+    }
+}

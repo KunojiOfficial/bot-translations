@@ -1,0 +1,79 @@
+{
+    "hug": {
+        "name": "Hug",
+        "text": "{user} hugged {who}!",
+        "count": "{who} has been hugged by {user} a total of {count} times!",
+        "first": "They hugged for the first time!",
+        "button": "Hug back!"
+    },
+    "pat": {
+        "name": "Pat",
+        "text": "{user} patted {who}'s head!",
+        "count": "{who} has been patted by {user} a total of {count} times!",
+        "first": "They have been patted for the first time!",
+        "button": "Pat back!"
+    },
+    "kiss": {
+        "name": "Kiss",
+        "text": "{user} kissed {who}!",
+        "count": "{who} has been kissed by {user} a total of {count} times!",
+        "first": "They kissed for the first time!",
+        "button": "Kiss back!"
+    },
+    "lick": {
+        "name": "Lick",
+        "text": "{user} licked {who}!",
+        "count": "{who} has been licked by {user} a total of {count} times!",
+        "first": "They have been licked for the first time!",
+        "button": "Lick back!"
+    },
+    "highfive": {
+        "name": "High Five",
+        "text": "{user} gave a high five to {who}!",
+        "count": "{who} has received {user}'s high five {count} times!",
+        "first": "This is the first time {who} has received a high five from {user}!",
+        "button": "Return the high five!"
+    },
+    "bonk": {
+        "name": "Bonk",
+        "text": "{user} playfully bonked {who}'s head!",
+        "count": "{who} has been bonked by {user} {count} times!",
+        "first": "{who} just got bonked by {user} for the first time!",
+        "button": "Bonk back!"
+    },
+    "poke": {
+        "name": "Poke",
+        "text": "{user} poked {who}!",
+        "count": "{who} has been poked by {user} {count} times!",
+        "first": "{who} has just been poked by {user} for the first time!",
+        "button": "Poke back!"
+    },
+    "bite": {
+        "name": "Bite",
+        "text": "{user} bit {who}!",
+        "count": "{who} has been bitten by {user} {count} times!",
+        "first": "{who} experienced their first playful bite from {user}!",
+        "button": "Bite back!"
+    },
+    "kick": {
+        "name": "Kick",
+        "text": "{user} gave {who} a friendly kick!",
+        "count": "{who} has been kicked by {user} {count} times!",
+        "first": "{who} just received their first friendly kick from {user}!",
+        "button": "Kick back!"
+    },
+    "slap": {
+        "name": "Slap",
+        "text": "{user} slapped {who}!",
+        "count": "{who} has been slapped by {user} {count} times!",
+        "first": "{who} just got slapped by {user} for the first time!",
+        "button": "Slap back!"
+    },
+    "blowjob": {
+        "name": "Blowjob",
+        "text": "{user} gave a blowjob to {who}!",
+        "count": "{who} had a blowjob from {user} a total of {count} times!",
+        "first": "It was their first blowjob!",
+        "button": "Return the favor!"
+    }
+}

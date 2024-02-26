@@ -1,0 +1,22 @@
+{
+    "auctionhouse": [
+        "In Evidenza",
+        "Offerta più alta (disc.)",
+        "Offerta più alta (asc.)",
+        "Prezzo di acquisto (desc.)",
+        "Prezzo di acquisto (asc.)",
+        "Scade in (disc.)",
+        "Scade in (asc.)",
+        "Meno recente",
+        "Più recente",
+        "Rarità della carta (disc.)",
+        "Rarità della carta (asc.)",
+        "Nome della carta (a-z)",
+        "Nome della carta (z-a)"
+    ],
+    "offerhouse": [
+        "In Evidenza",
+        "Meno recente",
+        "Più recente"
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "topics": {
+        "howToStart": "Getting started",
+        "detailedMechanics": "Detailed mechanics",
+        "commands": "Commands and controls",
+        "dates": "Dating and personalities",
+        "businesses": "Businesses and Gems",
+        "gemporium": "Gemporium and cosmetics"
+    },
+    "howToStart": {
+        "whatIs": {
+            "name": "What is {bot}?",
+            "pages": [
+                "Welcome to the guide! Here, you'll find all the assistance you need. Let's start with the basics.\n\n**What is {bot}?** {bot} is a {config:botType} Discord Bot that lets you collect amazing community-contributed cards, interact with them or trade them with your friends.\n\nRemember, {bot} doesn't claim any rights to the cards available for rolling - they belong to their respective creators."
+            ]
+        },
+        "mobile": {
+            "name": "Mobile version",
+            "pages": [
+                "You may choose to skip this page if you are using a computer, laptop, or any other device with a large screen.\n\nDue to potential readability issues of certain {bot} features on smaller devices, we provide a condensed Mobile Version that can be toggled using the {command:settings}. This feature is particularly handy if you're playing {bot} on your phone."
+            ]
+        },
+        "roll": {
+            "name": "Rolling cards",
+            "pages": [
+                "Rolling cards is the central feature of {bot}. Begin your game by using the {command:roll} command.\nUpon rolling, a new card will emerge and be linked to your account. Further details about card attributes will be explored in the following subchapter.\nAll rolled cards can be located in your harem - your card storage. Access it by entering the {command:harem} command.\n\nShould you find a rolled card unfavorable, selling it is an option.\nSelling cards grants you coins, which can be utilized in the {command:store}. More on this will be discussed in upcoming subchapters."
+            ]
+        },
+        "cardsHarems": {
+            "name": "Basic card attributes",
+            "pages": [
+                "Each rolled card possesses a rarity attribute. For a comprehensive list of all rarities, refer to the dedicated chapter titled \"Card Attributes\". At present, let's concentrate on the notion that rarity is indicated by stars, ultimately defining the card's value. Some rarities also unlock distinctive interactions, like the Dating System, which we'll discuss separately.\n\nCards carry unique IDs, such as \"ABC-123\". These IDs distinguish global cards, enabling access across all servers with {bot}. The ID's meaning is straightforward: the initial part, \"ABC\", signifies the card's image category, while \"123\" denotes its 123rd roll within the \"ABC\" card series.\n\nVariants add flavor to cards, introducing diverse personalities. One card, like ABC, can be rolled in multiple personalities. These personalities impact various gameplay aspects we'll delve into later, each with its own strengths and weaknesses.\n\nYou can utilize the {command:card} command to view specific card details. In order to do so, you will need to input the card's ID."
+            ]
+        },
+        "limits": {
+            "name": "Roll limits, votes and titles",
+            "pages": [
+                "By default, each player is restricted to {config.title:(name=player)daily} rolls per day. However, there's no need to worry! You can readily increase this limit through various activities, including voting for {bot}.\nTo begin, simply initiate the {command:vote} command. This will allow you to explore the advantages of voting, which will also be detailed in a separate section of the guide.",
+                "{bot} introduces a title system that enables you to increase your daily roll limit and receive additional bonuses. Numerous roles fall under this system, and they will be discussed in detail in a dedicated section titled \"Titles and Their Benefits.\".\n\nFor the present, let's delve into the concept of Patron Titles. These titles can be obtained by backing the project on Patreon. To learn more about the associated perks, refer to {command:patreon}."
+            ]
+        },
+        "economy": {
+            "name": "Basics of economy",
+            "pages": [
+                "As previously mentioned, you have the option to sell cards that you find unappealing. Doing so will result in their permanent removal from your collection, and you'll receive a certain amount of coins determined by the rarity of the card.\n\nYou can utilize these coins within the {command:store}, where a variety of items are available for selection. To begin with, you might consider purchasing rolls, which enable you to exceed the daily limit and roll more frequently."
+            ]
+        },
+        "items": {
+            "name": "Items and inventory",
+            "pages": [
+                "When you visit the {command:store}, you'll come across various item categories. Most of these items can be used in your {command:inventory} once purchased.\n\nLet's focus on the most important item categories.\n\n**Upgraders** enable you to enhance the rarity of your cards. **Roll Tickets** ensure a roll of a chosen rarity. **Wish Granters** allow you to increase the chance of rolling a specific character."
+            ]
+        },
+        "trading": {
+            "name": "Trades and auctions",
+            "pages": [
+                "{bot} allows you to trade your cards, backgrounds (which will be discussed in the \"Gemporium\" chapter), and currencies with other players.\n\nYou can engage in two types of trades: public and private. For a private trade offer, initiate the {command:trade new} command and follow the bot's instructions. Remember, private trades are only possible with other members of the server.\n\nTo create a public trade offer visible across all servers using {bot}, employ the {command:auctionhouse} command. There, you can either initiate a bidding for one of your cards or switch to the \"Offers\" section and create an offer for your items."
+            ]
+        },
+        "other": {
+            "name": "Other features",
+            "pages": [
+                "With this, we conclude the brief \"Getting Started\" chapter. However, we haven't explored all the game's features just yet.\n\nIf you're interested in continuing your reading, feel free to proceed to the next chapters. Alternatively, you can delve into the game's features on your own and consult the guide only if you encounter difficulties.\n\nShould you still require assistance with starting out or find yourself unable to locate an answer within the {command:guide}, don't hesitate to drop by our [Support and Community Server]({config:urls.server}). We'll be more than happy to assist you with any inquiries."
+            ]
+        }
+    },
+    "detailedMechanics": {
+        "rarities": {
+            "name": "Rarities and how to obtain them",
+            "pages": [
+                "Rarities can be divided into two main groups: rollable rarities and special rarities that are exclusively obtainable through specific methods.\n\nLet's start by discussing rollable cards.\n\nAll of these rarities can be acquired using the {command:roll} command, but each rarity comes with a distinct roll chance.\n\n{rarities:rollable}\n\nNext, we have special rarities such as...\n{rarities:special}"
+            ]
+        },
+        "dailyRolls": {
+            "name": "Daily rolls explained",
+            "pages": [
+                "Daily rolls are a crucial feature in {bot}, providing you with resources to expand your card collection. Here's a quick guide to making the most of them:\n\n1. **Reset Time:** Daily rolls reset every day at {resetHour}.\n2. **Number of Rolls:** The number of daily rolls varies based on the player's title.\n3. **Roll Cap:** Most titles have a roll cap of four times the default daily amount to maintain balance and prevent roll hoarding.\n\nYou start with {config.title:(name=player)daily} rolls daily by default. \nIf you have {config.title:(name=player)limit} or more unused rolls, you won't receive additional ones, as you will reach the roll cap.\n\nIt's important to note that a player can have multiple titles, resulting in additional rolls accumulating from each title, while the roll cap is determined by the currently selected title's limit.\n\nNow, let's examine the list of titles and their respective roll limits.\nPlease note that the first number represents additional rolls, which accumulate with rolls from other titles as well as the default player role that everyone has. The second number is the roll cap.\n\n{titles}"
+            ]
+        }
+    },
+    "commands": {
+        "harem": {
+            "name": "Harem",
+            "pages": [
+                "The {command:harem} is a command for accessing and managing all your cards. Here's a list of buttons and their respective functions to help you navigate your card collection:\n\n* {emoji:arrows.left} - previous page\n* {emoji:arrows.right} - next page\n* {emoji:arrows.top} - previous card\n* {emoji:arrows.bottom} - next card\n* {emoji:help} - guide\n* {emoji:sort} - change sorting order\n* {emoji:tag} - switch to the tag display\n* {emoji:glass} - search by name or ID\n* {emoji:select} - select card"
+            ]
+        },
+        "auctionhouse": {
+            "name": "Auction House",
+            "pages": [
+                "The Auction House is a marketplace where you can create auctions and trade offers that are visible to {bot} players globally. Whether or not you share servers with other players, everyone can participate in biddings or accept your offers.\n\nHere's a handy list of command controls to help you navigate the Auction House:\n\n* {emoji:arrows.left} - previous page\n* {emoji:arrows.right} - next page\n* {emoji:gavel} - auctions list\n* {emoji:trade} - offers list\n* {emoji:help} - guide\n* {emoji:sort} - change sorting order\n* {emoji:glass} - search by name or ID\n* {emoji:plus} - create a new auction or offer"
+            ]
+        }
+    },
+    "dates": {
+        "about": {
+            "name": "About the dating system",
+            "pages": [
+                "Dating is an optional mechanic that lets you increase your cards' affection. It's important to note that only cards of rarity equal to or above {minDateRarity} can be dated.\n\nWhile raising cards' affection is entirely optional, it is necessary to assign your cards a job, enabling you to earn Gems in various businesses once their affection is maximized."
+            ]
+        },
+        "deres": {
+            "name": "Dere personalities",
+            "pages": [
+                "Personalities are crucial attributes for cards. Each card can be rolled with one of the {dereCount} dere personalities:\n\n{personalities}\n\nThe rolled personality plays a significant role in defining various aspects of your card, with its most important impact being on interactions within the dating system."
+            ]
+        },
+        "datePanel": {
+            "name": "Date panel, card's mood, gifts",
+            "pages": [
+                "To kickstart your dating journey, you can initiate it using the {command:date} command and input the ID of any card that's at or above {minDateRarity} in rarity. Alternatively, you can utilize the {command:card} command and click on the \"Date\" button.\n\nUpon doing so, you'll be directed to the dating panel. Here, you'll encounter a brief dialogue, various fields, a selection menu, and buttons.\n\nThe dialogue will vary depending on the card's personality, but what's particularly crucial is the emoji displayed at the end of the dialogue. This emoji signifies the **mood** of your card, with three possible options - 😡 negative, 😐 neutral, and 😄 positive.\n\nThe mood carries significant weight in subsequent interactions and is a critical aspect of the dating system.\n\n* If the mood is **negative**, your card will decline to interact with you, consuming your energy.\n* If the mood is **neutral**, any positive interaction will only grant you half of the affection points.\n* If the mood is **positive**, your interactions will be rewarded in full.\n\nYour card's mood will degrade one level every three interactions or if you employ incorrect interactions that your card dislike.\n\nTo boost your card's mood, visit the {command:store} and purchase some gifts, then offer them to your cards using the selection menu in the dating panel. Keep in mind that each personality has distinct preferences, which you can figure out if you're familiar with traditional anime/manga dere personalities. If not, you can always experiment and discover them! It's worth noting that gifting is the only interaction that doesn't require any energy."
+            ]
+        },
+        "activities": {
+            "name": "Activities and affection raising",
+            "pages": [
+                "Once you've ensured your card's mood is positive, you can start interacting with them. These activities fall into different categories but operate similarly, differing in required energy and affection points earned.\n\n**Crucially, avoid repeating the same activity consecutively; cards become displeased if you do. Stay creative!**\n\nWhen selecting an activity, you'll see various variants. For instance, under \"Compliment\", you can praise your card's fashion sense, intelligence, or talent. This adds an extra layer of challenge - adapt your actions to the card's personality.\n\nEach personality has preferred, disliked, and neutral activities. Disliked ones decrease affection points, liked ones increase them, and neutral ones have no impact.\n\nOnce you've maxed out your card's affection, a new button, \"Assign a Job\", unlocks. Use it to assign a card to a business, which will be explained in the next guide chapter."
+            ]
+        }
+    },
+    "businesses": {
+        "about": {
+            "name": "About the business system",
+            "pages": [
+                "Businesses serve as the primary source of {emoji:gem} **Gem** income, crucial for pulling on banners in the **Gemporium** (details in the next chapter). These businesses essentially function as mini-games that can be played alongside your cards, provided you've maximized their affection (refer to the last chapter for details).\n\nLet's kick things off by listing the currently available businesses:\n{businesses}\n\nTo initiate any business, use the corresponding command. Afterward, access the card date panel and assign your card to the chosen business. In the following subchapters, we'll delve into each business's specifics."
+            ]
+        },
+        "cafe": {
+            "name": "Café",
+            "pages": [
+                "Café, inspired by incremental clicker games, centers around serving coffee to customers, with your cards taking on crucial roles as workers. To excel in this business, you can elevate your café's attributes for passive income, or you can manually click for Gems, albeit at the cost of energy.\n\nEach attribute corresponds to a specific worker position, and managing your workers' assignments impacts your café's performance. It's noteworthy that card personalities have their preferences when it comes to positions, and some may even refuse to work in disliked roles. \n\nLet's explore the attributes, their associated positions, and personality preferences - proceed to the next page.",
+                "1. **Passive Income** (Chef)\n Passive Income is essential to kickstart your earnings passively, allowing your café to serve coffee automatically. It quantifies the number of {emoji:gem} **Gems** your business generates per minute of serving. Danderes are ideal candidates for the Chef position, excelling in this role.\n2. **Click Income** (Barista)\n Click Income determines the number of {emoji:gem} **Gems **you earn with each manual click while selling coffee. Remember, each click consumes energy.\n Yanderes shine as Baristas, providing the most effective performance.\n3. **Serving Time** (Server)\n Serving Time manages the duration required to serve coffee to a single customer. This position is favored by Derederes.\n4. **Click Capacity** (Cashier)\n Click Capacity dictates the number of clicks you can make, and each click replenishes after 24 hours. Himederes are the preferred choice for Cashier.\n5. ** Popularity** (Promoter)\n Popularity enhances your business by attracting more customers. Increasing popularity multiplies your {emoji:gem} **Gem** income, especially effective with Tsunderes in the Promoter position.\n6. **Storage Limit** (Banker)\n Storage Limit elevates the cap on the number of Gems your business can store, enabling it to run for longer durations before reaching capacity. This is a perfect fit for Kuuderes.",
+                "Once you've assigned your selected cards to their preferred positions, you're ready to start serving coffee. Click on the \"Start Serving\" button and patiently wait until the serving process is complete. Afterward, you can collect the {emoji:gem} **Gems** you've earned.\n\nBut what should you do with all these {emoji:gem} **Gems**? For that, turn to the next chapter, where we delve into the **Gemporium**, guiding you on how to make the most of your hard-earned resources."
+            ]
+        }
+    },
+    "gemporium": {
+        "about": {
+            "name": "About the Gemporium",
+            "pages": [
+                "Gemporium ({command:gemporium}) is a truly enchanting place, where you can put your hard-earned Gems to good use. Every few weeks, Gemporium unveils new banners, allowing you to make pulls by spending your precious {emoji:gem} **Gems**.\n\nThese banners are a treasure trove of diverse rewards, including items and cosmetic items. Keep in mind that some banners may be one-time exclusives, never to return, while others follow a periodic cycle, reappearing every few months.\n\nIn the upcoming subchapters, we will embark on a journey to uncover all the cosmetics waiting to be obtained in the Gemporium."
+            ]
+        },
+        "backgrounds": {
+            "name": "Backgrounds",
+            "pages": [
+                "Backgrounds serve as a delightful way to personalize the appearance of your harem or profile, adding a touch of uniqueness to your experience. There are two distinct types of backgrounds, each exclusively usable for specific commands outlined above.\n\nTo explore the details of available backgrounds, utilize the {command:album background} command in conjunction with their respective IDs. To manage your collection of backgrounds, navigate to your {command:inventory} and access the Backgrounds category. It's important to note that you can only have one active background for each command.\n\nAdditionally, backgrounds are tradable. You have the option to offer them in the {command:auctionhouse} or craft a standard trade offer using {command:trade new}. Feel free to embrace the art of negotiation and exchange backgrounds to further enrich your collection."
+            ]
+        }
+    }
+}   

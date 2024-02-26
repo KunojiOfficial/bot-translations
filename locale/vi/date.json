@@ -1,0 +1,210 @@
+{
+    "requiresEnergy": "Cần {energy} năng lượng",
+    "freeEnergy": "Không cần năng lượng",
+    "actions": [
+        {
+            "label": "Tặng quà",
+            "description": "giúp làm quen hiệu quả."
+        },
+        {
+            "label": "Khen",
+            "description": "ai cũng thích 1 lời khen... phải không?"
+        },
+        {
+            "label": "Dắt đi chơi",
+            "description": "nhớ chọn 1 nơi thật hợp lý nhá!"
+        },
+        {
+            "label": "Chơi cùng nhau",
+            "description": "cùng chơi nào!"
+        }
+    ],
+    "mainDialogue": {
+        "0": {
+            "tsundere": "Oh, bạn nữa à? Bạn muốn cái gì?",
+            "yandere": "Mình có thể giúp bạn được gì không?",
+            "dandere": "C-chào... Bạn cần gì ở mình vậy?",
+            "kuudere": "Oh, chào bạn.",
+            "deredere": "Xin chào~! Dạo này bạn thế nào?",
+            "himedere": "Nhớ phải cúi đầu chào trước khi nói chuyện với tôi!"
+        },
+        "1": {
+            "tsundere": "T-tớ không vui khi được gặp lại cậu đâu! Đừng nghĩ bậy! Đ-đồ ngốc!",
+            "yandere": "Chà chà, tình yêu duy nhất trong tâm hồn của tôi đã tới rồi~!",
+            "dandere": "C-c-chào bạn! Nãy giờ mình đợi bạn đó!",
+            "kuudere": "Bạn cuối cùng cũng đã tới.",
+            "deredere": "Ey, đằng kia! Muốn đi chơi cùng mình không?",
+            "himedere": "À, người hầu quý giá của tôi đã quay về!"
+        },
+        "-1": {
+            "tsundere": "Bạn nữa à?! Bạn không kiếm chỗ nào khác mà ngồi đi, đồ ngốc?",
+            "yandere": "Mỏi chân à? Bạn cho tôi cắt chúng ra không?",
+            "dandere": "Ugh...",
+            "kuudere": "...",
+            "deredere": "Ồ, bạn còn ở đây à?!",
+            "himedere": "Tránh xa tôi ra!"
+        }
+    },
+    "gift": {
+        "likes": {
+            "tsundere": "Sao bạn biết tôi đây là món tớ yêu thích... Ý tớ là... Ugh... Cái này cũng được thôi.",
+            "yandere": "Bạn hiểu ý tôi muốn gì! Như là ông trời đã sắp đặt duyên phận này.",
+            "dandere": "C-cho tớ? Th-thật là đáng yêu. Cảm ơn bạn.",
+            "kuudere": "Bạn đã làm rất tốt.",
+            "deredere": "TÔI YÊU CHÚNG! BẠN LÀ NHẤT!",
+            "himedere": "Ngươi có mắt thẩm mỹ trong việc chọn quà cho tôi đấy, người hầu yêu quý của ta."
+        },
+        "dislikes": {
+            "tsundere": "Bạn mới móc rác ra món quà này à? Ugh! Tránh xa tôi ra!",
+            "yandere": "Ôi trời ~ Tôi phải tra tấn bạn bằng món quà này ra sao đây?",
+            "dandere": "Ừm... ờ... Xin lỗi, nhưng tôi không thích thứ này.",
+            "kuudere": "*ném qua một bên*",
+            "deredere": "Hm... Chắc bạn giữ lại món quà này đi, mình không lấy đâu.",
+            "himedere": "Vứt thứ này về nơi nó được định đi... và cả bản thân bạn nữa."
+        },
+        "neutral": {
+            "tsundere": "Đây là tất cả những gì bạn có thể nghĩ ra à? Rõ ràng là bạn không biết gì về chọn và tặng quà cả.",
+            "yandere": "Hm, thật ngạc nhiên. Nhưng bạn nghĩ tôi thích sự ngạc nhiên à?",
+            "dandere": "C-cảm ơn...",
+            "kuudere": "Không thể ngờ được.",
+            "deredere": "ĐÓ LÀ MÓN ƯA THÍCH... THỨ 18 CỦA MÌNH!",
+            "himedere": "Xếp nó vào kho quà của tôi, thường dân."
+        }
+    },
+    "moodChange": {
+        "-1": "{name} trở nên khó chịu...",
+        "0": "{name} trở nên xa cách...",
+        "1": "Mặt của {name} tỏa sáng..."
+    },
+    "affectionChange": {
+        "-1": "{name} dường như không còn hứng thú với bạn nữa...",
+        "0": "Cảm xúc của {name} về bạn không thay đổi...",
+        "0.5": "{name} dường như thích bạn hơn một xíu...",
+        "1": "{name} thích bạn hơn nhiều..."
+    },
+    "compliment": {
+        "placeholder": "Mình nên nói gì?",
+        "options": {
+            "talent": "Bạn thật là đầy tài năng.",
+            "shy": "Bạn lúc ngại trông dễ thương lắm.",
+            "intelligence": "Tri thức bạn cao siêu vậy.",
+            "intriguing": "Bạn thật là thú vị.",
+            "personality": "Bạn thật là mạnh mẽ và tự lập.",
+            "elegant": "Bạn thật là một quý cô yêu kiều.",
+            "fashion": "Cách phối đồ của bạn rất đẹp."
+        },
+        "likes": {
+            "tsundere": "Đ-đồ ngốc! Đừng tự nhiên khen tớ thế!",
+            "yandere": "Oh, cứ khen tớ nữa đi, không là tớ lấy thanh quản cậu đấy.",
+            "dandere": "Oh, um, aaa... Thật tử tế.",
+            "kuudere": "Bạn khá là tốt bụng, phải không?",
+            "deredere": "Bạn là NHẤT! Khen tớ nữa đi!",
+            "himedere": "Oh, ho, ho! Ngươi đúng biết tính ta đấy, người hầu."
+        },
+        "dislikes": {
+            "tsundere": "BẠN ĐẦN VẬY?! TỚ KHÔNG MUỐN NGHE!",
+            "yandere": "Dường như bạn ngậm mồm thì tốt hơn. Hay để tôi khâu lại?",
+            "dandere": "Cái gì cơ?",
+            "kuudere": "Thật là uổng phí thời gian...",
+            "deredere": "Eeeh?! Vậy mà tớ tưởng cậu là người vui tính chứ!",
+            "himedere": "Ra khỏi tầm mắt tôi, bần dân!"
+        },
+        "neutral": {
+            "tsundere": "Tôi có một vẻ đẹp đặc trưng, không như bạn. Đồ ngốc.",
+            "yandere": "Lời nói đó có ý nghĩa gì không?",
+            "dandere": "K-không... D-ừng lại đi...",
+            "kuudere": "Tôi sẽ nhớ điều này.",
+            "deredere": "Haha! Bạn cũng vậy!",
+            "himedere": "Hiển nhiên vậy."
+        }
+    },
+    "takeout": {
+        "placeholder": "Chúng ta đi đâu đây?",
+        "options": {
+            "amusement-park": "Khu vui chơi",
+            "quiet-cafe": "Quán Cafe yên ắng",
+            "art-gallery": "Phòng trưng bày Nghệ thuật",
+            "beach": "Bãi biển",
+            "high-end-restaurant": "Nhà hàng cao cấp",
+            "park": "Công viên",
+            "music-festival": "Lễ hội âm nhạc"
+        },
+        "likes": {
+            "tsundere": "B-bạn... Bạn đã làm tốt, đồ ngốc!",
+            "yandere": "Đây chẳng phải là nơi hoàn hảo để chúng ta ở bên nhau mãi mãi sao?",
+            "dandere": "O-oh! Bạn cũng thích nơi này à?!",
+            "kuudere": "Cũng vui đó chứ.",
+            "deredere": "ĐI THÔI NÀO! Đây là một buổi hẹn hò!",
+            "himedere": "Đây đúng là nơi mà hoàng gia tận hưởng thời gian của họ. Bạn quả là một người hầu xuất sắc."
+        },
+        "dislikes": {
+            "tsundere": "Bạn biết gì không, đồ đần? Đi một mình đi.",
+            "yandere": "Tốt nhất là bạn đừng đưa tôi tới đó. Hay tôi nên xích bạn vào một chiếc ghế trong nhà tôi?",
+            "dandere": "Thật ra... Tôi có kế hoạch khác... Vậy, hẹn gặp lại!",
+            "kuudere": "*nhíu mày*",
+            "deredere": "Thật tiếc, bạn thật là quá đần!",
+            "himedere": "Thật là thiếu tế nhị."
+        },
+        "neutral": {
+            "tsundere": "Rốt cuộc nơi này là như thế nào?",
+            "yandere": "Đây không phải là nơi mà tôi đã mong được bạn dẫn tới.",
+            "dandere": "T-tại sao chúng ta lại ở đây?",
+            "kuudere": "Tôi cho rằng nơi này phù hợp với sở thích của bạn?",
+            "deredere": "Đừng lo lắng, chúng ta có thể nghĩ ra điều gì đó thú vị để cùng nhau làm ở đây.",
+            "himedere": "Tôi hiểu rồi, đây là một địa điểm dành cho dân bình thường?"
+        }
+    },
+    "play": {
+        "placeholder": "Chúng ta nên chơi gì?",
+        "options": {
+            "competitive-game": "Game điện tử cạnh tranh",
+            "board-game": "Board game hợp tác",
+            "puzzle-game": "Game Giải đố",
+            "retro-game": "Game phòng arcade",
+            "vr-game": "Game thực tế ảo",
+            "mobile-game": "Trò chơi Di động",
+            "trivia-game": "Đố vui",
+            "outdoor-sport": "Thể thao ngoài trời"
+        },
+        "likes": {
+            "tsundere": "Bạn thực sự không tệ trong việc này! Thật ngạc nhiên.",
+            "yandere": "Oh, chúng ta nên nắm tay nhau khi hẹn hò nhé! Tốt hơn nữa, tôi có thể khâu tay chúng ta lại với nhau!",
+            "dandere": "C-chúng ta thật là một bộ đôi ăn ý!",
+            "kuudere": "Cũng thú vị.",
+            "deredere": "ĐÚNG RỒI! PHẢI VẬY CHỨ!",
+            "himedere": "Có vẻ như bạn biết cách giải trí của lớp quý tộc, thật là một người hầu siêng năng."
+        },
+        "dislikes": {
+            "tsundere": "Trò chơi ngu xuẩn, bạn cũng vậy. ĐỒ NGỐC! ĐỒ NGỐC! ĐỒ NGỐC!",
+            "yandere": "Tôi thà xếp 10.000 mảnh puzzle khi được trói chung với bạn hơn.",
+            "dandere": "Oh... tôi nghĩ đây là trò chơi một người chơi. C-Chúc vui vẻ vậy!",
+            "kuudere": "Thật thiếu trí tưởng tượng.",
+            "deredere": "THẬT là một thất bại ấn tượng!",
+            "himedere": "Hãy chơi trò chơi thường dân này mình bạn đi."
+        },
+        "neutral": {
+            "tsundere": "Đúng, bạn khá tệ trong trò này. Không sao cả. Tôi biết bạn ngốc mà.",
+            "yandere": "Vâng, nó có thể tồi tệ hơn. Như không được thấy bạn khóc vì xấu hổ.",
+            "dandere": "Đ-đây là thứ bạn thích à?",
+            "kuudere": "Tôi hiểu rồi...",
+            "deredere": "Thật may vì có mặt tôi ở đây; nếu không thì hôm nay đã là một buổi chiều khủng khiếp.",
+            "himedere": "Oh? Bạn thật may mắn vì nhìn chung bạn cũng hữu dụng, vì trò chơi này... thật tệ."
+        }
+    },
+    "moodDecline": {
+        "tsundere": "Bạn bị ngốc hay sao vậy? Tôi không có tâm trạng.",
+        "yandere": "Anh yêu, tôi không có tâm trạng.",
+        "dandere": "Tôi... tôi không muốn... Tôi không có tâm trạng...",
+        "kuudere": "Không. Không có tâm trạng.",
+        "deredere": "Tuyệt đối không! Tôi không có tâm trạng.",
+        "himedere": "Tôi từ chối! Tôi không có tâm trạng."
+    },
+    "repeatDecline": {
+        "tsundere": "Đi bác sĩ đi! Tôi sẽ không nói lại đâu! Tai của bạn chắc chắn không hoạt động bình thường rồi! Đồ ngốc!",
+        "yandere": "Nữa à? Bạn có muốn bị tra tấn không?",
+        "dandere": "Ugh... Hay lần này chúng ta thử cái gì đó khác biệt xíu?",
+        "kuudere": "Nhàm chán. Hãy làm cái gì đó khác biệt đi.",
+        "deredere": "Lần này hãy thử cái gì đó mới mẽ nhé!",
+        "himedere": "Tôi từ chối. Rời khỏi tầm mắt tôi; Tôi sẽ không lặp lại những gì đã nói đâu."
+    }
+}

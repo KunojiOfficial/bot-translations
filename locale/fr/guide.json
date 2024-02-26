@@ -1,0 +1,151 @@
+{
+    "topics": {
+        "howToStart": "Pour commencer",
+        "detailedMechanics": "Mécanique détaillée",
+        "commands": "Commandes et contrôles",
+        "dates": "Rencontres et personnalités",
+        "businesses": "Entreprises et Gemmes",
+        "gemporium": "Gemporium et cosmétiques"
+    },
+    "howToStart": {
+        "whatIs": {
+            "name": "Qu'est-ce que {bot}?",
+            "pages": [
+                "Bienvenue dans le guide! Ici, vous trouverez toute l'aide dont vous avez besoin. Commençons par les bases.\n\nQu'est-ce que {bot} ? {bot} est un bot Discord de type {config:botType} qui vous permet de collectionner d'incroyables cartes contribuées par la communauté, d'interagir avec elles ou de les échanger avec vos amis.\n\nN'oubliez pas que {bot} ne revendique aucun droit sur les cartes disponibles à la rotation - elles appartiennent à leurs créateurs respectifs."
+            ]
+        },
+        "mobile": {
+            "name": "Version mobile",
+            "pages": [
+                "Vous pouvez choisir de passer cette page si vous utilisez un ordinateur, un ordinateur portable ou tout autre appareil avec un grand écran.\n\nEn raison de possibles problèmes de lisibilité de certaines fonctionnalités de {bot} sur des appareils plus petits, nous proposons une version mobile condensée qui peut être activée/désactivée à l'aide de la commande {command:settings}. Cette fonction est particulièrement pratique si vous jouez à {bot} sur votre téléphone."
+            ]
+        },
+        "roll": {
+            "name": "Tirez des cartes",
+            "pages": [
+                "Lancer des cartes est la fonctionnalité centrale de {bot}. Démarrez votre partie en utilisant la commande {command:roll}.\nAprès avoir tiré, une nouvelle carte émergera et sera liée à votre compte. Des détails supplémentaires sur les attributs des cartes seront explorés dans le sous-chapitre suivant.\nToutes les cartes lancées peuvent être trouvées dans votre harem - votre espace de stockage de cartes. Accédez-y en utilisant la commande {command:harem}.\n\nSi vous trouvez une carte lancée indésirable, la vendre est une option.\nLa vente de cartes vous accorde des pièces, qui peuvent être utilisées dans la {command:store}. Plus d'informations à ce sujet seront discutées dans les sous-chapitres à venir."
+            ]
+        },
+        "cardsHarems": {
+            "name": "Attributs de la carte de base",
+            "pages": [
+                "Chaque carte obtenue possède un attribut de rareté. Pour une liste complète de toutes les raretés, référez-vous au chapitre dédié intitulé \"Attributs des cartes\". À présent, concentrons-nous sur l'idée que la rareté est indiquée par des étoiles, définissant finalement la valeur de la carte. Certaines raretés débloquent également des interactions distinctes, comme le Système de Rendez-vous, que nous discuterons séparément.\n\nLes cartes ont des identifiants uniques, tels que \"ABC-123\". Ces identifiants distinguent les cartes globales, permettant l'accès sur tous les serveurs avec {bot}. La signification de l'identifiant est simple : la partie initiale, \"ABC\", signifie la catégorie d'image de la carte, tandis que \"123\" représente le 123e tirage dans la série de cartes \"ABC\".\n\nLes variantes ajoutent de la saveur aux cartes, introduisant des personnalités diverses. Une carte, comme ABC, peut être obtenue avec plusieurs personnalités. Ces personnalités impactent divers aspects du gameplay que nous explorerons plus tard, chacune ayant ses propres forces et faiblesses.\n\nVous pouvez utiliser la commande {command:card} pour consulter les détails spécifiques d'une carte. Pour ce faire, vous devrez saisir l'identifiant de la carte."
+            ]
+        },
+        "limits": {
+            "name": "Limites de tirages, votes et titres",
+            "pages": [
+                "Par défaut, chaque joueur est limité à {config.title:(name=player)daily} tires par jour. Cependant, il n'y a pas besoin de s'inquiéter! Vous pouvez facilement augmenter cette limite par diverses activités, y compris voter pour {bot}.\nPour commencer, lancez simplement la commande {command:vote} . Cela vous permettra d'explorer les avantages du vote, qui seront également détaillés dans une section séparée du guide.",
+                "{bot} introduit un système de titres qui vous permet d'augmenter votre limite de tirages quotidien et de recevoir des bonus supplémentaires. De nombreux rôles font partie de ce système, et ils seront discutés en détail dans une section dédiée intitulée \"Titres et leurs avantages\".\n\nPour le moment, plongeons dans le concept de Titres de partenariat. Ces titres peuvent être obtenus en soutenant le projet sur Patreon. Pour en savoir plus sur les avantages associés, consultez {command:patreon}."
+            ]
+        },
+        "economy": {
+            "name": "Les bases de l'économie",
+            "pages": [
+                "Comme mentionné précédemment, vous avez la possibilité de vendre des cartes que vous trouvez peu attirentes. Ce faisant, elles seront définitivement retirées de votre collection, et vous recevrez une certaine quantité de pièces déterminée par la rareté de la carte.\n\nVous pouvez utiliser ces pièces dans le {command:store}. où une variété d'articles est disponible pour sélection. Pour commencer, vous pourriez envisager d'acheter des tirages, ce qui vous permet de dépasser la limite quotidienne et de lancer plus fréquemment."
+            ]
+        },
+        "items": {
+            "name": "Objets et inventaire",
+            "pages": [
+                "Lorsque vous visitez la {command:store}, vous trouverez différentes catégories d'objets. La plupart de ces objets peuvent être utilisés dans votre {command:inventory} une fois achetés.\n\nConcentrons-nous sur les catégories d'objets les plus importantes.\n\nLes **Améliorateurs** vous permettent d'améliorer la rareté de vos cartes. Les **Tickets de tirage** garantissent un lancer d'une rareté choisie. Les **Wish Granters** vous permettent d'augmenter la chance d'obtenir un personnage spécifique."
+            ]
+        },
+        "trading": {
+            "name": "Échanges et enchères",
+            "pages": [
+                "{bot} vous permet d'échanger vos cartes, arrière-plans (qui seront discutés dans le chapitre \"Gemporium\") et devises avec d'autres joueurs.\n\nVous pouvez participer à deux types d'échanges: publics et privés. Pour une offre d'échange privée, initiez la commande {command:trade new} et suivez les instructions du bot. N'oubliez pas que les échanges privés ne sont possibles qu'avec d'autres membres du serveur.\n\nPour créer une offre d'échange public visible sur tous les serveurs utilisant {bot}, utilisez la commande {command:auctionhouse}. Là, vous pouvez soit initier une enchère pour l'une de vos cartes, soit passer à la section \"Offres\" et créer une offre pour vos objets."
+            ]
+        },
+        "other": {
+            "name": "Autres caractéristiques",
+            "pages": [
+                "Avec cela, nous concluons le bref chapitre \"Pour commencer\". Cependant, nous n'avons pas encore exploré toutes les fonctionnalités du jeu.\n\nSi vous êtes intéressé par la poursuite de votre lecture, n'hésitez pas à passer aux chapitres suivants. Alternativement, vous pouvez explorer les fonctionnalités du jeu par vous-même et consulter le guide uniquement si vous rencontrez des difficultés.\n\nSi vous avez toujours besoin d'aide pour commencer ou si vous ne parvenez pas à trouver une réponse dans la {command:guide}, n'hésitez pas à nous rendre visite sur notre [Serveur de support et de communauté]({config:urls.server}). Nous serons plus qu'heureux de vous aider avec toutes vos questions."
+            ]
+        }
+    },
+    "detailedMechanics": {
+        "rarities": {
+            "name": "Raretés et comment les obtenir",
+            "pages": [
+                "Les raretés peuvent être divisées en deux groupes principaux: les raretés obtenables par tirage et les raretés spéciales qui ne sont obtenables que par des méthodes spécifiques.\n\nCommençons par discuter des cartes obtenables par tirage.\n\nToutes ces raretés peuvent être acquises en utilisant la commande {command:roll}, mais chaque rareté est associée à une chance de tirage distincte.\n\n{rarities:rollable}\n\nEnsuite, nous avons des raretés spéciales telles que...\n{rarities:special}"
+            ]
+        },
+        "dailyRolls": {
+            "name": "Tirages quotidiens expliqués",
+            "pages": [
+                "Les tirages quotidiens sont une fonctionnalité cruciale dans {bot}, vous fournissant des ressources pour étendre votre collection de cartes. Voici un guide rapide pour en tirer le meilleur parti:\n\n1. **Heure de Réinitialisation:** Les tirages quotidiens sont réinitialisés tous les jours à {resetHour}.\n2. **Nombre de tirages:** Le nombre de tirages quotidiens varie en fonction du titre du joueur.\n3. **Limite de tirages:** La plupart des titres ont une limite de tirages de quatre fois la quantité quotidienne par défaut pour maintenir l'équilibre et éviter l'accumulation excessive.\nVous commencez avec {config.title:(name=player)daily} tirages quotidiens par défaut.\nSi vous avez {config.title:(name=player)limit} ou plus de tirages inutilisés, vous n'en recevrez pas d'autres, car vous atteindrez la limite de tirages.\n\nIl est important de noter qu'un joueur peut avoir plusieurs titres, ce qui se traduit par des tirages supplémentaires s'accumulant à partir de chaque titre, tandis que la limite de tirages est déterminée par le titre actuellement sélectionné.\n\nMaintenant, examinons la liste des titres et de leurs limites de tirages respectives.\nVeuillez noter que le premier nombre représente des tirages supplémentaires, qui s'accumulent avec les tirages d'autres titres ainsi que le rôle par défaut du joueur que tout le monde possède. Le deuxième nombre est la limite de tirages.\n\n{titles}"
+            ]
+        }
+    },
+    "commands": {
+        "harem": {
+            "name": "Harem",
+            "pages": [
+                "L' {command:harem} est une commande pour accéder et gérer toutes vos cartes. Voici une liste de boutons et de leurs fonctions respectives pour vous aider à naviguer dans votre collection de cartes:\n\n* {emoji:arrows.left} - page précédente\n* {emoji:arrows.right} - page\n* {emoji:arrows.top} - carte précédente\n* {emoji:arrows.bottom} - carte suivante\n* {emoji:help} - guide\n* {emoji:sort} - changer l'ordre de tri\n* {emoji:tag} - basculer sur l'affichage du tag\n* {emoji:glass} - rechercher par nom ou ID\n* {emoji:select} - sélectionner une carte"
+            ]
+        },
+        "auctionhouse": {
+            "name": "Maison de vente aux enchères",
+            "pages": [
+                "La Maison de vente aux enchères est un marché où vous pouvez créer des enchères et des offres d'échange qui sont visibles par les joueurs {bot} dans le monde entier. Que vous partagiez ou non des serveurs avec d'autres joueurs, tout le monde peut participer à des enchères ou accepter vos offres.\n\nVoici une liste pratique de contrôles de commandes pour vous aider à naviguer dans la Maison des ventes:\n\n* {emoji:arrows.left} - page\n* {emoji:arrows.right} - page\n* {emoji:gavel} - liste des ventes\n* {emoji:trade} - liste des offres\n* {emoji:help} - guide\n* {emoji:sort} - changer l'ordre de tri\n* {emoji:glass} - rechercher par nom ou ID\n* {emoji:plus} - créer une nouvelle vente aux enchères ou une offre"
+            ]
+        }
+    },
+    "dates": {
+        "about": {
+            "name": "À propos du système de rencontres",
+            "pages": [
+                "Les rencontres sont un mécanisme facultatif qui vous permet d'augmenter l'affection de vos cartes. Il est important de noter que seules les cartes de rareté équivalentes ou supérieures à {minDateRarity} peuvent être datées.\n\nBien que augmenter l'affection des cartes soit entièrement optionnelle, il est nécessaire d'assigner un travail à vos cartes, vous permettant de gagner des Gemmes dans différentes entreprises une fois leur affection maximisée."
+            ]
+        },
+        "deres": {
+            "name": "Dere personalities",
+            "pages": [
+                "Les personnalités sont des attributs cruciaux pour les cartes. Chaque carte peut être tiré avec une personnalité {dereCount} Dere:\n\n{personalities}\n\nLa personnalité roulée joue un rôle important dans la définition des différents aspects de votre carte. avec son impact le plus important étant sur les interactions au sein du système de rencontres."
+            ]
+        },
+        "datePanel": {
+            "name": "Panneau de date, humeur de la carte, cadeaux",
+            "pages": [
+                "Pour démarrer votre aventure amoureuse, vous pouvez l'initier en utilisant la commande {command:date} et en saisissant l'ID de n'importe quelle carte qui est de rareté {minDateRarity} ou supérieure. Alternativement, vous pouvez utiliser la commande {command:card} et cliquer sur le bouton \"Date\".\n\nEn le faisant, vous serez dirigé vers le panneau de rendez-vous. Ici, vous rencontrerez un bref dialogue, divers champs, un menu de sélection et des boutons.\n\nLe dialogue variera en fonction de la personnalité de la carte, mais ce qui est particulièrement crucial, c'est l'emoji affiché à la fin du dialogue. Cet emoji signifie l'**humeur** de votre carte, avec trois options possibles - 😡 négative, 😐 neutre et 😄 positive.\n\nL'humeur a un poids significatif dans les interactions ultérieures et est un aspect crucial du système de rendez-vous.\n\n* Si l'humeur est **négative**, votre carte refusera d'interagir avec vous, consommant votre énergie.\n* Si l'humeur est **neutre**, toute interaction positive ne vous accordera que la moitié des points d'affection.\n* Si l'humeur est **positive**, vos interactions seront récompensées intégralement.\nL'humeur de votre carte diminuera d'un niveau tous les trois interactions ou si vous utilisez des interactions incorrectes que votre carte n'aime pas.\n\nPour améliorer l'humeur de votre carte, visitez la {command:store} et achetez quelques cadeaux, puis offrez-les à vos cartes en utilisant le menu de sélection dans le panneau de rendez-vous. Gardez à l'esprit que chaque personnalité a des préférences distinctes, que vous pouvez découvrir si vous êtes familier avec les personnalités dere traditionnelles des anime/manga. Sinon, vous pouvez toujours expérimenter et les découvrir ! Il est à noter que l'offre de cadeaux est la seule interaction qui ne nécessite aucune énergie."
+            ]
+        },
+        "activities": {
+            "name": "Activités et augmentation de l'affection",
+            "pages": [
+                "Une fois que vous avez assuré que l'humeur de votre carte est positive, vous pouvez commencer à interagir avec elle. Ces activités tombent dans différentes catégories mais fonctionnent de manière similaire, différant en énergie requise et en points d'affection gagnés.\n\n**Il est crucial d'éviter de répéter la même activité consécutivement ; les cartes deviennent mécontentes si vous le faites. Restez créatif!**\n\nLors de la sélection d'une activité, vous verrez différentes variantes. Par exemple, sous \"Compliment\", vous pouvez louer le sens de la mode, l'intelligence ou le talent de votre carte. Cela ajoute une couche supplémentaire de défi - adaptez vos actions à la personnalité de la carte.\n\nChaque personnalité a des activités préférées, détestées et neutres. Celles détestées diminuent les points d'affection, celles aimées les augmentent, et celles neutres n'ont aucun impact.\n\nUne fois que vous avez maximisé l'affection de votre carte, un nouveau bouton, \"Attribuer un travail\", se débloque. Utilisez-le pour assigner une carte à une entreprise, ce qui sera expliqué dans le prochain chapitre du guide."
+            ]
+        }
+    },
+    "businesses": {
+        "about": {
+            "name": "À propos du système d'entreprise",
+            "pages": [
+                "Les entreprises constituent la principale source de revenus en {emoji:gem} **gemmes**, essentiels pour effectuer des tirages dans le **Gemporium** (détails dans le chapitre suivant). Ces entreprises fonctionnent essentiellement comme des mini-jeux qui peuvent être joués aux côtés de vos cartes, à condition que vous ayez maximisé leur affection (reportez-vous au dernier chapitre pour plus de détails).\n\nCommençons par énumérer les entreprises actuellement disponibles:\n{businesses}\n\nPour lancer une entreprise, utilisez la commande correspondante. Ensuite, accédez au panneau des données de la carte et attribuez votre carte à l'entreprise choisie. Dans les sous-chapitres suivants, nous explorerons les spécificités de chaque entreprise."
+            ]
+        },
+        "cafe": {
+            "name": "Café",
+            "pages": [
+                "\"Café\", inspiré des jeux incrémentaux de type clicker, se concentre sur le service de café aux clients, vos cartes assumant des rôles cruciaux en tant que travailleurs. Pour exceller dans ce commerce, vous pouvez augmenter les attributs de votre café pour un revenu passif, ou vous pouvez cliquer manuellement pour obtenir des Gemmes, bien que cela coûte de l'énergie.\n\nChaque attribut correspond à un poste de travail spécifique, et la gestion des affectations de vos travailleurs a un impact sur la performance de votre café. Il est à noter que les personnalités des cartes ont leurs préférences en ce qui concerne les postes, et certaines peuvent même refuser de travailler dans des rôles qu'elles n'apprécient pas.\n\nExplorons les attributs, leurs postes associés et les préférences de personnalité - passons à la page suivante.",
+                "1. **Revenu passif** (Chef)\nLe revenu passif est essentiel pour démarrer vos gains de manière passive, permettant à votre café de servir du café automatiquement. Il quantifie le nombre de {emoji:gem} **gemmes** que votre entreprise génère par minute de service. Les Danderes sont des candidats idéaux pour le poste de Chef, excelling dans ce rôle.\n\n2. **Revenu par clic** (Barista)\nLe revenu par clic détermine le nombre de {emoji:gem} **gemmes **que vous gagnez à chaque clic manuel lors de la vente de café. Rappelez-vous, chaque clic consomme de l'énergie. Les Yanderes excellent en tant que Baristas, offrant la performance la plus efficace.\n\n3. **Temps de service** (Serveur)\nLe temps de service gère la durée nécessaire pour servir du café à un seul client. Ce poste est favorisé par les Derederes.\n\n4. **Capacité de clic** (Caissier)\nLa capacité de clic dicte le nombre de clics que vous pouvez faire, et chaque clic se recharge après 24 heures. Les Himederes sont le choix préféré pour le poste de Caissier.\n\n5. **Popularité** (Promoteur)\nLa popularité améliore votre entreprise en attirant plus de clients. Augmenter la popularité multiplie votre revenu en {emoji:gem} **gemmes** , particulièrement efficace avec les Tsunderes dans le rôle de Promoteur.\n\n6. **Limite de stockage** (Banquier)\nLa limite de stockage élève le plafond du nombre de Gems que votre entreprise peut stocker, lui permettant de fonctionner pendant des périodes plus longues avant d'atteindre sa capacité. C'est un choix parfait pour les Kuuderes.",
+                "Une fois que vous avez attribué vos cartes sélectionnées à leurs postes préférées, vous êtes prêt à commencer à servir du café. Cliquez sur le bouton « Commencer la fonction » et attendez patiemment que le processus de service soit terminé. Après cela, vous pouvez récupérer les **Gemmes** {emoji:gem} que vous avez gagnées.\n\nMais que devriez-vous faire de toutes ces **Gemmes** {emoji:gem} ? Pour cela, passez au chapitre suivant, où nous nous plongons dans le **Gemporium**, vous guidant sur la manière de tirer le meilleur parti de vos ressources durement gagnées."
+            ]
+        }
+    },
+    "gemporium": {
+        "about": {
+            "name": "À propos du Gemporium",
+            "pages": [
+                "Gemporium ({command:gemporium}) est un endroit vraiment enchanteur où vous pouvez mettre à profit vos Gemmes durement gagnés. Toutes les quelques semaines, Gemporium dévoile de nouvelles bannières, vous permettant de faire des tirages en dépensant vos précieux {emoji:gem} Gemmes.\n\nCes bannières sont un trésor de récompenses diverses, comprenant des objets et des éléments cosmétiques. Gardez à l'esprit que certaines bannières peuvent être des exclusivités ponctuelles, ne revenant jamais, tandis que d'autres suivent un cycle périodique, réapparaissant tous les quelques mois.\n\nDans les prochains sous-chapitres, nous entreprendrons un voyage pour découvrir tous les cosmétiques qui attendent d'être obtenus dans le Gemporium."
+            ]
+        },
+        "backgrounds": {
+            "name": "Arrière-plans",
+            "pages": [
+                "Les arrière-plans servent de manière agréable à personnaliser l'apparence de votre harem ou de votre profil, ajoutant une touche d'unicité à votre expérience. Il existe deux types distincts d'arrière-plans, chacun exclusivement utilisable pour des commandes spécifiques décrites ci-dessus.\n\nPour explorer les détails des arrière-plans disponibles, utilisez la commande {command:album background} en conjonction avec leurs identifiants respectifs. Pour gérer votre collection d'arrière-plans, rendez-vous dans votre {command:inventory} et accédez à la catégorie 'Arrière-plans'. Il est important de noter que vous ne pouvez avoir qu'un seul arrière-plan actif pour chaque commande.\n\nDe plus, les arrière-plans sont échangeables. Vous avez la possibilité de les proposer dans le {command:auctionhouse} ou de créer une offre d'échange standard en utilisant {command:trade new}. N'hésitez pas à embrasser l'art de la négociation et à échanger des arrière-plans pour enrichir davantage votre collection."
+            ]
+        }
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "slashCommands": {
+        "ping": {
+            "name": "ping",
+            "description": "Pong! Mostra il tempo di reazione del bot."
+        },
+        "card": {
+            "name": "carta",
+            "description": "Controlla i dettagli della carta selezionata!",
+            "options": {
+                "id": {
+                    "name": "id",
+                    "description": "L'ID della carta selezionata (esempio: 'ABC-123', puoi controllarlo nel tuo harem)."
+                }
+            }
+        },
+        "inventory": {
+            "name": "inventario",
+            "description": "Sfoglia e utilizza i tuoi oggetti raccolti!",
+            "options": {
+                "category": {
+                    "name": "sezione",
+                    "description": "Usa questa opzione per navigare rapidamente alla sezione selezionata dell'inventario."
+                }
+            }
+        },
+        "roll": {
+            "name": "roll",
+            "description": "Rolla un {type} casuale!",
+            "options": {
+                "times": {
+                    "name": "quantità",
+                    "description": "Quante volte vuoi rollare? Un intero tra 1 e 100."
+                }
+            }
+        },
+        "store": {
+            "description": "Scambia le tue monete per roll extra e altro!"
+        },
+        "harem": {
+            "name": "harem",
+            "description": "Sfoglia l'elenco delle carte di una persona specificata!",
+            "options": {
+                "owner": {
+                    "name": "utente",
+                    "description": "L'utente di cui vuoi vedere la collezione (lascia vuoto per mostrare la tua collezione)."
+                },
+                "page": {
+                    "name": "pagina",
+                    "description": "Numero di pagina (predefinito: 1)."
+                },
+                "sorting": {
+                    "name": "ordinamento",
+                    "description": "Per cosa ordinare?",
+                    "choices": {
+                        "rarityDesc": "Rarità (disc.)",
+                        "rarityAsc": "Rarità (asc.)",
+                        "newest": "Più recente",
+                        "oldest": "Meno recente",
+                        "nameAz": "Nome (a-z)",
+                        "nameZa": "Nome (z-a)",
+                        "idAz": "ID (a-z)",
+                        "idZa": "ID (z-a)",
+                        "affectionDesc": "Affetto (disc.)",
+                        "affectionAsc": "Affetto (asc.)",
+                        "printDesc": "Numero della Carta (desc.)",
+                        "printAsc": "Numero della Carta (asc.)"
+                    }
+                }
+            }
+        },
+        "trade": {
+            "name": "scambia",
+            "options": {
+                "new": {
+                    "name": "nuovo",
+                    "description": "Crea una nuova offerta di scambio!",
+                    "options": {
+                        "user": {
+                            "name": "utente",
+                            "description": "La persona con cui vuoi fare lo scambio (devono essere su questo server!)."
+                        }
+                    }
+                },
+                "list": {
+                    "name": "elenco",
+                    "description": "Sfoglia le tue offerte di scambio attive."
+                },
+                "history": {
+                    "name": "cronologia",
+                    "description": "Guarda la cronologia dei tuoi scambi passati."
+                }
+            }
+        },
+        "profile": {
+            "name": "profilo",
+            "description": "Visualizza dettagli, emblemi, e altre informazioni pertinenti dell'utente selezionato.",
+            "options": {
+                "user": {
+                    "name": "utente",
+                    "description": "L'utente di cui vuoi vedere il profilo (lasciare vuoto per mostrare il tuo profilo)."
+                }
+            }
+        },
+        "block": {
+            "name": "blocca",
+            "description": "Blocca (o sblocca) la persona selezionata per evitare determinate interazioni con loro.",
+            "options": {
+                "user": {
+                    "name": "utente",
+                    "description": "L'utente che si desidera bloccare/sbloccare."
+                }
+            }
+        },
+        "cheat": {
+            "name": "cheat",
+            "description": "[BETA/ALPHA] Ripristina le tue risorse."
+        },
+        "wishlist": {
+            "name": "wishlist",
+            "description": "Sfoglia la tua lista dei desideri!"
+        },
+        "help": {
+            "name": "aiuto",
+            "options": {
+                "commands": {
+                    "name": "comandi",
+                    "description": "Visualizza l'elenco dei comandi!"
+                },
+                "info": {
+                    "name": "info",
+                    "description": "Visualizza informazioni utili sul bot!"
+                }
+            }
+        },
+        "settings": {
+            "name": "impostazioni",
+            "description": "Modifica le impostazioni dell'utente, come la versione mobile, lingua, e altro!"
+        },
+        "auctionhouse": {
+            "name": "aste",
+            "description": "Visita la Casa d'Aste per sfogliare e creare aste globali e offerte."
+        },
+        "gemporium": {
+            "name": "gemporio",
+            "description": "Spendi le tue gemme per le opzioni di personalizzazione, come gli sfondi del profilo, e altro ancora!"
+        },
+        "contribute": {
+            "name": "contribuisci",
+            "description": "Contribuisci al progetto caricando carte e ricevi ricompense!"
+        },
+        "invite": {
+            "name": "invita",
+            "description": "Invitami nel tuo server!"
+        },
+        "giveaways": {
+            "name": "concorsi",
+            "description": "Unisciti ai concorsi per ottenere carte, monete, oggetti, e altro ancora!"
+        },
+        "date": {
+            "name": "appuntamento",
+            "description": "Vai a un appuntamento con i tuoi personaggi preferiti!",
+            "options": {
+                "id": {
+                    "name": "id",
+                    "description": "L'ID della carta selezionata (esempio: 'ABC-123', puoi controllarlo nel tuo harem)."
+                }
+            }
+        },
+        "business": {
+            "name": "business",
+            "options": {
+                "cafe": {
+                    "name": "café",
+                    "description": "Gestisci il tuo cafè insieme ai tuoi personaggi preferiti!"
+                }
+            }
+        },
+        "leaderboards": {
+            "name": "classifica",
+            "description": "Vedi gli straordinari risultati dei migliori giocatori!"
+        },
+        "sell": {
+            "name": "vendi",
+            "description": "Vendi carte multiple secondo le tue preferenze - duplicati, bassa rarità, ecc."
+        },
+        "album": {
+            "name": "album",
+            "options": {
+                "card": {
+                    "name": "carta",
+                    "description": "Mostra i dettagli di una carta specificata.",
+                    "options": {
+                        "id": {
+                            "name": "id",
+                            "description": "L'ID della carta selezionata (solo lettere, esempio: ABC)."
+                        }
+                    }
+                },
+                "background": {
+                    "name": "sfondo",
+                    "description": "Mostra i dettagli di uno sfondo specificato.",
+                    "options": {
+                        "id": {
+                            "name": "id",
+                            "description": "L'ID dello sfondo selezionato (es. 12)."
+                        }
+                    }
+                }
+            }
+        },
+        "patreon": {
+            "name": "patreon",
+            "description": "Diventa un Patreon per ottenere carte esclusive, roll aggiuntivi, potenziatori di rarità e altro!"
+        },
+        "vote": {
+            "name": "vota",
+            "description": "Vota per me e ricevi ricompense!"
+        },
+        "guide": {
+            "name": "guida",
+            "description": "Scopri le funzionalità del bot e padroneggia il suo gameplay!",
+            "options": {
+                "chapter": {
+                    "name": "argomento",
+                    "description": "Scegli un argomento sulle meccaniche di gioco che ti interessano."
+                }
+            }
+        },
+        "changelog": {
+            "name": "changelog",
+            "description": "Mostra le modifiche e le nuove funzionalità della versione attuale del bot!"
+        },
+        "house": {
+            "name": "casa",
+            "description": "Visita la tua casa o quella dell'utente specificato!",
+            "options": {
+                "user": {
+                    "name": "utente",
+                    "description": "Il proprietario della casa che si desidera visitare. Lascia vuoto per visitare la propria casa."
+                }
+            }
+        }
+    },
+    "contextCommands": {
+        "profile": "Profilo",
+        "harem": "Harem",
+        "hug": "Abbraccio",
+        "kiss": "Bacio",
+        "more": "Altro..."
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "contribute": {
+        "title": "Przyczyń się do projektu {bot}!",
+        "description": "Pomóż nam **rozwinąć bazę danych kart**!\nPrześlij swoje karty na naszą stronę internetową i otrzymaj nagrody.\n\nZa każde **zatwierdzone** przesłanie, otrzymasz **{config:contribute.perUpload} {emoji:smallCoin}{config:currency}ów**. Gdy osiągniesz **{config:contribute.roleRequirement} zatwierdzonych przesłań**, otrzymasz status **Kontrybutora {bot}**, który zawiera trwale rozszerzony dzienny limit losów!\n\nDołącz do naszego [serwera wsparcia]({config:urls.server}), aby śledzić stan przesyłanych plików!\n\nSzukamy również **tłumaczy**, którzy mogliby pomóc nam przetłumaczyć {bot} na różne języki. Więcej informacji można znaleźć na naszym [Serwerze Pomocy]({config:urls.server})!"
+    },
+    "invite": {
+        "title": "Zaproś {bot}!",
+        "description": "Jeśli chcesz, możesz dodać mnie do swojego serwera!\nWystarczy [kliknąć tutaj]({config:urls.invite}) lub użyć poniższego przycisku.\nZ chęcią wpadnę na Twój serwer. 😊"
+    },
+    "giveaways": {
+        "title": "Giveawaye",
+        "description": "Kto nie uwielbia otrzymywać **darmowych przedmiotów**? Dołącz do naszego **[oficjalnego serwera społeczności]({config:urls.server})** i weź udział w dziennych rozdaniach przedmiotów do bota, monet, a nawet unikalnych kart! Kliknij poniższy przycisk, aby dołączyć i wziąć udział w losowaniu."
+    }
+}

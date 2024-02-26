@@ -1,0 +1,22 @@
+{
+    "auctionhouse": [
+        "Wyróżnione",
+        "Najwyższa oferta (malejąco)",
+        "Najwyższa oferta (rosnąco)",
+        "Cena wykupu (malejąco)",
+        "Cena wykupu (rosnąco)",
+        "Wygasa za (malejąco)",
+        "Wygasa za (rosnąco)",
+        "Najstarsze",
+        "Najnowsze",
+        "Rzadkość karty (malejąco)",
+        "Rzadkość karty (rosnąco)",
+        "Nazwa karty (a-z)",
+        "Nazwa karty (z-a)"
+    ],
+    "offerhouse": [
+        "Wyróżnione",
+        "Najstarsze",
+        "Najnowsze"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "types": {
+        "cafe": "café"
+    },
+    "stats": {
+        "storedGems": "Gemas almacenadas",
+        "closesIn": "Paradas",
+        "closed": "Detenido",
+        "totalIncome": "Ingresos totales",
+        "businessLevel": "Nivel de negocio",
+        "upgrades": "Mejoras",
+        "workers": "Trabajadores",
+        "passiveIncome": "Ingresos pasivos",
+        "servingTime": "El tiempo de servicio",
+        "popularity": "Popularidad",
+        "clickIncome": "Ingresos por clic",
+        "clickCapacity": "Haga clic Capacidad",
+        "workerLimit": "Límite de Trabajadores",
+        "bankLimit": "Límite de almacenamiento",
+        "nextClick": "Siguiente clic"
+    },
+    "roles": {
+        "inactive": {
+            "name": "Sin asignar",
+            "description": "Sin asignar"
+        },
+        "barista": {
+            "name": "Barista",
+            "description": "Aumenta el ingreso de clic."
+        },
+        "server": {
+            "name": "Servidor",
+            "description": "Reduce el tiempo de servicio."
+        },
+        "chef": {
+            "name": "Chef",
+            "description": "Aumenta los ingresos pasivos."
+        },
+        "banker": {
+            "name": "Banquero",
+            "description": "Aumenta el límite de almacenamiento de gemas."
+        },
+        "cashier": {
+            "name": "Cajero",
+            "description": "Aumenta la capacidad de clic."
+        },
+        "promoter": {
+            "name": "Promotora",
+            "description": "Aumenta la popularidad."
+        }
+    },
+    "upgrades": {
+        "expansion-1": "Expansión de Personal I",
+        "expansion-2": "Ampliación de personal II",
+        "expansion-3": "Ampliación de personal III"
+    }
+}

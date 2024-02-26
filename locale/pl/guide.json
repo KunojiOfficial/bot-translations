@@ -1,0 +1,151 @@
+{
+    "topics": {
+        "howToStart": "Pierwsze kroki",
+        "detailedMechanics": "Mechanika w szczegółach",
+        "commands": "Komendy i sterowanie",
+        "dates": "Randki i osobowości",
+        "businesses": "Biznesy i Klejnoty",
+        "gemporium": "Gemporium i przedmioty kosmetyczne"
+    },
+    "howToStart": {
+        "whatIs": {
+            "name": "Czym jest {bot}?",
+            "pages": [
+                "Witaj w przewodniku! Tutaj znajdziesz wszelką potrzebną pomoc. Zacznijmy od podstaw.\n\n**Co to jest {bot}?** {bot} jest {config:botType} Discord Botem, który pozwala Ci zbierać niesamowite karty przesyłane przez społeczność, i wchodzić z nimi w interakcje lub handlować nimi ze znajomymi.\n\nPamiętaj, {bot} nie posiada żadnych praw do grafik na kartach dostępnych do wylosowania - należą one do swoich prawowitych twórców."
+            ]
+        },
+        "mobile": {
+            "name": "Wersja mobilna",
+            "pages": [
+                "Możesz pominąć tę stronę, jeśli używasz komputera, laptopa lub innego urządzenia z dużym ekranem.\n\nZe względu na potencjalne problemy z czytelnością niektórych funkcji {bot}'y na mniejszych urządzeniach, dostarczamy pomniejszoną wersję mobilną, która może być włączona za pomocą {command:settings}. Ta funkcja jest szczególnie przydatna, jeśli grasz w {bot} na swoim telefonie."
+            ]
+        },
+        "roll": {
+            "name": "Losowanie kart",
+            "pages": [
+                "Losowanie kart jest główną funkcją {bot}. Rozpocznij grę, używając polecenia {command:roll}.\nPo wylosowaniu, nowa karta pojawi się i zostanie połączona z Twoim kontem. Dalsze szczegóły dotyczące atrybutów karty zostaną wyjaśnione w następnym podrozdziale.\nWszystkie wylosowane karty mogą zostać odnalezione w Twoim harem - schowku na Twoje karty. Uzyskaj dostęp do haremu poprzez wprowadzenie polecenia {command:harem}.\n\nJeśli wylosujesz kartę, która Ci się nie podoba, możesz ją sprzedać.\nSprzedawanie kart przyzna Ci monety, które mogą być wykorzystane w {command:store}. Więcej na ten temat zostanie omówione w nadchodzących podrozdziałach."
+            ]
+        },
+        "cardsHarems": {
+            "name": "Podstawowe atrybuty karty",
+            "pages": [
+                "Każda wylosowana karta posiada atrybut rzadkości. Po pełną listę wszystkich rzadkości, odwiedź podrozdział zatytułowany \"Mechanika w szczegółach\". Obecnie skoncentrujmy się na tym, że rzadkość jest wyznaczana przez gwiazdy, definiując wartość karty. Niektóre rzadkości odblokowują dodatkowe interakcje, takie jak system randek, który będziemy omawiać później.\n\nKarty posiadają unikalne identyfikatory, takie jak \"ABC-123\". Te identyfikatory rozróżniają od siebie globalne karty, umożliwiając dostęp do nich ze wszystkich serwerów z {bot}. Znaczenie ID jest proste: pierwsza część, \"ABC\", oznacza kategorię obrazu karty, podczas gdy \"123\" oznacza 123. egzemplarz karty z serii „ABC”.\n\nWarianty dodają smaczku do kart, wprowadzając różne osobowości. Jedna karta, na przykład ABC, może być zostać wylosowana z różnorakimi osobowościami. Osobowości mają wpływ na różne aspekty rozgrywki, o których powimy trochę później.\n\nMożesz użyć polecenia {command:card} do wyświetlenia szczegółowych informacji o karcie. Aby to zrobić, musisz wprowadzić identyfikator karty."
+            ]
+        },
+        "limits": {
+            "name": "Limit losów, głosowanie i tytuły",
+            "pages": [
+                "Domyślnie każdy gracz jest ograniczony do {config.title:(name=player)daily} rolek dziennie. Nie trzeba się jednak martwić! Możesz łatwo zwiększyć ten limit poprzez różne aktywności, w tym głosowanie na {bot}.\nAby rozpocząć, po prostu użyj polecenia {command:vote}. Pozwoli Ci to na zapoznanie się z korzyściami płynącymi z głosowania, które zostaną również szczegółowo omówione w oddzielnej sekcji przewodnika.",
+                "{bot} wprowadza system tytułów, który umożliwia zwiększenie dziennego limitu losów i otrzymywanie dodatkowych premii. System ten obejmuje wiele ról, które zostaną szczegółowo omówione w specjalnej sekcji zatytułowanej \"Tytuły i płynące z nich korzyści\".\n\nNa chwilę obecną skupmy się na tytułach Patronów. Te tytuły można uzyskać poprzez wsparcie projektu na Patreon. Aby dowiedzieć się więcej o powiązanych z tym korzyściach, zapoznaj się z {command:patreon}."
+            ]
+        },
+        "economy": {
+            "name": "Podstawy ekonomii",
+            "pages": [
+                "Jak już wspomniano, istnieje możliwość sprzedaży kart, które uważasz za nieatrakcyjne. Wykonanie tego spowoduje ich trwałe usunięcie z kolekcji, nagradzając Cię określoną ilością monet, zdefiniowaną na podstawie rzadkości karty.\n\nMożesz wykorzystać zdobyte monety w ramach {command:store}, gdzie do kupna dostępne jest wiele przedmiotów. Na wstępie możesz rozważyć zakupy losów, które umożliwiają przekroczenie dziennego limitu i częstsze losowanie."
+            ]
+        },
+        "items": {
+            "name": "Przedmioty i inwentarz",
+            "pages": [
+                "Kiedy odwiedzisz {command:store}, spotkasz się z różnymi kategoriami przedmiotów. Większość z tych przedmiotów, po zakupie, może być użyta w Twoim {command:inventory}.\n\nSkoncentrujmy się na najważniejszych kategoriach przedmiotów.\n\n**Ulepszacze** umożliwiają Ci zwiększenie rzadkości Twoich kart. **Bilety na Losowanie** zapewniają wylosowanie karty o wybranej rzadkości. **Spełniacze Życzeń** pozwalają zwiększyć szansę na wylosowanie określonej postaci."
+            ]
+        },
+        "trading": {
+            "name": "Wymiany i aukcje",
+            "pages": [
+                "{bot} pozwala na handel kartami, tłami (które zostaną omówione w rozdziale \"Gemporium\") i walutami z innymi graczami.\n\nMożesz angażować się w dwa rodzaje transakcji: publiczne i prywatne. W przypadku prywatnej oferty handlowej, uruchom polecenie {command:trade new} i postępuj zgodnie z instrukcjami bota. Pamiętaj, że prywatne transakcje są możliwe tylko z innymi członkami serwera.\n\nAby utworzyć ofertę publicznego handlu, widoczną na wszystkich serwerach z {bot}, użyj polecenia {command:auctionhouse}. Tutaj możesz stworzyć licytacje jednej ze swoich kart albo przejść do sekcji \"Oferty\" i utworzyć ofertę ze swoich przedmiotów."
+            ]
+        },
+        "other": {
+            "name": "Pozostałe funkcje",
+            "pages": [
+                "Tym podrozdziałem kończymy krótke wprowadzenie - \"Pierwsze kroki\". Nie zbadaliśmy jednak jeszcze wszystkich funkcji gry.\n\nJeśli jesteś zainteresowany kontynuowaniem czytania, możesz przejść do następnych rozdziałów. Jeśli nie, możesz zapoznać się z funkcjami gry samodzielnie i zaglądać do przewodnika tylko wtedy, gdy napotkasz trudności.\n\nJeśli nadal potrzebujesz pomocy z początkiem lub nie możesz znaleźć odpowiedzi w {command:guide}, nie wahaj się dołączyć do naszego [serwera wsparcia i społeczności]({config:urls.server}). Z chęcią pomożemy Ci z każdym pytaniem."
+            ]
+        }
+    },
+    "detailedMechanics": {
+        "rarities": {
+            "name": "Rzadkości i jak je zdobyć",
+            "pages": [
+                "Rzadkości mogą zostać podzielone na dwie główne grupy: rzadkości możliwe do wylosowania i specjalne rzadkości, które są możliwe do zdobycia za pomocą określonych metod.\n\nZacznijmy od omówienia kart możliwych do wylosowania.\n\nWszystkie te rzadkości można zdobyć, używając komendy {command:roll}, ale każda rzadkość ma różną szansę na pojawienie się.\n\n{rarities:rollable}\n\nNastępnie, mamy specjalne rzadkości, takie jak...\n{rarities:special}"
+            ]
+        },
+        "dailyRolls": {
+            "name": "Dzienne losy w szczegółach",
+            "pages": [
+                "Dzienne losy są kluczową funkcją w {bot}, dostarczając Ci zasoby do poszerzenia kolekcji kart. Oto szybki przewodnik do ich optymalnego wykorzystania:\n\n1. **Czas resetowania:** Dzienne losy resetowane są każdego dnia o {resetHour}.\n2. **Liczba losów:** Liczba dziennych losów różni się w zależności od tytułu gracza.\n3. **Limit losów:** Większość tytułów ma limit przechowywanych losów o wartości cztery razy większej niż dzienna ilość zdobywanych losów, aby utrzymać równowagę i zapobiec nadmiernemu gromadzeniu losów.\n\nZaczynasz z {config.title:(name=player)daily} losami dziennie. \nJeśli masz {config.title:(name=player)limit} lub więcej niewykorzystanych losów, nie otrzymasz dodatkowych losów, ponieważ osiągniesz limit.\n\nWażnym jest, aby zauważyć, że gracz może mieć wiele tytułów, co powoduje akumulację dodatkowych losów z każdego tytułu, podczas gdy limit przechowywanych losów jest określony przez aktualnie wybrany tytuł.\n\nPrzejrzyjmy teraz listę tytułów i ich limity losów.\nZauważ, że pierwsza liczba reprezentuje dodatkowe losy, które sumują się z losami z innych tytułów oraz domyślną rolą gracza, którą mają wszyscy. Druga liczba to górna krawędź przechowywanych losów.\n\n{titles}"
+            ]
+        }
+    },
+    "commands": {
+        "harem": {
+            "name": "Harem",
+            "pages": [
+                "{command:harem} jest poleceniem służacym dostępowi do wszystkich Twoich kart i zarządzania nimi. Oto lista przycisków i ich funkcji, które pomogą Ci poruszać się po kolekcji kart:\n\n* {emoji:arrows.left} - poprzednia strona\n* {emoji:arrows.right} - następna strona\n* {emoji:arrows.top} - poprzednia karta\n* {emoji:arrows.bottom} - następna karta\n* {emoji:help} - przewodnik\n* {emoji:sort} - zmień kolejność sortowania\n* {emoji:tag} - przełącz na widok tagów\n* {emoji:glass} - szukaj według nazwy lub ID\n* {emoji:select} - wybierz kartę"
+            ]
+        },
+        "auctionhouse": {
+            "name": "Dom Aukcyjny",
+            "pages": [
+                "Dom aukcyjny jest miejscem, w którym możesz tworzyć aukcje i oferty wymiany, które są widoczne dla graczy {bot} na wszystkich serwerach. Niezależnie od tego, czy dzielisz serwery z innym graczom, każdy może uczestniczyć w licytacjach lub przyjmować oferty.\n\nOto poręczna lista przycisków, które pomogą Ci poruszać się po Domu Aukcji:\n\n* {emoji:arrows.left} - poprzednia strona\n* {emoji:arrows.right} - następna strona\n* {emoji:gavel} - lista aukcji\n* {emoji:trade} - lista ofert\n* {emoji:help} - przewodnik\n* {emoji:sort} - zmień kolejność sortowania\n* {emoji:glass} - szukaj według nazwy lub ID\n* {emoji:plus} - stwórz nową aukcję lub ofertę"
+            ]
+        }
+    },
+    "dates": {
+        "about": {
+            "name": "O systemie randkowym",
+            "pages": [
+                "Randkowanie to opcjonalny mechanika, który pozwala zwiększać przywiązanie Twoich kart. Ważnym jest, aby zauważyć, że tylko karty o rzadkości równej lub wyższej od {minDateRarity} mogą być celem tej interakcji.\n\nMimo, że zwiększanie przywiązania kart jest całkowicie opcjonalne, przypisanie karty do biznesu wymaga maksymalizacji przywiązania, co umożliwi Ci zarabiania Klejnotów w różnych biznesach."
+            ]
+        },
+        "deres": {
+            "name": "Osobowości dere",
+            "pages": [
+                "Osobowość jest kluczowym atrybutem karty. Każda karta może być wylosowana z jedną z {dereCount} osobowości:\n\n{personalities}\n\nWylosowana osobowość odgrywa istotną rolę w definiowaniu różnych aspektów Twojej karty, w tym interakcji w systemie randkowym."
+            ]
+        },
+        "datePanel": {
+            "name": "Panel randki, nastrój karty, prezenty",
+            "pages": [
+                "Aby rozpocząć swoją podróż z randkami, użyj polecenia {command:date} i wprowadź ID każdej karty, która jest rzadkości równej lub większej niż {minDateRarity}. Alternatywnie, możesz użyć polecenia {command:card} i kliknąć przycisk \"Randka\".\n\nW ten sposób zostaniesz przekierowany do panelu randkowego. Tutaj znajdziesz krótki dialog, różne pola, menu wyboru i przyciski.\n\nDialog będzie się różnił w zależności od osobowości karty, ale to, co jest szczególnie istotne, to emoji wyświetlane na końcu dialogu. To emoji oznacza **nastrój** twojej karty, z trzema możliwymi opcjami - 😡 negatywny, 😐 neutralny i 😄 pozytywny.\n\nNastrój odgrywa istotną rolę w późniejszych interakcjach i jest kluczowym aspektem systemu randkowego.\n\n* Jeśli nastrój jest **negatywny**, Twoja karta nie będzie z Tobą wchodziła w interakcje, zużywając energię.\n* Jeśli nastrój jest **neutralny**, jakakolwiek pozytywna interakcja zapewni tylko połowę punktów przywiązania.\n* Jeśli nastrój jest **pozytywny**, Twoje interakcje zostaną nagrodzone w całości.\n\nNastrój Twojej karty będzie pogarszał się jeden poziom co trzy interakcje lub jeśli użyjezs nieprawidłowych interakcji, które karta nie polubi.\n\nAby zwiększyć nastrój Twojej karty, odwiedź {command:store} i kup prezenty, następnie zaoferuj je swoim kartom za pomocą menu wyboru w panelu randkowym. Pamiętaj, że każda osobowość ma odrębne preferencje, które możesz wydedukować, jeśli znasz tradycyjne profile dere z anime/mang. Jeśli nie, zawsze możesz poeksperymentować i je odkryć! Warto zauważyć, że dawanie prezentów jest jedyną interakcją, która nie wymaga żadnej energii."
+            ]
+        },
+        "activities": {
+            "name": "Aktywności i zwiększanie przywiązania",
+            "pages": [
+                "Po upewnieniu się, że nastrój karty jest pozytywny, możesz zacząć różne interakcje. Te aktywności można podzielić na różne kategorie, ale działają podobnie, różniąc się w ilości wymaganej energii i punktów przywiązania, którymi zostaniesz wynagrodzony.\n\n**Przede wszystkim, unikaj powtarzania tej samej aktywności pod rząd; karty będą niezadowolone. Bądź kreatywny!**\n\nPo wybraniu aktywności, zobaczysz kilka wyborów. Dla przykładu, pod \"Komplementem\" kryją się wybory takie jak pochwalenie inteligencji, talentu lub poczucia mody. Te wybory stwarzają dodatkowe wyzwanie - musisz dopasować swoje akcje do osobowości karty.\n\nKażda osobowość ma preferowane, nielubiane i neutralne aktywności. Nielubiane spowodują utratę punktów przywiązania, preferowane zwiększenie, a neutralne nie będa miały żadnego wpływu.\n\nPo wymaksowaniu przywiązania karty, nowy przycisk \"Przypisz pracę\" odblokuje się. Użyj go do przypisania karty do biznesu, które zostaną opisane w następnych rozdziałach."
+            ]
+        }
+    },
+    "businesses": {
+        "about": {
+            "name": "O systemie biznesów",
+            "pages": [
+                "Biznesy służą jako główne źródło dochodów {emoji:gem} **Kryształów**, które są kluczowe dla losowania na banerach w **Gemporium** (szczegóły w następnym rozdziale). Biznesy te funkcjonują zasadniczo jako minigry, w które możesz grać razem ze swoimi kartami, pod warunkiem że zmaksymalizowałeś ich przywiązanie (szczegóły znajdują się w poprzednim rozdziale).\n\nAktualnie dostępne biznesy:\n{businesses}\n\nAby rozpocząć biznes, użyj odpowiedniego polecenia. Następnie uzyskaj otwórz panel randkowy i przydziel kartę do wybranego biznesu. W następujących podrozdziałach opiszemy szczegóły każdego biznesu."
+            ]
+        },
+        "cafe": {
+            "name": "Kawiarnia",
+            "pages": [
+                "Kawiarnia, zainspirowana przez inkrementalne gry typu clicker, skupia się wokół serwowania kawy klientom, Twoje karty przyemują kluczowe role jako pracownicy. Aby rozwijać biznes, możesz podnieść atrybuty swojej kawiarni, aby zwiększać pasywny dochód, lub możesz ręcznie klikać po Klejnoty, aczkolwiek będzie to kosztować energię.\n\nKażdy atrybut odpowiada określonej pozycji pracowniczej, a zarządzanie pozycjami pracowników ma wpływ na wydajność Twojej kawiarni. Warto zauważyć, że osobowości kart mają swoje preferencje w odniesieniu do pozycji, a niektórzy mogą nawet odmówić pracy w nielubionych rolach.\n\nSprawdźmy atrybuty, związane z nimi pozycje i preferencje osobowości - przejdź do następnej strony.",
+                "1. **Pasywny Dochód ** (Szef)\n Pasywny Dochód jest niezbędny do pasywnego generowania zarobków, co pozwala Twojej kawiarni na automatyczne serwowanie kawy. Określa liczbę {emoji:gem} **Klejnotów** generowanych w Twojej firmie na minutę. Dandere są idealnym kandydatem na pozycję Szefa.\n2. **Przychody kliknięć** (Barista)\n Przychody Kliknięć określają liczbę {emoji:gem} **Klejnotów**, które zarabiasz za każde kliknięcie podczas sprzedaży kawy. Pamiętaj - każde kliknięcie zużywa energię.\n Yandere są najlepsze na tej pozycji, zapewniając najskuteczniejszą wydajność.\n3. **Czas Serwowania** (Obsługa)\n Czas Serwowania zarządza czasem potrzebnym do doręczenia kawy jednemu klientowi. Ta pozycja jest preferowana przez Deredere.\n4. **Ilość kliknięć** (Kasjer)\n Ilość kliknięć decyduje o liczbie możliwych kliknięć. Kliknięcia odnawiają się po 24 goidznach. Himedere to najlepszy wybór na pozycje kasjera.\n5. ** Popularność** (Promotor)\n Popularność ulepsza Twoją działalność poprzez przyciągnięcie większej liczby klientów. Zwiększona popularność mnoży Twój dochód {emoji:gem} **Klejnotów**, szczególnie efektywnie z Tsundere.\n6. **Limit Banku** (Bankier)\n Limit Banku podniesie limit przechowywanych Klejnotów, umożliwiając działanie biznesu przez dłuższy okres czasu przed osiągnięciem limitu. Jest to idealny wybór dla Kuudere.",
+                "Po przypisaniu wybranych kart do preferowanych pozycji, jesteś gotów rozpocząć serwowanie kawy. Kliknij na \"Rozpocznij Serwowanie\" i czekaj aż proces się zakończy. Po tym możesz zebrać {emoji:gem} **Klejnoty**, które zarobiono.\n\nAle cóż zrobić z tymi wszystkimi {emoji:gem} **Klejnotami**? Przeczytaj następny rozdział, gdzie przyjrzymy się **Gemporium**."
+            ]
+        }
+    },
+    "gemporium": {
+        "about": {
+            "name": "O Gemporium",
+            "pages": [
+                "Gemporium ({command:gemporium}) jest prawdziwie magicznym miejscem, w którym możesz wykorzystać swoje ciężko zarobione Klejnoty. Co kilka tygodni, Gemporium wprowadza nowe bannery, które pozwalają na losowanie przy użyciu {emoji:gem} **Klejnotów**.\n\nBanery to kopalnia różnorodnych nagród, w tym przedmiotów kosmetycznych. Pamiętaj, że niektóre banery mogą być jednorazowe i nigdy nie wracać, podczas gdy inne wracają co kilka miesięcy.\n\nW nadchodzących podrozdziałach odkryjemy razem wszystkie przedmioty kosmetyczne, czekające na zdobycie w Gemporium."
+            ]
+        },
+        "backgrounds": {
+            "name": "Tła",
+            "pages": [
+                "Tła służą jako sposób na spersonalizowanie wyglądu Twojego haremu lub profilu, dodając element unikalności. Istnieją dwa różne rodzaje tła, z których każdy można wykorzystać wyłącznie w określonych powyżej poleceniach.\n\nAby zapoznać się ze szczegółami dostępnego tła, użyj polecenia {command:album background} w połączeniu z ich odpowiednimi identyfikatorami. Aby zarządzać swoją kolekcją teł, przejdź do {command:inventory} i uzyskaj dostęp do kategorii \"Tła\". Należy pamiętać, że możesz mieć tylko jedno aktywne tło dla każdej komendy.\n\nDodatkowo, tła są wymienialne. Masz możliwość zaoferowania ich w {command:auctionhouse} lub tworzenia standardowej oferty handlowej za pomocą {command:trade new}. Zacznij korzystać ze sztuki negocjacji i wymiany, aby jeszcze bardziej wzbogacić swoją kolekcję."
+            ]
+        }
+    }
+}

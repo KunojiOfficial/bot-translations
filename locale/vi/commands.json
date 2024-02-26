@@ -1,0 +1,252 @@
+{
+    "slashCommands": {
+        "ping": {
+            "name": "ping",
+            "description": "🏓Pong! Hiển thị tốc độ phản ứng của bot."
+        },
+        "card": {
+            "name": "thẻ",
+            "description": "Kiểm tra thông tin chi tiết của thẻ được chọn!",
+            "options": {
+                "id": {
+                    "name": "id",
+                    "description": "Số ID của thẻ được chọn (ví dụ: 'ABC-123', bạn có thể xem lại trong harem của bạn)."
+                }
+            }
+        },
+        "inventory": {
+            "name": "kho đồ",
+            "description": "Hiển thị và sử dụng vật phẩm!",
+            "options": {
+                "category": {
+                    "name": "phần",
+                    "description": "Sử dụng tùy chọn này để điều hướng nhanh đến phần kho đồ đã chọn."
+                }
+            }
+        },
+        "roll": {
+            "name": "roll",
+            "description": "Quay 1 {type} bất kỳ!",
+            "options": {
+                "times": {
+                    "name": "lần",
+                    "description": "Bạn muốn quay bao nhiêu lần? Một số nguyên từ 1 tới 100."
+                }
+            }
+        },
+        "store": {
+            "description": "Sử dụng xu để mua thêm lượt quay và nhiều hơn nữa!"
+        },
+        "harem": {
+            "name": "harem",
+            "description": "Xem danh sách thẻ của 1 người bất kỳ!",
+            "options": {
+                "owner": {
+                    "name": "người dùng",
+                    "description": "Người dùng mà bạn muốn xem bộ sưu tập (để trống để hiển thị bộ sưu tập của chính bạn)."
+                },
+                "page": {
+                    "name": "trang",
+                    "description": "Số trang (1 theo mặc định)."
+                },
+                "sorting": {
+                    "name": "sắp xếp",
+                    "description": "Sắp xếp theo?",
+                    "choices": {
+                        "rarityDesc": "Độ hiếm (giảm.)",
+                        "rarityAsc": "Độ hiếm (tăng.)",
+                        "newest": "Mới nhất",
+                        "oldest": "Cũ nhất",
+                        "nameAz": "Tên (a-z)",
+                        "nameZa": "Tên (z-a)",
+                        "idAz": "ID (a-z)",
+                        "idZa": "ID (z-a)",
+                        "affectionDesc": "Độ thân mật (giảm dần)",
+                        "affectionAsc": "Độ thân mật (tăng dần)",
+                        "printDesc": "Hiển thị phần số (giảm dần.)",
+                        "printAsc": "Hiển thị phần số (tăng dần.)"
+                    }
+                }
+            }
+        },
+        "trade": {
+            "name": "trao đổi",
+            "options": {
+                "new": {
+                    "name": "mới",
+                    "description": "Bắt đầu 1 yêu cầu trao đổi mới!",
+                    "options": {
+                        "user": {
+                            "name": "người dùng",
+                            "description": "Người mà bạn muốn trao đổi với (họ phải có trên server này!)."
+                        }
+                    }
+                },
+                "list": {
+                    "name": "danh sách",
+                    "description": "Hiển thị các yêu cầu trao đổi hiện tại."
+                },
+                "history": {
+                    "name": "lịch sử",
+                    "description": "Hiển thị lịch sử trao đổi."
+                }
+            }
+        },
+        "profile": {
+            "name": "hồ sơ",
+            "description": "Hiển thị thông tin chi tiết, danh hiệu, và những thông tin liên quan khác của người dùng được chọn.",
+            "options": {
+                "user": {
+                    "name": "người dùng",
+                    "description": "Người dùng mà bạn muốn xem bộ sưu tập (để trống để hiển thị bộ sưu tập của chính bạn)."
+                }
+            }
+        },
+        "block": {
+            "name": "chặn",
+            "description": "Chặn (hay bỏ chặn) người được chọn.",
+            "options": {
+                "user": {
+                    "name": "người dùng",
+                    "description": "Người bạn muốn chặn/hủy chặn."
+                }
+            }
+        },
+        "cheat": {
+            "name": "cheat",
+            "description": "[BETA/ALPHA] Hồi đầy tài nguyên."
+        },
+        "wishlist": {
+            "name": "wishlist",
+            "description": "Xem danh sách wishlist!"
+        },
+        "help": {
+            "name": "help",
+            "options": {
+                "commands": {
+                    "name": "danh sách lệnh",
+                    "description": "Hiển thị danh sách lệnh!"
+                },
+                "info": {
+                    "name": "thông tin",
+                    "description": "Hiển thị thông tin hữu ích về bot!"
+                }
+            }
+        },
+        "settings": {
+            "name": "settings",
+            "description": "🔧Chỉnh sửa cài đặt người dùng, chẳng hạn như chế độ di động, ngôn ngữ, và nhiều hơn nữa!"
+        },
+        "auctionhouse": {
+            "name": "sàn đấu giá",
+            "description": "Tham quan Sàn đấu giá và tham gia đấu giá."
+        },
+        "gemporium": {
+            "name": "gemporium",
+            "description": "Sử dụng Gem cho những mục chỉnh sửa, như hình nền hồ sơ cá nhân, và khác!"
+        },
+        "contribute": {
+            "name": "contribute",
+            "description": "Đóng góp cho dự án bằng cách tải hình thẻ lên và nhận phần thưởng!"
+        },
+        "invite": {
+            "name": "invite",
+            "description": "Mời tớ vào server của bạn!"
+        },
+        "giveaways": {
+            "name": "giveaways",
+            "description": "Tham gia giveaway để nhận thẻ, tiền, vật phẩm, và nhiều hơn nữa!"
+        },
+        "date": {
+            "name": "hẹn hò",
+            "description": "Hẹn hò với nhân vật ưa thích của bạn!",
+            "options": {
+                "id": {
+                    "name": "id",
+                    "description": "Số ID của thẻ được chọn (ví dụ: 'ABC-123', bạn có thể xem lại trong harem của bạn)."
+                }
+            }
+        },
+        "business": {
+            "name": "kinh doanh",
+            "options": {
+                "cafe": {
+                    "name": "café",
+                    "description": "Quản lý quán café của bạn với thẻ bạn yêu thích!"
+                }
+            }
+        },
+        "leaderboards": {
+            "name": "bảng xếp hạng",
+            "description": "Chiêm ngưỡng thành tựu của những người chơi đầu bản xếp hạng!"
+        },
+        "sell": {
+            "name": "sell",
+            "description": "Bán nhiều waifu cùng lúc dựa trên nhu cầu của bạn - thẻ trùng lặp, độ hiếm thấp, etc."
+        },
+        "album": {
+            "name": "album",
+            "options": {
+                "card": {
+                    "name": "thẻ",
+                    "description": "Hiển thị thông tin về một lá bài cụ thể.",
+                    "options": {
+                        "id": {
+                            "name": "id",
+                            "description": "ID của lá bài được chọn (chỉ phần chữ, ví dụ: ABC)."
+                        }
+                    }
+                },
+                "background": {
+                    "name": "hình nền",
+                    "description": "Hiển thị thông tin về một hình nền cụ thể.",
+                    "options": {
+                        "id": {
+                            "name": "id",
+                            "description": "Số ID của hình nền được chọn (ví dụ. 12)."
+                        }
+                    }
+                }
+            }
+        },
+        "patreon": {
+            "name": "patreon",
+            "description": "Trở thành thành viên Patreon để nhận những thẻ độc quyền, lượt quay thêm, và nhiều hơn nữa!"
+        },
+        "vote": {
+            "name": "vote",
+            "description": "Bỏ phiếu cho tớ để nhận phần thưởng!"
+        },
+        "guide": {
+            "name": "hướng dẫn",
+            "description": "Khám phá các tính năng của bot và làm chủ cách chơi!",
+            "options": {
+                "chapter": {
+                    "name": "chủ đề",
+                    "description": "Chọn chủ đề về tính năng game mà bạn thích."
+                }
+            }
+        },
+        "changelog": {
+            "name": "changelog",
+            "description": "Hiển thị những thay đổi và tính năng mới của phiên bản bot hiện tại!"
+        },
+        "house": {
+            "name": "nhà",
+            "description": "Thăm nhà của bạn hay của một người dùng khác!",
+            "options": {
+                "user": {
+                    "name": "người dùng",
+                    "description": "Tên chủ nhà của người bạn muốn thăm. Để trống để thăm chính nhà của bạn."
+                }
+            }
+        }
+    },
+    "contextCommands": {
+        "profile": "Hồ sơ",
+        "harem": "Harem",
+        "hug": "Ôm",
+        "kiss": "Hôn",
+        "more": "Thêm..."
+    }
+}

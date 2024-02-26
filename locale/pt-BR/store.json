@@ -1,0 +1,233 @@
+{
+    "properties": {
+        "cost": "Custo",
+        "rolls": "Rolls",
+        "target": "Alvo",
+        "effect": "Efeito",
+        "rarity": "Raridade",
+        "chance": "Chance",
+        "days": "Dias",
+        "featured": "Funções",
+        "energy": "Energia",
+        "slots": "Espaços Adicionais de Favoritos",
+        "personality": "Personalidade"
+    },
+    "rolls": {
+        "name": "Rolls",
+        "description": "Compre e role ainda mais!",
+        "details": "Esses itens irão adicionar rolls extras para sua conta e serão automaticamente atribuídos após a compra."
+    },
+    "upgraders": {
+        "name": "Melhoradores",
+        "description": "Adicione algumas estrelas a sua carta!",
+        "details": "Para aumentar a raridade da sua carta, compre os melhoradores! O atributo \"Alvo\" especifica a raridade a qual pode ser aplicada enquanto \"Efeito\" indica a raridade resultante."
+    },
+    "auction-bells": {
+        "name": "Sinos de Leilão",
+        "description": "Negocie suas cartas na Casa de Leilões!",
+        "details": "Os Sinos de Leilão são utilizados para criar ofertas e leilões na Casa de Leilões. O atributo \"Dias\" especifica a duração da oferta ou leilão que está sendo criado."
+    },
+    "roll-tickets": {
+        "name": "Tickets de Rolagem",
+        "description": "Role uma carta de raridade garantida!",
+        "details": "Os Tickets permitem que você role sem consumir seus rolls regulares, garantindo que a carta resultante tenha a raridade especificada nos atributos."
+    },
+    "wish-granters": {
+        "name": "Garantias de Desejos",
+        "description": "Aumente a chance de personagens!",
+        "details": "As Garantias permitem que você deseje um personagem específico, aumentando a frequência das cartas com esse personagem. Você pode acompanhar seus desejos atuais usando o comando {command:wishlist}."
+    },
+    "gifts": {
+        "name": "Presentes",
+        "description": "Aumente a afeição de suas cartas!",
+        "details": "Procurando fortalecer a ligação com alguém especial? Considere comprar um presente atencioso! No entanto, tenha em mente que nem todos os presentes serão apreciados por todos. Seja seletivo e escolha sabiamente para evitar possíveis consequências negativas."
+    },
+    "energy-drinks": {
+        "name": "Bebidas de Energia",
+        "description": "Restaure parte da sua energia!",
+        "details": "As bebidas energéticas restauram a energia necessária para o encontro, ajudando você a permanecer carregado e carismático durante encontros românticos. Cada bebida recupera uma quantidade diferente de energia, indicada pelo atributo \"Energia\"."
+    },
+    "souls": {
+        "name": "Almas",
+        "description": "Alterar as personalidades de suas cartas!",
+        "details": "Descontente com a personalidade atual da sua carta? Transforme-o com a essência destas almas encantadoras!"
+    },
+    "miscellaneous": {
+        "name": "Miscelâneo",
+        "description": "Uma matriz de diversos itens úteis!",
+        "details": "Esses itens podem não se encaixar nas outras categorias, mas mesmo assim seu utilitário permanece inquestionável!"
+    },
+    "backgrounds": {
+        "name": "Fundos"
+    },
+    "rolls-1": {
+        "name": "Faísca de Rolls",
+        "description": "Um roll adicional!"
+    },
+    "rolls-2": {
+        "name": "Dobro de Rolls",
+        "description": "Dois ao preço de 1,83!"
+    },
+    "rolls-5": {
+        "name": "Essência de Rolls",
+        "description": "Rolls ainda mais baratos!"
+    },
+    "rolls-20": {
+        "name": "Blitz de Rolls",
+        "description": "Um grande pacote de rolls!"
+    },
+    "rolls-100": {
+        "name": "Sobrecarga de Rolls",
+        "description": "Um caminhão cheio de rolls!"
+    },
+    "upgrader-2": {
+        "name": "Melhorador Incomum"
+    },
+    "upgrader-3": {
+        "name": "Melhorador Raro"
+    },
+    "upgrader-4": {
+        "name": "Melhorador Super Raro"
+    },
+    "upgrader-5": {
+        "name": "Melhorador Ultra Raro"
+    },
+    "upgrader-6": {
+        "name": "Melhorador Lendário"
+    },
+    "upgrader-21": {
+        "name": "Melhorador do Amigo"
+    },
+    "upgrader-22": {
+        "name": "Melhorador do Entusiasta"
+    },
+    "upgrader-23": {
+        "name": "Melhorador do Amante"
+    },
+    "upgrader-24": {
+        "name": "Melhorador do parceiro"
+    },
+    "roll-ticket-1": {
+        "name": "Ticket Comum"
+    },
+    "roll-ticket-2": {
+        "name": "Ticket Incomum"
+    },
+    "roll-ticket-3": {
+        "name": "Ticket Raro"
+    },
+    "roll-ticket-4": {
+        "name": "Ticket Super Raro"
+    },
+    "roll-ticket-5": {
+        "name": "Ticket Ultra Raro"
+    },
+    "roll-ticket-6": {
+        "name": "Ticket Lendário"
+    },
+    "roll-ticket-7": {
+        "name": "Ticket Mítico"
+    },
+    "granter-weak": {
+        "name": "Garantia Fraca"
+    },
+    "granter-medium": {
+        "name": "Garantia Média"
+    },
+    "granter-strong": {
+        "name": "Garantia Forte"
+    },
+    "granter-patron-1": {
+        "name": "Garantia do Amigo"
+    },
+    "granter-patron-2": {
+        "name": "Garantia do Entusiasta"
+    },
+    "granter-patron-3": {
+        "name": "Garantia do Amante"
+    },
+    "granter-patron-4": {
+        "name": "Garantia do Parceiro"
+    },
+    "auction-bell-1": {
+        "name": "Sino de Leilão de Bronze"
+    },
+    "auction-bell-2": {
+        "name": "Sino de Leilão de Prata"
+    },
+    "auction-bell-3": {
+        "name": "Sino de Leilão de Ouro"
+    },
+    "auction-bell-patron-1": {
+        "name": "Sino de Leilão de Diamante"
+    },
+    "auction-bell-patron-2": {
+        "name": "Sino de Leilão de Esmeralda"
+    },
+    "auction-bell-patron-3": {
+        "name": "Sino de Leilão de Citrina"
+    },
+    "auction-bell-patron-4": {
+        "name": "Sino de Leilão de Rubi"
+    },
+    "fluffy-plushie": {
+        "name": "Pelúcia Fofa"
+    },
+    "player-photo": {
+        "name": "Foto do Jogador"
+    },
+    "art-sketchbook": {
+        "name": "Esboço de Arte"
+    },
+    "mystery-novel": {
+        "name": "Novela Misteriosa"
+    },
+    "tea-set": {
+        "name": "Conjunto de Chá"
+    },
+    "decorated-mirror": {
+        "name": "Espelho Decorado Elegantemente"
+    },
+    "gaming-console": {
+        "name": "Console de Jogos"
+    },
+    "sparkling-jewelry": {
+        "name": "Joias Cintilantes"
+    },
+    "energy-drink-1": {
+        "name": "VitaliZest"
+    },
+    "energy-drink-2": {
+        "name": "ZapQuencher"
+    },
+    "energy-drink-3": {
+        "name": "ReviveX"
+    },
+    "fav-expander-1": {
+        "name": "Chave de Harém"
+    },
+    "fav-expander-2": {
+        "name": "Coração de Harém"
+    },
+    "gem": {
+        "name": "Gema"
+    },
+    "blazing-soul": {
+        "name": "Alma Ardente"
+    },
+    "obsessive-soul": {
+        "name": "Alma Obsessiva"
+    },
+    "freezing-soul": {
+        "name": "Alma Congelante"
+    },
+    "radiant-soul": {
+        "name": "Alma Radiante"
+    },
+    "noble-soul": {
+        "name": "Alma Nobre"
+    },
+    "silent-soul": {
+        "name": "Alma Silenciosa"
+    }
+}

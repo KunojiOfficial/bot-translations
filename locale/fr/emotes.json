@@ -1,0 +1,79 @@
+{
+    "hug": {
+        "name": "Câlin",
+        "text": "{user} a fait un câlin à {who}!",
+        "count": "{who} a été câliné par {user} {count} fois au total!",
+        "first": "Ils se sont fait un câlin pour la première fois!",
+        "button": "Refaire un câlin!"
+    },
+    "pat": {
+        "name": "Caresser",
+        "text": "{user} à caressée la tête de {who}!",
+        "count": "{who} a été caressé par {user} {count} fois au total!",
+        "first": "Ils se sont caressées pour la première fois!",
+        "button": "Retournez la caresse!"
+    },
+    "kiss": {
+        "name": "Embrasser",
+        "text": "{user} a embrassé {who}!",
+        "count": "{who} a été embrassé par {user} {count} fois au total!",
+        "first": "Ils se sont embrassé pour la première fois!",
+        "button": "Embrassez-le!"
+    },
+    "lick": {
+        "name": "Lécher",
+        "text": "{user} a léché {who}!",
+        "count": "{who} a été léché par {user} un total de {count} fois!",
+        "first": "Ils ont été léchés pour la première fois!",
+        "button": "Lèche-le!"
+    },
+    "highfive": {
+        "name": "Tape m'en cinq",
+        "text": "{user} a tapé cinq à {who}!",
+        "count": "{who} a tapé cinq {count} fois avec {user}!",
+        "first": "C'est la première fois que {who} a tapé cinq avec {user}!",
+        "button": "Renvoie les cinq!"
+    },
+    "bonk": {
+        "name": "Bonk",
+        "text": "{user} bonk la tête de {who}!",
+        "count": "{who} a été bonk par {user} {count} fois!",
+        "first": "{who} vient d'être bonk par {user} pour la première fois!",
+        "button": "Bonk-le!"
+    },
+    "poke": {
+        "name": "Taquiner",
+        "text": "{user} taquine {who}!",
+        "count": "{who} vient d\"être taquiné par {user} {count} fois!",
+        "first": "{who} vient d\"être taquiné par {user} pour la première fois!",
+        "button": "Taquinez-le!"
+    },
+    "bite": {
+        "name": "Mordre",
+        "text": "{user} a mordu {who}!",
+        "count": "{who} vient d\"être mordu par {user} {count} fois!",
+        "first": "{who} a connu sa première morsure amical de {user}!",
+        "button": "Mord lui en retour!"
+    },
+    "kick": {
+        "name": "Coup de pied",
+        "text": "{user} a donné un coup de pied amical à {who}!",
+        "count": "{who} vient de recevoir son premier coup de pied de {user} {count} fois!",
+        "first": "{who} vient de recevoir son premier coup de pied amical de la part de {user}!",
+        "button": "Donnez lui un coup de pied!"
+    },
+    "slap": {
+        "name": "Gifle",
+        "text": "{user} gifle {who}!",
+        "count": "{who} vient d'être giflé par {user} {count} fois!",
+        "first": "{who} vient d'être giflé par {user} pour la première fois !",
+        "button": "Giflé-le!"
+    },
+    "blowjob": {
+        "name": "Sucer",
+        "text": "{user} a sucé {who}!",
+        "count": "{who} a été sucé par {user} au total {count} fois !",
+        "first": "C’était leur première pipe!",
+        "button": "Renvoie la faveur!"
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "slashCommands": {
+        "ping": {
+            "name": "ping",
+            "description": "Pong! Wyświetl czas reakcji bota."
+        },
+        "card": {
+            "name": "karta",
+            "description": "Sprawdź szczegóły wybranej karty!",
+            "options": {
+                "id": {
+                    "name": "id",
+                    "description": "ID wybranej karty (na przykład: 'ABC-123', możesz sprawdzić ID w haremie)."
+                }
+            }
+        },
+        "inventory": {
+            "name": "inwentarz",
+            "description": "Przeglądaj i używaj swoje przedmioty!",
+            "options": {
+                "category": {
+                    "name": "sekcja",
+                    "description": "Użyj tej opcji, żeby szybko nawigować do wybranej sekcji inwentarzu."
+                }
+            }
+        },
+        "roll": {
+            "name": "losuj",
+            "description": "Wylosuj {type}!",
+            "options": {
+                "times": {
+                    "name": "razy",
+                    "description": "Ile razy chcesz losować? Liczba całkowita pomiędzy 1 a 100."
+                }
+            }
+        },
+        "store": {
+            "description": "Wymień swoje monety na darmowe losy i więcej!"
+        },
+        "harem": {
+            "name": "harem",
+            "description": "Przeglądaj listę kart określonej osoby!",
+            "options": {
+                "owner": {
+                    "name": "użytkownik",
+                    "description": "Użytkownik, którego kolekcję chcesz zobaczyć (pozostaw puste, aby pokazać swoją kolekcję)."
+                },
+                "page": {
+                    "name": "strona",
+                    "description": "Numer strony (1 domyślnie)."
+                },
+                "sorting": {
+                    "name": "sortowanie",
+                    "description": "Sortować według czego?",
+                    "choices": {
+                        "rarityDesc": "Rzadkość (malejąco)",
+                        "rarityAsc": "Rzadkość (rosnąco)",
+                        "newest": "Najnowsze",
+                        "oldest": "Najstarsze",
+                        "nameAz": "Nazwa (a-z)",
+                        "nameZa": "Nazwa (z-a)",
+                        "idAz": "ID (a-z)",
+                        "idZa": "ID (z-a)",
+                        "affectionDesc": "Przywiązanie (malejąco)",
+                        "affectionAsc": "Przywiązanie (rosnąco)",
+                        "printDesc": "Numer Karty (malejąco)",
+                        "printAsc": "Numer Karty (rosnąco)"
+                    }
+                }
+            }
+        },
+        "trade": {
+            "name": "handel",
+            "options": {
+                "new": {
+                    "name": "nowy",
+                    "description": "Zainicjuj nową ofertę wymiany!",
+                    "options": {
+                        "user": {
+                            "name": "użytkownik",
+                            "description": "Osoba z którą chcesz handlować (musi być na tym samym serwerze!)."
+                        }
+                    }
+                },
+                "list": {
+                    "name": "lista",
+                    "description": "Przeglądaj listę aktywnych ofert wymiany."
+                },
+                "history": {
+                    "name": "historia",
+                    "description": "Przeglądaj historię swoich ofert wymiany."
+                }
+            }
+        },
+        "profile": {
+            "name": "profil",
+            "description": "Wyświetl szczegóły, odznaki i inne ważne informacje o wybranej osobie.",
+            "options": {
+                "user": {
+                    "name": "użytkownik",
+                    "description": "Użytkownik, którego profil chcesz zobaczyć (pozostaw puste, aby pokazać swój profil)."
+                }
+            }
+        },
+        "block": {
+            "name": "zablokuj",
+            "description": "Zablokuj (lub odblokuj) wybraną osobę, by wyłączyć niektóre interakcje.",
+            "options": {
+                "user": {
+                    "name": "użytkownik",
+                    "description": "Użytkownik, którego chcesz zablokować/odblokować."
+                }
+            }
+        },
+        "cheat": {
+            "name": "oszukuj",
+            "description": "[BETA/ALPHA] Pooszukuj sobie troszku."
+        },
+        "wishlist": {
+            "name": "listażyczeń",
+            "description": "Przeglądaj swoją listę życzeń!"
+        },
+        "help": {
+            "name": "pomoc",
+            "options": {
+                "commands": {
+                    "name": "komendy",
+                    "description": "Wyświetl listę komend!"
+                },
+                "info": {
+                    "name": "info",
+                    "description": "Pokaż przydatne informacje o bocie!"
+                }
+            }
+        },
+        "settings": {
+            "name": "ustawienia",
+            "description": "Edytuj ustawienia użytkownika, włącz wersję mobilną, zmień język i więcej!"
+        },
+        "auctionhouse": {
+            "name": "domaukcyjny",
+            "description": "Odwiedź Dom Aukcyjny, aby przeglądać i tworzyć globalne aukcje oraz oferty."
+        },
+        "gemporium": {
+            "name": "gemporium",
+            "description": "Wydaj swoje Klejnoty na przedmioty kosmetyczne, takie jak tła profilu i więcej!"
+        },
+        "contribute": {
+            "name": "wkład",
+            "description": "Przyczyń się do projektu poprzez dodawanie kart i otrzymuj nagrody!"
+        },
+        "invite": {
+            "name": "zaproś",
+            "description": "Zaproś mnie na swój serwer!"
+        },
+        "giveaways": {
+            "name": "giveawaye",
+            "description": "Bierz udział w giveaway'ach na karty, monety, przedmioty i wiele więcej!"
+        },
+        "date": {
+            "name": "randka",
+            "description": "Randkuj ze swoimi ulubionymi postaciami!",
+            "options": {
+                "id": {
+                    "name": "id",
+                    "description": "ID wybranej karty (na przykład: 'ABC-123', możesz sprawdzić ID w haremie)."
+                }
+            }
+        },
+        "business": {
+            "name": "biznes",
+            "options": {
+                "cafe": {
+                    "name": "kawiarnia",
+                    "description": "Zarządzaj swoją własną kawiarnią razem z ulubionymi postaciami!"
+                }
+            }
+        },
+        "leaderboards": {
+            "name": "rankingi",
+            "description": "Odkryj niezwykłe osiągnięć najlepszych graczy!"
+        },
+        "sell": {
+            "name": "sprzedaj",
+            "description": "Sprzedaj wiele kart zgodnie z Twoimi preferencjami - duplikaty, niska rzadkość itp."
+        },
+        "album": {
+            "name": "album",
+            "options": {
+                "card": {
+                    "name": "karta",
+                    "description": "Wyświetl szczegóły wybranej karty.",
+                    "options": {
+                        "id": {
+                            "name": "id",
+                            "description": "ID wybranej karty (tylko litery, na przykład: ABC)."
+                        }
+                    }
+                },
+                "background": {
+                    "name": "tło",
+                    "description": "Wyświetl szczegóły wybranego tła.",
+                    "options": {
+                        "id": {
+                            "name": "id",
+                            "description": "ID wybranego tła (np. 12)."
+                        }
+                    }
+                }
+            }
+        },
+        "patreon": {
+            "name": "patreon",
+            "description": "Zostań Patronem w zamian za ekskluzywne karty, dodatkowe losy, ulepszenia rzadkości i więcej!"
+        },
+        "vote": {
+            "name": "głosuj",
+            "description": "Głosuj na mnie i otrzymuj nagrody!"
+        },
+        "guide": {
+            "name": "przewodnik",
+            "description": "Odkryj funkcje bota i opanuj jego rozgrywkę!",
+            "options": {
+                "chapter": {
+                    "name": "temat",
+                    "description": "Wybierz temat, który cię interesuje."
+                }
+            }
+        },
+        "changelog": {
+            "name": "listazmian",
+            "description": "Wyświetl zmiany i nowe funkcje bieżącej wersji bota!"
+        },
+        "house": {
+            "name": "dom",
+            "description": "Odwiedź swój, lub wskazanego użytkownika, dom!",
+            "options": {
+                "user": {
+                    "name": "użytkownik",
+                    "description": "Właściciel domu, który chcesz odwiedzić. Pozostaw puste, aby odwiedzić swój dom."
+                }
+            }
+        }
+    },
+    "contextCommands": {
+        "profile": "Profil",
+        "harem": "Harem",
+        "hug": "Przytul",
+        "kiss": "Pocałuj",
+        "more": "Więcej..."
+    }
+}

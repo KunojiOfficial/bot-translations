@@ -1,0 +1,22 @@
+{
+    "auctionhouse": [
+        "A la une",
+        "Enchère la plus élevée (desc.)",
+        "Enchère la plus élevée (asc.)",
+        "Prix d'achat immédiat (desc.)",
+        "Prix d'achat immédiat (asc.)",
+        "Expire dans (desc.)",
+        "Expire dans (asc.)",
+        "Plus anciens",
+        "Plus récent",
+        "Rareté de la carte (desc.)",
+        "Rareté de la carte (asc.)",
+        "Nom de la carte (a-z)",
+        "Nom de la carte (z-a)"
+    ],
+    "offerhouse": [
+        "A la une",
+        "Plus anciens",
+        "Plus récent"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "hug": {
+        "name": "Abbraccio",
+        "text": "{user} ha abbracciato {who}!",
+        "count": "{who} è stato(a) abbracciato(a) da {user} per un totale di {count} volte!",
+        "first": "Si sono abbracciati per la prima volta!",
+        "button": "Ricambia l'abbraccio!"
+    },
+    "pat": {
+        "name": "Carezza",
+        "text": "{user} ha accarezzato la testa di {who}!",
+        "count": "{who} è stato(a) accarezzato(a) da {user} per un totale di {count} volte!",
+        "first": "Sono stati accarezzati per la prima volta!",
+        "button": "Ricambia la carezza!"
+    },
+    "kiss": {
+        "name": "Bacio",
+        "text": "{user} ha baciato {who}!",
+        "count": "{who} è stato(a) baciato(a) da {user} per un totale di {count} volte!",
+        "first": "Si sono baciati per la prima volta!",
+        "button": "Ricambia il bacio!"
+    },
+    "lick": {
+        "name": "Lecca",
+        "text": "{user} ha leccato {who}!",
+        "count": "{who} è stato(a) leccato(a) da {user} per un totale di {count} volte!",
+        "first": "Sono stati leccati per la prima volta!",
+        "button": "Ricambia la leccata!"
+    },
+    "highfive": {
+        "name": "Batti Cinque",
+        "text": "{user} ha dato il cinque a {who}!",
+        "count": "{who} ha battuto il cinque con {user} {count} volte!",
+        "first": "Questa è la prima volta che {who} ha battuto il cinque con {user}!",
+        "button": "Ricambia il cinque!"
+    },
+    "bonk": {
+        "name": "Bonk",
+        "text": "{user} ha giocosamente bonkato la testa di {who}!",
+        "count": "{who} è stato(a) bonkato(a) da {user} {count} volte!",
+        "first": "{who} è appena stato(a) bonkato(a) da {user} per la prima volta!",
+        "button": "Ricambia la bonkata!"
+    },
+    "poke": {
+        "name": "Poke",
+        "text": "{user} ha pokkato {who}!",
+        "count": "{who} è stato(a) pokkato(a) da {user} {count} volte!",
+        "first": "{who} è appena stato(a) pokkato(a) da {user} per la prima volta!",
+        "button": "Ricambia il poke!"
+    },
+    "bite": {
+        "name": "Mordi",
+        "text": "{user} ha morso {who}!",
+        "count": "{who} è stato(a) morso(a) da {user} {count} volte!",
+        "first": "{who} ha subito il primo morso giocoso da {user}!",
+        "button": "Ricambia il morso!"
+    },
+    "kick": {
+        "name": "Calcia",
+        "text": "{user} ha dato a {who} un calcio amichevole!",
+        "count": "{who} è stato(a) calciato(a) da {user} {count} volte!",
+        "first": "{who} ha appena ricevuto il loro primo calcio amichevole da {user}!",
+        "button": "Ricambia il calcio!"
+    },
+    "slap": {
+        "name": "Schiaffo",
+        "text": "{user} ha schiaffeggiato {who}!",
+        "count": "{who} è stato(a) schiaffeggiato(a) da {user} {count} volte!",
+        "first": "{who} è appena stato(a) schiaffeggiato(a) da {user} per la prima volta!",
+        "button": "Tiragli una sleppa!"
+    },
+    "blowjob": {
+        "name": "Pompino",
+        "text": "{user} ha fatto un pompino a {who}!",
+        "count": "{who} ha ricevuto un pompino da {user} per un totale di {count} volte!",
+        "first": "È stato il loro primo pompino!",
+        "button": "Ricambia il favore!"
+    }
+}

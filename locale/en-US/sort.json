@@ -1,0 +1,22 @@
+{
+    "auctionhouse": [
+        "Featured",
+        "Highest bid (desc.)",
+        "Highest bid (asc.)",
+        "Buyout price (desc.)",
+        "Buyout price (asc.)",
+        "Expires in (desc.)",
+        "Expires in (asc.)",
+        "Oldest",
+        "Newest",
+        "Card rarity (desc.)",
+        "Card rarity (asc.)",
+        "Card name (a-z)",
+        "Card name (z-a)"
+    ],
+    "offerhouse": [
+        "Featured",
+        "Oldest",
+        "Newest"
+    ]
+}

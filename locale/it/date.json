@@ -1,0 +1,210 @@
+{
+    "requiresEnergy": "Richiede {energy} energia",
+    "freeEnergy": "Non richiede energia",
+    "actions": [
+        {
+            "label": "Regalo",
+            "description": "ottimo per rompere il ghiaccio."
+        },
+        {
+            "label": "Complimento",
+            "description": "tutti amano i complimenti... giusto?"
+        },
+        {
+            "label": "Porta Fuori",
+            "description": "ricordati di scegliere un buon posto!"
+        },
+        {
+            "label": "Gioca Insieme",
+            "description": "giochiamo!"
+        }
+    ],
+    "mainDialogue": {
+        "0": {
+            "tsundere": "Oh, sei di nuovo te? Cosa vuoi?",
+            "yandere": "Posso aiutarti con qualcosa?",
+            "dandere": "C-ciao... Hai bisogno di qualcosa?",
+            "kuudere": "Oh, sei tu.",
+            "deredere": "Ciao~! Cosa hai fatto ultimamente?",
+            "himedere": "Ricorda di inchinarti prima di parlarmi!"
+        },
+        "1": {
+            "tsundere": "N-non sono affatto felice di vederti! Non farti strane idee! B-baka!",
+            "yandere": "Bene, bene, non è forse questo il mio cuore e anima?",
+            "dandere": "C-c-ciao! Ti stavo giusto aspettando!",
+            "kuudere": "Sei finalmente arrivato.",
+            "deredere": "Ehilà! Sei pronto per un po' di divertimento?",
+            "himedere": "Ah, il mio servo preferito è ritornato!"
+        },
+        "-1": {
+            "tsundere": "Ancora tu?! Non riesci a trovare un altro posto, idiota?",
+            "yandere": "Non stai utilizzando bene le gambe. Dovrei forse rimuoverle?",
+            "dandere": "Ugh...",
+            "kuudere": "...",
+            "deredere": "Oh, sei ancora qui?!",
+            "himedere": "Sparisci dalla mia vista!"
+        }
+    },
+    "gift": {
+        "likes": {
+            "tsundere": "Come sapevi che volevo... Voglio dire... Ugh... Questo andrà bene, suppongo.",
+            "yandere": "Conosci i miei gusti! È come se il fato ci avesse fatto incontrare.",
+            "dandere": "P-per me? Qu-questo è incantevole. Grazie.",
+            "kuudere": "Sei stato bravo.",
+            "deredere": "LO ADORO! SEI IL MIGLIORE!",
+            "himedere": "Hai sicuramente talento nello scegliere il regalo perfetto, mio servo preferito."
+        },
+        "dislikes": {
+            "tsundere": "L'hai tirato fuori dalla spazzatura? Ugh! Portalo via!",
+            "yandere": "Oh mio~ Dovrei dimostrare che cosa posso fare con questo regalo?",
+            "dandere": "Um... err... Scusa, ma passerò.",
+            "kuudere": "*lo butta da parte*",
+            "deredere": "Hm... Forse dovresti tenerlo per te, amico.",
+            "himedere": "Buttalo dove appartiene... e buttatici insieme."
+        },
+        "neutral": {
+            "tsundere": "Questo è tutto quello che hai? Chiaramente, sei un incapace per quanto riguarda i regali.",
+            "yandere": "Bene, questo è inaspettato. Pensi che mi piacciano le sorprese?",
+            "dandere": "G-grazie...",
+            "kuudere": "Inaspettato.",
+            "deredere": "É LA MIA... DICIOTTESIMA COSA PREFERITA!",
+            "himedere": "Mettilo in mezzo alla pila dei miei regali, plebeo."
+        }
+    },
+    "moodChange": {
+        "-1": "{name} diventa scontenta...",
+        "0": "{name} prende le distanze...",
+        "1": "Il volto di {name} si schiarisce..."
+    },
+    "affectionChange": {
+        "-1": "{name} perde interesse in te...",
+        "0": "I sentimenti di {name} nei tuoi confronti rimangono invariati...",
+        "0.5": "Sembra che tu piaccia un po' di più a {name}...",
+        "1": "A {name} piaci di più..."
+    },
+    "compliment": {
+        "placeholder": "Cosa dovrei dire?",
+        "options": {
+            "talent": "Hai davvero talento.",
+            "shy": "Sei così carina quando sei timida.",
+            "intelligence": "La tua intelligenza è impressionante.",
+            "intriguing": "Sei davvero intrigante.",
+            "personality": "Hai una personalità così forte e determinata.",
+            "elegant": "Sei elegante e graziosa.",
+            "fashion": "Il tuo senso di moda è impeccabile."
+        },
+        "likes": {
+            "tsundere": "S-Sciocchino! Non dire certe cose così all'improvviso!",
+            "yandere": "Oh caro, continua a parlare in questo modo, e forse dovrò silenziarti.",
+            "dandere": "Oh, um, aaa... Sei molto gentile.",
+            "kuudere": "Sei piuttosto gentile, vero?",
+            "deredere": "Sei il MIGLIORE! Dimmi di più!",
+            "himedere": "Oh, ho, ho! Sai come farmi divertire, plebeo."
+        },
+        "dislikes": {
+            "tsundere": "SEI SCEMO?! TU, PICCOLO E PATETICO INSETTO!",
+            "yandere": "Sembra che tu sia più gradevole con la bocca chiusa. Dovrei forse cucirtela?",
+            "dandere": "Cosa?",
+            "kuudere": "È stata una perdita di tempo...",
+            "deredere": "Eeeh?! Pensavo fossi divertente!",
+            "himedere": "Sparisci dalla mia vista, lurido plebeo!"
+        },
+        "neutral": {
+            "tsundere": "Io ho un certo fascino, a differenza di te. Baka.",
+            "yandere": "Ha un impatto così grande?",
+            "dandere": "N-no... F-fermati ti prego...",
+            "kuudere": "Me lo ricorderò.",
+            "deredere": "Haha! Anche tu!",
+            "himedere": "Naturalmente, è abbastanza ovvio."
+        }
+    },
+    "takeout": {
+        "placeholder": "Dove dovremmo andare?",
+        "options": {
+            "amusement-park": "Parco Divertimenti",
+            "quiet-cafe": "Cafè Tranquillo",
+            "art-gallery": "Galleria d'Arte",
+            "beach": "Spiaggia",
+            "high-end-restaurant": "Ristorante di Lusso",
+            "park": "Parco",
+            "music-festival": "Festival Musicale"
+        },
+        "likes": {
+            "tsundere": "T-tu... Sei stato bravo, idiota!",
+            "yandere": "Non è questo il luogo perfetto per trascorrere l'eternità insieme?",
+            "dandere": "O-oh! Anche a te piace questo posto?!",
+            "kuudere": "È piuttosto carino.",
+            "deredere": "E ANDIAMOOO! Questo è un appuntamento!",
+            "himedere": "Sai dove la regalità gode del loro tempo. Sei un ottimo servo."
+        },
+        "dislikes": {
+            "tsundere": "Sai cosa, imbecille? Vai da solo.",
+            "yandere": "Faresti meglio a non portarmi lì. O dovrei semplicemente incatenarti a una sedia nella mia casa?",
+            "dandere": "A dire il vero... Ho altri piani... Ci si vede!",
+            "kuudere": "*aggrotta le sopracciglia*",
+            "deredere": "Che peccato, sei veramente noioso!",
+            "himedere": "Che mancanza di maniere."
+        },
+        "neutral": {
+            "tsundere": "Che tipo di posto è questo, comunque?",
+            "yandere": "Questo non è il tipo di posto in cui mi aspettavo di andare.",
+            "dandere": "P-perché siamo qui?",
+            "kuudere": "Questo tipo di posto si adatta al tuo gusto, suppongo?",
+            "deredere": "Non ti preoccupare, possiamo pensare a qualcosa di divertente da fare insieme qui.",
+            "himedere": "Un luogo per la gente comune, vedo?"
+        }
+    },
+    "play": {
+        "placeholder": "A cosa dovremmo giocare?",
+        "options": {
+            "competitive-game": "Videogiochi Competitivi",
+            "board-game": "Giochi da Tavolo Cooperativi",
+            "puzzle-game": "Puzzle",
+            "retro-game": "Giochi Arcade Retro",
+            "vr-game": "Giochi in Realtà Virtuale",
+            "mobile-game": "Giochi per Cellulare",
+            "trivia-game": "Giochi Trivia Quiz",
+            "outdoor-sport": "Sport all'Aperto"
+        },
+        "likes": {
+            "tsundere": "In realtà non sei così terribile in questo! Sorprendente.",
+            "yandere": "Oh, dovremmo tenerci per mano mentre giochiamo! O meglio ancora, posso legarci insieme!",
+            "dandere": "F-facciamo una bella squadra!",
+            "kuudere": "Piacevole.",
+            "deredere": "ECCO DI COSA STO PARLANDO!",
+            "himedere": "Sembra che tu sappia dove trovare fonti di divertimento come un servo diligente."
+        },
+        "dislikes": {
+            "tsundere": "Stupido gioco, stupido te. BAKA! BAKA! BAKA!",
+            "yandere": "Preferirei affrontare un puzzle di 10.000 pezzi mentre sono legata a te.",
+            "dandere": "Oh... Penso che sia un gioco per un giocatore singolo. D-Divertiti!",
+            "kuudere": "Zero fantasia.",
+            "deredere": "Quello è stato un fallimento impressionante!",
+            "himedere": "Tieniti il tuo divertimento da plebeo per te."
+        },
+        "neutral": {
+            "tsundere": "Sì, fai piuttosto schifo in questo. Ma va bene. So che sei stupido.",
+            "yandere": "Beh, poteva andare peggio. Potevi metterti a piangere dall'imbarazzo.",
+            "dandere": "Q-questo è quello che ti piace?",
+            "kuudere": "Capisco...",
+            "deredere": "Fortunatamente, ero presente, altrimenti, sarebbe stato un terribile pomeriggio.",
+            "himedere": "Oh? Sei fortunato che sei generalmente utile, perché questo gioco... è terribile."
+        }
+    },
+    "moodDecline": {
+        "tsundere": "Sei stupido o cosa? Non sono dell'umore.",
+        "yandere": "Tesoro, Non sono dell'umore.",
+        "dandere": "Io... Preferirei di no... Non sono dell'umore...",
+        "kuudere": "No. Non sono dell'umore.",
+        "deredere": "Assolutamente no! Non sono dell'umore.",
+        "himedere": "Declino! Non sono dell'umore."
+    },
+    "repeatDecline": {
+        "tsundere": "Consulta un medico! Non lo farò di nuovo! Mi sa che le tue orecchie non funzionano correttamente! Sciocco, sordo scocciatore!",
+        "yandere": "Di nuovo? Desideri il dolore?",
+        "dandere": "Ugh... Forse potremmo provare qualcosa di diverso questa volta?",
+        "kuudere": "Noioso. Facciamo qualcosa di diverso.",
+        "deredere": "Proviamo qualcosa di diverso questa volta!",
+        "himedere": "Mi rifiuto. Lascia la mia presenza; non continuerò a farlo ripetutamente."
+    }
+}

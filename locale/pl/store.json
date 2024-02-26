@@ -1,0 +1,233 @@
+{
+    "properties": {
+        "cost": "Koszt",
+        "rolls": "Losy",
+        "target": "Cel",
+        "effect": "Efekt",
+        "rarity": "Rzadkość",
+        "chance": "Szansa",
+        "days": "Dni",
+        "featured": "Wyróżnia",
+        "energy": "Energia",
+        "slots": "Dodatkowe ulubione miejsca",
+        "personality": "Osobowość"
+    },
+    "rolls": {
+        "name": "Losy",
+        "description": "Kup i losuj jeszcze więcej!",
+        "details": "Te przedmioty dodają dodatkowe losy do Twojego konta i zostaną automatycznie przypisane po zakupie."
+    },
+    "upgraders": {
+        "name": "Ulepszacze",
+        "description": "Dodaj kilka gwiazdek do swojej karty!",
+        "details": "Aby zwiększyć rzadkość karty, kup ulepszacze! Atrybut \"Cel\" określa rzadkość, do której może być zastosowany, natomiast \"Efekt\" wskazuje wynikającą rzadkość."
+    },
+    "auction-bells": {
+        "name": "Dzwony aukcyjne",
+        "description": "Handluj swoimi kartami w Domu Aukcyjnym!",
+        "details": "Dzwony aukcyjne są wykorzystywane do tworzenia ofert i aukcji w ramach Domu Aukcyjnego. Atrybut „Dni” określa czas trwania oferty lub aukcji, które są tworzone."
+    },
+    "roll-tickets": {
+        "name": "Bilety na Losowanie",
+        "description": "Wylosuj kartę o gwarantowanej rzadkości!",
+        "details": "Bilety pozwalają ci na losowanie bez zużywania zwykłych losów, upewniając się, że otrzymana karta będzie posiadała rzadkość określoną w atrybutach."
+    },
+    "wish-granters": {
+        "name": "Spełniacze Życzeń",
+        "description": "Zwiększ szansę na wylosowanie postaci!",
+        "details": "Spełniacze pozwalają na dodanie życzeń na wybraną postać, zwiększając szansę na wylosowanie kart z tą postacią. Możesz śledzić swoje bieżące życzenia używając polecenia {command:wishlist}."
+    },
+    "gifts": {
+        "name": "Prezenty",
+        "description": "Zwiększ przywiązanie swoich kart!",
+        "details": "Chcesz wzmocnić swoją więź z kimś dla Ciebie specjalnym? Rozważ zakup prezentu! Pamiętaj jednak, że nie każdy prezent będzie doceniany przez każdego. Wybierz uważnie, aby uniknąć potencjalnych negatywnych skutków."
+    },
+    "energy-drinks": {
+        "name": "Napoje energetyczne",
+        "description": "Przywróć trochę swojej energii!",
+        "details": "Napoje energetyczne przywracają energię potrzebną do randek, pomagając Ci pozostać naładowanym i charyzmatycznym podczas spotkań. Każdy napój przywraca inną ilość energii wskazaną przez atrybut „Energia”."
+    },
+    "souls": {
+        "name": "Dusze",
+        "description": "Zmień osobowości swoich kart!",
+        "details": "Niezadowolony z aktualnej osobowości karty? Przekształć ją poprzez esencję tych zaklętych dusz!"
+    },
+    "miscellaneous": {
+        "name": "Pozostałe",
+        "description": "Wiele przydatnych przedmiotów!",
+        "details": "Te przedmioty mogą nie pasować do innych kategorii, ale ich użyteczność pozostaje niewątpliwa!"
+    },
+    "backgrounds": {
+        "name": "Tła"
+    },
+    "rolls-1": {
+        "name": "Iskra Losów",
+        "description": "Dodatkowy los!"
+    },
+    "rolls-2": {
+        "name": "Dwupak Losów",
+        "description": "Dwa w cenie 1.83!"
+    },
+    "rolls-5": {
+        "name": "Esencja Losów",
+        "description": "Nawet tańsze losy!"
+    },
+    "rolls-20": {
+        "name": "Błysk Losów",
+        "description": "Duży pakiet losów!"
+    },
+    "rolls-100": {
+        "name": "Przeładowanie Losów",
+        "description": "Ciężarówka pełna losów!"
+    },
+    "upgrader-2": {
+        "name": "Niezwykły Ulepszacz"
+    },
+    "upgrader-3": {
+        "name": "Rzadki Ulepszacz"
+    },
+    "upgrader-4": {
+        "name": "Super Rzadki Ulepszacz"
+    },
+    "upgrader-5": {
+        "name": "Ultra Rzadki Ulepszacz"
+    },
+    "upgrader-6": {
+        "name": "Legendarny Ulepszacz"
+    },
+    "upgrader-21": {
+        "name": "Ulepszacz Przyjaciela"
+    },
+    "upgrader-22": {
+        "name": "Ulepszacz Entuzjasty"
+    },
+    "upgrader-23": {
+        "name": "Ulepszacz Wielbiciela"
+    },
+    "upgrader-24": {
+        "name": "Ulepszacz Partnera"
+    },
+    "roll-ticket-1": {
+        "name": "Zwykły Bilet"
+    },
+    "roll-ticket-2": {
+        "name": "Niezwykły Bilet"
+    },
+    "roll-ticket-3": {
+        "name": "Rzadki Bilet"
+    },
+    "roll-ticket-4": {
+        "name": "Super-Rzadki Bilet"
+    },
+    "roll-ticket-5": {
+        "name": "Ultra-Rzadki Bilet"
+    },
+    "roll-ticket-6": {
+        "name": "Legendarny Bilet"
+    },
+    "roll-ticket-7": {
+        "name": "Mityczny Bilet"
+    },
+    "granter-weak": {
+        "name": "Słaby Spełniacz"
+    },
+    "granter-medium": {
+        "name": "Średni Spełniacz"
+    },
+    "granter-strong": {
+        "name": "Silny Spełniacz"
+    },
+    "granter-patron-1": {
+        "name": "Spełniacz Przyjaciela"
+    },
+    "granter-patron-2": {
+        "name": "Spełniacz Entuzjasty"
+    },
+    "granter-patron-3": {
+        "name": "Spełniacz Wielbiciela"
+    },
+    "granter-patron-4": {
+        "name": "Spełniacz Wielbiciela"
+    },
+    "auction-bell-1": {
+        "name": "Brązowy Dzwon Aukcyjny"
+    },
+    "auction-bell-2": {
+        "name": "Srebrny Dzwon Aukcyjny"
+    },
+    "auction-bell-3": {
+        "name": "Złoty Dzwon Aukcyjny"
+    },
+    "auction-bell-patron-1": {
+        "name": "Diamentowy Dzwon Aukcyjny"
+    },
+    "auction-bell-patron-2": {
+        "name": "Szmaragdowy Dzwon Aukcyjny"
+    },
+    "auction-bell-patron-3": {
+        "name": "Cytrynowy Dzwon Aukcyjny"
+    },
+    "auction-bell-patron-4": {
+        "name": "Rubinowy Dzwon Aukcyjny"
+    },
+    "fluffy-plushie": {
+        "name": "Mięciutki Pluszak"
+    },
+    "player-photo": {
+        "name": "Zdjęcie Gracza"
+    },
+    "art-sketchbook": {
+        "name": "Szkicownik"
+    },
+    "mystery-novel": {
+        "name": "Tajemnicza Powieść"
+    },
+    "tea-set": {
+        "name": "Zestaw Herbaciany"
+    },
+    "decorated-mirror": {
+        "name": "Elegancko Zdobione Lustro"
+    },
+    "gaming-console": {
+        "name": "Konsola Gier"
+    },
+    "sparkling-jewelry": {
+        "name": "Błyszcząca Biżuteria"
+    },
+    "energy-drink-1": {
+        "name": "VitaliZest"
+    },
+    "energy-drink-2": {
+        "name": "ZapQuencher"
+    },
+    "energy-drink-3": {
+        "name": "ReviveX"
+    },
+    "fav-expander-1": {
+        "name": "Klucz do Haremu"
+    },
+    "fav-expander-2": {
+        "name": "Serce Haremu"
+    },
+    "gem": {
+        "name": "Kryształ"
+    },
+    "blazing-soul": {
+        "name": "Płomienna Dusza"
+    },
+    "obsessive-soul": {
+        "name": "Obsesyjna Dusza"
+    },
+    "freezing-soul": {
+        "name": "Mroźna Dusza"
+    },
+    "radiant-soul": {
+        "name": "Promienista Dusza"
+    },
+    "noble-soul": {
+        "name": "Szlachetna Dusza"
+    },
+    "silent-soul": {
+        "name": "Cicha Dusza"
+    }
+}

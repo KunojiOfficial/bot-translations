@@ -1,0 +1,57 @@
+{
+    "types": {
+        "cafe": "café"
+    },
+    "stats": {
+        "storedGems": "Gemme Accumulate",
+        "closesIn": "Finisce",
+        "closed": "Finito",
+        "totalIncome": "Guadagno Totale",
+        "businessLevel": "Livello Business",
+        "upgrades": "Potenziamenti",
+        "workers": "Lavoratori",
+        "passiveIncome": "Guadagno Passivo",
+        "servingTime": "Tempo Servizio",
+        "popularity": "Popolarità",
+        "clickIncome": "Guadagno per Click",
+        "clickCapacity": "Capacità Click",
+        "workerLimit": "Limite Lavoratori",
+        "bankLimit": "Limite Magazzino",
+        "nextClick": "Prossimo Click"
+    },
+    "roles": {
+        "inactive": {
+            "name": "Non assegnato",
+            "description": "Non assegnato"
+        },
+        "barista": {
+            "name": "Barista",
+            "description": "Aumenta il guadagno per click."
+        },
+        "server": {
+            "name": "Cameriere",
+            "description": "Riduce il tempo di servizio."
+        },
+        "chef": {
+            "name": "Chef",
+            "description": "Aumenta il guadagno passivo."
+        },
+        "banker": {
+            "name": "Banchiere",
+            "description": "Aumenta lo spazio del magazzino gemme."
+        },
+        "cashier": {
+            "name": "Cassiere",
+            "description": "Aumenta la capacità dei click."
+        },
+        "promoter": {
+            "name": "Promoter",
+            "description": "Aumenta la popolarità."
+        }
+    },
+    "upgrades": {
+        "expansion-1": "Espansione Personale I",
+        "expansion-2": "Espansione Personale II",
+        "expansion-3": "Espansione Personale III"
+    }
+}

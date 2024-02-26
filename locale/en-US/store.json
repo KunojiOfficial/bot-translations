@@ -1,0 +1,233 @@
+{
+    "properties": {
+        "cost": "Cost",
+        "rolls": "Rolls",
+        "target": "Target",
+        "effect": "Effect",
+        "rarity": "Rarity",
+        "chance": "Chance",
+        "days": "Days",
+        "featured": "Features",
+        "energy": "Energy",
+        "slots": "Extra Favorite Slots",
+        "personality": "Personality"
+    },
+    "rolls": {
+        "name": "Rolls",
+        "description": "Buy and roll even more!",
+        "details": "These items will add extra rolls to your account and will be automatically assigned upon purchase."
+    },
+    "upgraders": {
+        "name": "Upgraders",
+        "description": "Add some stars to your card!",
+        "details": "To enhance the rarity of your card, purchase the upgraders! The \"Target\" attribute specifies the rarity it can be applied to, while the \"Effect\" indicates the resulting rarity."
+    },
+    "auction-bells": {
+        "name": "Auction Bells",
+        "description": "Trade your cards in the Auction House!",
+        "details": "Auction Bells are utilized to create offers and auctions within the Auction House. The \"Days\" attribute specifies the duration of the offer or auction being created."
+    },
+    "roll-tickets": {
+        "name": "Roll Tickets",
+        "description": "Roll a card of a guaranteed rarity!",
+        "details": "Tickets allow you to roll without consuming your regular rolls, ensuring that the resulting card will possess the rarity specified in the attributes."
+    },
+    "wish-granters": {
+        "name": "Wish Granters",
+        "description": "Boost character odds!",
+        "details": "Granters allow you to wish for a specific character, increasing the frequency of cards featuring that character. You can keep track of your current wishes using the command {command:wishlist}."
+    },
+    "gifts": {
+        "name": "Gifts",
+        "description": "Raise the affection of your cards!",
+        "details": "Looking to strengthen the bond with someone special? Consider buying them a thoughtful gift! However, keep in mind that not every gift will be appreciated by everyone. Be selective and choose wisely to avoid any potential negative consequences."
+    },
+    "energy-drinks": {
+        "name": "Energy Drinks",
+        "description": "Restore some of your energy!",
+        "details": "Energy drinks restore the energy required for dating, helping you stay charged and charismatic during romantic encounters. Each drink restores a different amount of energy, indicated by the \"Energy\" attribute."
+    },
+    "souls": {
+        "name": "Souls",
+        "description": "Change the personalities of your cards!",
+        "details": "Unhappy with your card's current personality? Transform it with the essence of these enchanting souls!"
+    },
+    "miscellaneous": {
+        "name": "Miscellaneous",
+        "description": "An array of useful miscellaneous items!",
+        "details": "These items may not fit into the other categories, but their utility remains unquestionable nonetheless!"
+    },
+    "backgrounds": {
+        "name": "Backgrounds"
+    },
+    "rolls-1": {
+        "name": "Rolls Spark",
+        "description": "An additional roll!"
+    },
+    "rolls-2": {
+        "name": "Rolls Doubler",
+        "description": "Two in the price of 1.83!"
+    },
+    "rolls-5": {
+        "name": "Rolls Essence",
+        "description": "Even cheaper rolls!"
+    },
+    "rolls-20": {
+        "name": "Rolls Blitz",
+        "description": "A big pack of rolls!"
+    },
+    "rolls-100": {
+        "name": "Rolls Overdrive",
+        "description": "A truck full of rolls!"
+    },
+    "upgrader-2": {
+        "name": "Uncommon Upgrader"
+    },
+    "upgrader-3": {
+        "name": "Rare Upgrader"
+    },
+    "upgrader-4": {
+        "name": "Super Rare Upgrader"
+    },
+    "upgrader-5": {
+        "name": "Ultra Rare Upgrader"
+    },
+    "upgrader-6": {
+        "name": "Legendary Upgrader"
+    },
+    "upgrader-21": {
+        "name": "Friend's Upgrader"
+    },
+    "upgrader-22": {
+        "name": "Enthusiast's Upgrader"
+    },
+    "upgrader-23": {
+        "name": "Lover's Upgrader"
+    },
+    "upgrader-24": {
+        "name": "Partner's Upgrader"
+    },
+    "roll-ticket-1": {
+      "name": "Common Ticket"
+    },
+    "roll-ticket-2": {
+      "name": "Uncommon Ticket"
+    },
+    "roll-ticket-3": {
+      "name": "Rare Ticket"
+    },
+    "roll-ticket-4": {
+      "name": "Super Rare Ticket"
+    },
+    "roll-ticket-5": {
+      "name": "Ultra Rare Ticket"
+    },
+    "roll-ticket-6": {
+      "name": "Legendary Ticket"
+    },
+    "roll-ticket-7": {
+      "name": "Mythic Ticket"
+    },
+    "granter-weak": {
+        "name": "Weak Granter"
+    },
+    "granter-medium": {
+        "name": "Medium Granter"
+    },
+    "granter-strong": {
+        "name": "Strong Granter"
+    },
+    "granter-patron-1": {
+        "name": "Friend's Granter"
+    },
+    "granter-patron-2": {
+        "name": "Enthusiast's Granter"
+    },
+    "granter-patron-3": {
+        "name": "Lover's Granter"
+    },
+    "granter-patron-4": {
+        "name": "Partner's Granter"
+    },
+    "auction-bell-1": {
+        "name": "Bronze Auction Bell"
+    },
+    "auction-bell-2": {
+        "name": "Silver Auction Bell"
+    },
+    "auction-bell-3": {
+        "name": "Golden Auction Bell"
+    },
+    "auction-bell-patron-1": {
+        "name": "Diamond Auction Bell"
+    },
+    "auction-bell-patron-2": {
+        "name": "Emerald Auction Bell"
+    },
+    "auction-bell-patron-3": {
+        "name": "Citrine Auction Bell"
+    },
+    "auction-bell-patron-4": {
+        "name": "Ruby Auction Bell"
+    },
+    "fluffy-plushie": {
+        "name": "Fluffy Plushie"
+    },
+    "player-photo": {
+        "name": "Player's Photo"
+    },
+    "art-sketchbook": {
+        "name": "Art Sketchbook"
+    },
+    "mystery-novel": {
+        "name": "Mystery Novel"
+    },
+    "tea-set": {
+        "name": "Tea Set"
+    },
+    "decorated-mirror": {
+        "name": "Elegantly Decorated Mirror"
+    },
+    "gaming-console": {
+        "name": "Gaming Console"
+    },
+    "sparkling-jewelry": {
+        "name": "Sparkling Jewelry"
+    },
+    "energy-drink-1": {
+        "name": "VitaliZest"
+    },
+    "energy-drink-2": {
+        "name": "ZapQuencher"
+    },
+    "energy-drink-3": {
+        "name": "ReviveX"
+    },
+    "fav-expander-1": {
+        "name": "Harem Key"
+    }, 
+    "fav-expander-2": {
+        "name": "Heart of Harem"
+    },
+    "gem": {
+        "name": "Gem"
+    },
+    "blazing-soul": {
+        "name": "Blazing Soul"
+    },
+    "obsessive-soul": {
+        "name": "Obsessive Soul"
+    },
+    "freezing-soul": {
+        "name": "Freezing Soul"
+    },
+    "radiant-soul": {
+        "name": "Radiant Soul"
+    },
+    "noble-soul": {
+        "name": "Noble Soul"
+    },
+    "silent-soul": {
+        "name": "Silent Soul"
+    }
+}

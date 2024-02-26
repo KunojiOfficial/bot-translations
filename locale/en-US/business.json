@@ -1,0 +1,57 @@
+{
+    "types": {
+        "cafe": "café"
+    },
+    "stats": {
+        "storedGems": "Stored Gems",
+        "closesIn": "Stops",
+        "closed": "Stopped",
+        "totalIncome": "Total Income",
+        "businessLevel": "Business Level",
+        "upgrades": "Upgrades",
+        "workers": "Workers",
+        "passiveIncome": "Passive Income",
+        "servingTime": "Serving Time",
+        "popularity": "Popularity",
+        "clickIncome": "Click Income",
+        "clickCapacity": "Click Capacity",
+        "workerLimit": "Worker Limit",
+        "bankLimit": "Storage Limit",
+        "nextClick": "Next Click"
+    },
+    "roles": {
+        "inactive": {
+            "name": "Unassigned",
+            "description": "Unassigned"
+        },
+        "barista": {
+            "name": "Barista",
+            "description": "Increases click income."
+        },
+        "server": {
+            "name": "Server",
+            "description": "Decreases serving time."
+        },
+        "chef": {
+            "name": "Chef",
+            "description": "Increases passive income."
+        },
+        "banker": {
+            "name": "Banker",
+            "description": "Increases gem storage limit."
+        },
+        "cashier": {
+            "name": "Cashier",
+            "description": "Increases click capacity."
+        },
+        "promoter": {
+            "name": "Promoter",
+            "description": "Increases popularity."
+        }
+    },
+    "upgrades": {
+        "expansion-1": "Personnel Expansion I",
+        "expansion-2": "Personnel Expansion II",
+        "expansion-3": "Personnel Expansion III"
+    }
+}

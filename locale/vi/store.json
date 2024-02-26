@@ -1,0 +1,233 @@
+{
+    "properties": {
+        "cost": "Chi phí",
+        "rolls": "Lượt quay",
+        "target": "Mục tiêu",
+        "effect": "Hiệu ứng",
+        "rarity": "Độ hiếm",
+        "chance": "Cơ hội",
+        "days": "Ngày",
+        "featured": "Tính năng",
+        "energy": "Năng lượng",
+        "slots": "Thêm ô yêu thích",
+        "personality": "Tính cách"
+    },
+    "rolls": {
+        "name": "Lượt quay",
+        "description": "Hãy mua và quay nhiều hơn!",
+        "details": "Những vật phẩm này sẽ thêm lượt quay bổ sung vào tài khoản của bạn và sẽ tự động được chỉ định khi mua."
+    },
+    "upgraders": {
+        "name": "Nâng cấp",
+        "description": "Tăng độ hiếm cho thẻ của bạn!",
+        "details": "Để nâng cao độ hiếm của thẻ, hãy mua các vật phẩm nâng cấp! Thuộc tính \"Mục tiêu\" cho biết có thể áp dụng được nâng cấp nào, và \"Hiệu ứng\" cho biết độ hiếm sau khi nâng cấp."
+    },
+    "auction-bells": {
+        "name": "Chuông đấu giá",
+        "description": "Trao đổi thẻ của bạn trên Sàn đấu giá!",
+        "details": "Chuông đấu giá được sử dụng để tạo các lời mời đấu giá trong Sàn đấu giá. Chỉ số \"Ngày\" chỉ định thời hạn của lời mời hoặc phiên đấu giá được tạo."
+    },
+    "roll-tickets": {
+        "name": "Vé quay",
+        "description": "Quay 1 thẻ với độ hiếm xác định!",
+        "details": "Vé cho phép bạn quay không tiêu tốn các lượt quay thông thường của mình, và đảm bảo rằng thẻ quay ra sẽ có độ hiếm được chỉ định."
+    },
+    "wish-granters": {
+        "name": "Điều ước",
+        "description": "Tăng cơ hội quay nhân vật!",
+        "details": "Điều ước cho phép bạn ước một nhân vật cụ thể, tăng tần suất xuất hiện các thẻ có nhân vật đó. Bạn có thể theo dõi điều ước hiện tại của mình bằng lệnh{command:wishlist}."
+    },
+    "gifts": {
+        "name": "Quà tặng",
+        "description": "Tăng độ thiện cảm với thẻ của bạn!",
+        "details": "Bạn đang tìm cách tăng độ thân mật với một người đặc biệt? Hãy cân nhắc việc mua cho họ một món quà thật chu đáo! Tuy nhiên, không phải món quà nào cũng được họ đánh giá cao. Hãy chọn lọc và lựa chọn một cách khôn ngoan để các hậu quả tiêu cực tiềm ẩn."
+    },
+    "energy-drinks": {
+        "name": "Nước tăng lực",
+        "description": "Hồi năng lượng!",
+        "details": "Nước tăng lực phục hồi năng lượng cần thiết cho buổi hẹn hò, giúp bạn luôn tràn đầy năng lượng và sự lôi cuốn trong những cuộc gặp gỡ lãng mạn. Mỗi đồ uống phục hồi một lượng năng lượng khác nhau, được biểu thị bằng thuộc tính \"Năng lượng\"."
+    },
+    "souls": {
+        "name": "Linh hồn",
+        "description": "Thay đổi tính cách thẻ!",
+        "details": "Không thích tính cách hiện tại của thẻ? Hãy thay đổi chúng bằng những vật phẩm linh hồn!"
+    },
+    "miscellaneous": {
+        "name": "Khác",
+        "description": "Danh mục các vật phẩm hữu ích khác!",
+        "details": "Những vật phẩm này có thể không thuộc các danh mục khác, nhưng vẫn rất hữu ích!"
+    },
+    "backgrounds": {
+        "name": "Hình nền"
+    },
+    "rolls-1": {
+        "name": "Quay đơn",
+        "description": "1 lượt quay thêm!"
+    },
+    "rolls-2": {
+        "name": "Quay đôi",
+        "description": "2 lượt quay theo giá chỉ từ 1.83!"
+    },
+    "rolls-5": {
+        "name": "Quay siêu cấp",
+        "description": "Những lượt quay rẻ hơn thế nữa!"
+    },
+    "rolls-20": {
+        "name": "Quay thượng hạng",
+        "description": "Một túi đầy lượt quay!"
+    },
+    "rolls-100": {
+        "name": "Quay vượt giới hạn",
+        "description": "Một xe tải đầy lượt quay!"
+    },
+    "upgrader-2": {
+        "name": "Nâng cấp không thông thường"
+    },
+    "upgrader-3": {
+        "name": "Nâng cấp hiếm"
+    },
+    "upgrader-4": {
+        "name": "Nâng cấp siêu hiếm"
+    },
+    "upgrader-5": {
+        "name": "Nâng cấp cực hiếm"
+    },
+    "upgrader-6": {
+        "name": "Nâng cấp huyền thoại"
+    },
+    "upgrader-21": {
+        "name": "Nâng cấp của Bạn bè"
+    },
+    "upgrader-22": {
+        "name": "Nâng cấp của Người hâm mộ"
+    },
+    "upgrader-23": {
+        "name": "Nâng cấp của Người yêu"
+    },
+    "upgrader-24": {
+        "name": "Nâng cấp của Bạn đời"
+    },
+    "roll-ticket-1": {
+        "name": "Vé thường"
+    },
+    "roll-ticket-2": {
+        "name": "Vé không thông thường"
+    },
+    "roll-ticket-3": {
+        "name": "Vé hiếm"
+    },
+    "roll-ticket-4": {
+        "name": "Vé siêu hiếm"
+    },
+    "roll-ticket-5": {
+        "name": "Vé cực hiếm"
+    },
+    "roll-ticket-6": {
+        "name": "Vé huyền thoại"
+    },
+    "roll-ticket-7": {
+        "name": "Vé sử thi"
+    },
+    "granter-weak": {
+        "name": "Điều ước nhỏ"
+    },
+    "granter-medium": {
+        "name": "Điều ước vừa"
+    },
+    "granter-strong": {
+        "name": "Điều ước lớn"
+    },
+    "granter-patron-1": {
+        "name": "Điều ước cho Bạn bè"
+    },
+    "granter-patron-2": {
+        "name": "Điều ước cho Người hâm mộ"
+    },
+    "granter-patron-3": {
+        "name": "Điều ước cho Người tình"
+    },
+    "granter-patron-4": {
+        "name": "Điều ước cho Bạn đời"
+    },
+    "auction-bell-1": {
+        "name": "Chuông đấu giá Đồng"
+    },
+    "auction-bell-2": {
+        "name": "Chuông đấu giá Bạc"
+    },
+    "auction-bell-3": {
+        "name": "Chuông đấu giá Vàng"
+    },
+    "auction-bell-patron-1": {
+        "name": "Chuông đấu giá Kim cương"
+    },
+    "auction-bell-patron-2": {
+        "name": "Chuông đấu giá Lục bảo"
+    },
+    "auction-bell-patron-3": {
+        "name": "Chuông đấu giá Thạch anh vàng"
+    },
+    "auction-bell-patron-4": {
+        "name": "Chuông đấu giá Hồng ngọc"
+    },
+    "fluffy-plushie": {
+        "name": "Thú bông"
+    },
+    "player-photo": {
+        "name": "Hình ảnh người dùng"
+    },
+    "art-sketchbook": {
+        "name": "Sách phát họa"
+    },
+    "mystery-novel": {
+        "name": "Tiểu thuyết bí ẩn"
+    },
+    "tea-set": {
+        "name": "Bộ trà"
+    },
+    "decorated-mirror": {
+        "name": "Gương được trang trí"
+    },
+    "gaming-console": {
+        "name": "Máy chơi game"
+    },
+    "sparkling-jewelry": {
+        "name": "Trang sức lấp lánh"
+    },
+    "energy-drink-1": {
+        "name": "Thể lực Z vị chanh"
+    },
+    "energy-drink-2": {
+        "name": "Zải khát"
+    },
+    "energy-drink-3": {
+        "name": "Tăng lực ultra X"
+    },
+    "fav-expander-1": {
+        "name": "Chìa khóa Harem"
+    },
+    "fav-expander-2": {
+        "name": "Trái tim Harem"
+    },
+    "gem": {
+        "name": "Gem"
+    },
+    "blazing-soul": {
+        "name": "Linh hồn Rực sáng"
+    },
+    "obsessive-soul": {
+        "name": "Linh hồn Ám ảnh"
+    },
+    "freezing-soul": {
+        "name": "Linh hồn Lạnh giá"
+    },
+    "radiant-soul": {
+        "name": "Linh hồn Ấm áp"
+    },
+    "noble-soul": {
+        "name": "Linh hồn Cao quý"
+    },
+    "silent-soul": {
+        "name": "Linh hồn Thầm lặng"
+    }
+}

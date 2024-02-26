@@ -1,0 +1,22 @@
+{
+    "auctionhouse": [
+        "Có mặt thẻ",
+        "Giá hỏi mua cao nhất (giảm dần.)",
+        "Giá hỏi mua cao nhất (tăng dần.)",
+        "Giá mua (giảm dần.)",
+        "Giá mua (tăng dần.)",
+        "Hết hạn trong (giảm dần)",
+        "Hết hạn trong (tăng dần)",
+        "Cũ nhất",
+        "Mới nhất",
+        "Độ hiếm (giảm dần.)",
+        "Độ hiếm (tăng dần.)",
+        "Tên thẻ (a-z)",
+        "Tên thẻ (z-a)"
+    ],
+    "offerhouse": [
+        "Có mặt thẻ",
+        "Cũ nhất",
+        "Mới nhất"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "types": {
+        "cafe": "café"
+    },
+    "stats": {
+        "storedGems": "Gem lưu trữ",
+        "closesIn": "Dừng lại",
+        "closed": "Đã dừng",
+        "totalIncome": "Tổng thu nhập",
+        "businessLevel": "Cấp độ Kinh doanh",
+        "upgrades": "Nâng cấp",
+        "workers": "Nhân viên",
+        "passiveIncome": "Thu nhập bị động",
+        "servingTime": "Thời gian phục vụ",
+        "popularity": "Độ nổi tiếng",
+        "clickIncome": "Thu nhập 1 lần nhấp",
+        "clickCapacity": "Giới hạn lần nhấp",
+        "workerLimit": "Giới hạn thợ",
+        "bankLimit": "Giới hạn kho",
+        "nextClick": "Lần nhấp tiếp theo"
+    },
+    "roles": {
+        "inactive": {
+            "name": "Chưa được phân công",
+            "description": "Chưa được phân công"
+        },
+        "barista": {
+            "name": "Nhân viên pha chế",
+            "description": "Tăng thu nhập 1 lần nhấp."
+        },
+        "server": {
+            "name": "Bồi bàn",
+            "description": "Giảm thời gian phục vụ."
+        },
+        "chef": {
+            "name": "Đầu bếp",
+            "description": "Tăng thu nhập bị động."
+        },
+        "banker": {
+            "name": "Kế toán",
+            "description": "Tăng giới hạn gem."
+        },
+        "cashier": {
+            "name": "Thu ngân",
+            "description": "Tăng giới hạn lần nhấp."
+        },
+        "promoter": {
+            "name": "Nhân viên quảng cáo",
+            "description": "Tăng độ nổi tiếng."
+        }
+    },
+    "upgrades": {
+        "expansion-1": "Thêm nhân viên I",
+        "expansion-2": "Thêm nhân viên II",
+        "expansion-3": "Thêm nhân viên III"
+    }
+}

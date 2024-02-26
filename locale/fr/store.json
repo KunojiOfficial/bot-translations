@@ -1,0 +1,233 @@
+{
+    "properties": {
+        "cost": "Prix",
+        "rolls": "Tirages",
+        "target": "Objectif",
+        "effect": "Effet",
+        "rarity": "Rareté",
+        "chance": "Probabilité",
+        "days": "Jours",
+        "featured": "Caractéristiques",
+        "energy": "Énergie",
+        "slots": "Emplacements favoris supplémentaires",
+        "personality": "Personnalité"
+    },
+    "rolls": {
+        "name": "Tirages",
+        "description": "Achète et tire encore plus!",
+        "details": "Ces articles ajouteront des rôles supplémentaires à votre compte et seront automatiquement attribués lors de l'achat."
+    },
+    "upgraders": {
+        "name": "Améliorations",
+        "description": "Ajoute quelques étoiles à ta waifu!",
+        "details": "Pour améliorer la rareté de votre carte, achetez les améliorateurs! L'attribut « objectif » spécifie la rareté à laquelle il peut être appliqué, tandis que « Effet » indique la rareté résultante."
+    },
+    "auction-bells": {
+        "name": "Auction Bells",
+        "description": "Échangez vos cartes dans la maison de vente aux enchères!",
+        "details": "Auction Bells sont utilisées pour créer des offres et des enchères au sein de la vente aux enchères. L'attribut \"Jours\" spécifie la durée de l'offre ou de la vente aux enchères."
+    },
+    "roll-tickets": {
+        "name": "Roll Tickets",
+        "description": "Tire une waifu d'une rareté garantie!",
+        "details": "Les tickets vous permettent de lancer sans consommer vos tirages habituels, en vous assurant que la carte résultante possédera la rareté spécifiée dans les attributs."
+    },
+    "wish-granters": {
+        "name": "Wish Granters",
+        "description": "Augmentez les chances d'apparition du personnage!",
+        "details": "Les Granters vous permettent de souhaiter un personnage spécifique, augmentant la fréquence des cartes avec ce personnage. Vous pouvez garder une trace de vos souhaits actuels en utilisant la commande {command:wishlist}."
+    },
+    "gifts": {
+        "name": "Cadeaux",
+        "description": "Augmentez l'affection de vos cartes!",
+        "details": "Vous cherchez à renforcer le lien avec quelqu'un de spécial ? Pensez à l'acheter un beau cadeau! Cependant, gardez à l'esprit que tout don ne sera pas apprécié par tout le monde. Soyez sélectif et choisissez judicieusement d'éviter d'éventuelles conséquences négatives."
+    },
+    "energy-drinks": {
+        "name": "Energy Drinks",
+        "description": "Restaurez une partie de votre énergie!",
+        "details": "Les Energy drinks rétablissent l'énergie nécessaire pour les rencontres, vous aidant à rester chargé et charismatique lors de rencontres romantiques. Chaque boisson restaure une quantité d'énergie différente, indiquée par l'attribut \"Energie\"."
+    },
+    "souls": {
+        "name": "Âmes",
+        "description": "Changez les personnalités de vos cartes!",
+        "details": "Vous n'êtes pas satisfait de la personnalité actuelle de votre carte? Transformez-la avec l'essence de ces âmes enchantés!"
+    },
+    "miscellaneous": {
+        "name": "Divers",
+        "description": "Une diversité d'objets utiles!",
+        "details": "Ces objets peuvent ne pas entrer dans les autres catégories, mais leur utilité reste indiscutable quand même!"
+    },
+    "backgrounds": {
+        "name": "Arrière-plans"
+    },
+    "rolls-1": {
+        "name": "Étincelle de Tirages",
+        "description": "Un tirage supplémentaire!"
+    },
+    "rolls-2": {
+        "name": "Double Tirages",
+        "description": "Deux au prix de 1.83!"
+    },
+    "rolls-5": {
+        "name": "Tirages d'essence",
+        "description": "Tirages encore moins chers!"
+    },
+    "rolls-20": {
+        "name": "Tirages Blitz",
+        "description": "Un gros paquet de tirages!"
+    },
+    "rolls-100": {
+        "name": "Surcharge de Tirages",
+        "description": "Un camion plein de tirages!"
+    },
+    "upgrader-2": {
+        "name": "Uncommon Upgrader"
+    },
+    "upgrader-3": {
+        "name": "Rare Upgrader"
+    },
+    "upgrader-4": {
+        "name": "Super Rare Upgrader"
+    },
+    "upgrader-5": {
+        "name": "Ultra Rare Upgrader"
+    },
+    "upgrader-6": {
+        "name": "Legendary Upgrader"
+    },
+    "upgrader-21": {
+        "name": "Friend's Upgrader"
+    },
+    "upgrader-22": {
+        "name": "Enthusiast's Upgrader"
+    },
+    "upgrader-23": {
+        "name": "Lover's Upgrader"
+    },
+    "upgrader-24": {
+        "name": "Partner's Upgrader"
+    },
+    "roll-ticket-1": {
+        "name": "Common Ticket"
+    },
+    "roll-ticket-2": {
+        "name": "Uncommon Ticket"
+    },
+    "roll-ticket-3": {
+        "name": "Rare Ticket"
+    },
+    "roll-ticket-4": {
+        "name": "Super Rare Ticket"
+    },
+    "roll-ticket-5": {
+        "name": "Ultra Rare Ticket"
+    },
+    "roll-ticket-6": {
+        "name": "Legendary Ticket"
+    },
+    "roll-ticket-7": {
+        "name": "Mythic Ticket"
+    },
+    "granter-weak": {
+        "name": "Weak Granter"
+    },
+    "granter-medium": {
+        "name": "Medium Granter"
+    },
+    "granter-strong": {
+        "name": "Strong Granter"
+    },
+    "granter-patron-1": {
+        "name": "Friend's Granter"
+    },
+    "granter-patron-2": {
+        "name": "Enthusiast's Granter"
+    },
+    "granter-patron-3": {
+        "name": "Lover's Granter"
+    },
+    "granter-patron-4": {
+        "name": "Partner's Granter"
+    },
+    "auction-bell-1": {
+        "name": "Bronze Auction Bell"
+    },
+    "auction-bell-2": {
+        "name": "Silver Auction Bell"
+    },
+    "auction-bell-3": {
+        "name": "Golden Auction Bell"
+    },
+    "auction-bell-patron-1": {
+        "name": "Diamond Auction Bell"
+    },
+    "auction-bell-patron-2": {
+        "name": "Emerald Auction Bell"
+    },
+    "auction-bell-patron-3": {
+        "name": "Citrine Auction Bell"
+    },
+    "auction-bell-patron-4": {
+        "name": "Ruby Auction Bell"
+    },
+    "fluffy-plushie": {
+        "name": "Peluche douillette"
+    },
+    "player-photo": {
+        "name": "Photo du joueur"
+    },
+    "art-sketchbook": {
+        "name": "Carnet d'art"
+    },
+    "mystery-novel": {
+        "name": "Mystery Novel"
+    },
+    "tea-set": {
+        "name": "Jeu de thé"
+    },
+    "decorated-mirror": {
+        "name": "Miroir élégamment décoré"
+    },
+    "gaming-console": {
+        "name": "Console de jeu"
+    },
+    "sparkling-jewelry": {
+        "name": "Bijoux étincelant"
+    },
+    "energy-drink-1": {
+        "name": "VitaliZest"
+    },
+    "energy-drink-2": {
+        "name": "ZapQuencher"
+    },
+    "energy-drink-3": {
+        "name": "ReviveX"
+    },
+    "fav-expander-1": {
+        "name": "Harem Key"
+    },
+    "fav-expander-2": {
+        "name": "Heart of Harem"
+    },
+    "gem": {
+        "name": "Gemme"
+    },
+    "blazing-soul": {
+        "name": "Âme ardente"
+    },
+    "obsessive-soul": {
+        "name": "Âme obsessive"
+    },
+    "freezing-soul": {
+        "name": "Âme Glaçante"
+    },
+    "radiant-soul": {
+        "name": "Âme Radiante"
+    },
+    "noble-soul": {
+        "name": "Âme noble"
+    },
+    "silent-soul": {
+        "name": "Âme silencieuse"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "auctionhouse": [
+        "Destacado",
+        "Oferta más alta (desc.)",
+        "Oferta más alta (asc.)",
+        "Precio de compra (desc.)",
+        "Precio de compra (asc.)",
+        "Expira en (desc.)",
+        "Expira en (asc.)",
+        "Más antiguo",
+        "Más reciente",
+        "Rareza de la carta (desc.)",
+        "Rareza de la carta (asc.)",
+        "Nombre de la tarjeta (a-z)",
+        "Nombre de la tarjeta (z-a)"
+    ],
+    "offerhouse": [
+        "Destacados",
+        "Más antiguo",
+        "Más reciente"
+    ]
+}

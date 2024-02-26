@@ -1,0 +1,79 @@
+{
+    "hug": {
+        "name": "Przytul",
+        "text": "{user} przytulił(a) {who}!",
+        "count": "{who} został(a) przytulony(a) przez {user} łącznie {count} razy!",
+        "first": "To ich pierwszy przytulas!",
+        "button": "Odwdzięcz się!"
+    },
+    "pat": {
+        "name": "Pogłaszcz",
+        "text": "{user} pogłaskał głowę {who}!",
+        "count": "{who} został(a) pogłaskany(a) przez {user} łącznie {count} razy!",
+        "first": "Zostali pogłaskani po raz pierwszy!",
+        "button": "Odwdzięcz się!"
+    },
+    "kiss": {
+        "name": "Pocałuj",
+        "text": "{user} pocałował(a) {who}!",
+        "count": "{who} został(a) pocałowany(a) przez {user} łącznie {count} razy!",
+        "first": "To ich pierwszy całus!",
+        "button": "Odwdzięcz się!"
+    },
+    "lick": {
+        "name": "Poliż",
+        "text": "{user} polizał(a) {who}!",
+        "count": "{who} został(a) polizany(a) przez {user} łącznie {count} razy!",
+        "first": "Zostali polizani po raz pierwszy!",
+        "button": "Odwdzięcz się!"
+    },
+    "highfive": {
+        "name": "Piątka",
+        "text": "{user} przybił(a) piątkę {who}!",
+        "count": "{who} przybił piątkę z {user} {count} razy!",
+        "first": "To pierwszy raz, gdy {who} przybił piątkę z {user}!",
+        "button": "Odwdzięcz się!"
+    },
+    "bonk": {
+        "name": "Bonk",
+        "text": "{user} zrobił bonk w głowę {who}!",
+        "count": "{who} został(a) udzerzony(a) przez {user} łącznie {count} razy!",
+        "first": "{who} własnie dostał w łeb od {user} po raz pierwszy!",
+        "button": "Odwdzięcz się!"
+    },
+    "poke": {
+        "name": "Dziab",
+        "text": "{user} dziabnął(ęła) {who}!",
+        "count": "{who} został(a) dziabnięty(a) przez {user} łącznie {count} razy!",
+        "first": "{who} został dziabnięty przez {user} po raz pierwszy!",
+        "button": "Odwdzięcz się!"
+    },
+    "bite": {
+        "name": "Ugryź",
+        "text": "{user} ugryzł(a) {who}!",
+        "count": "{who} został(a) ugryziony(a) przez {user} łącznie {count} razy!",
+        "first": "{who} doświadczył pierwszego ugryzienia od {user}!",
+        "button": "Odgryź się!"
+    },
+    "kick": {
+        "name": "Kopnij",
+        "text": "{user} dał {who} przyjaznego kopa!",
+        "count": "{who} został(a) kopnięty(a) przez {user} łącznie {count} razy!",
+        "first": "{who} właśnie dostał pierwszego kopa od {user}!",
+        "button": "Odkop się!"
+    },
+    "slap": {
+        "name": "Liść",
+        "text": "{who} dostał z liścia od {user}!",
+        "count": "{who} dostał(a) liścia od {user} łącznie {count} razy!",
+        "first": "{who} własnie dostał liścia od {user} po raz pierwszy!",
+        "button": "Odliścij się!"
+    },
+    "blowjob": {
+        "name": "Blowjob",
+        "text": "{user} oblodził(a) dla {who}!",
+        "count": "{who} miał(a) oblodzone przez {user} łącznie {count} razy!",
+        "first": "To było ich pierwsze tego typu zbliżenie!",
+        "button": "Odwdzięcz się!"
+    }
+}

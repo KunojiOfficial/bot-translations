@@ -1,0 +1,151 @@
+{
+    "topics": {
+        "howToStart": "Primeiros passos",
+        "detailedMechanics": "Mecânicas detalhadas",
+        "commands": "Comandos e controles",
+        "dates": "Encontros e personalidades",
+        "businesses": "Negócios e Gemas",
+        "gemporium": "Gemporium e cosméticos"
+    },
+    "howToStart": {
+        "whatIs": {
+            "name": "O que é {bot}?",
+            "pages": [
+                "Bem-vindo ao guia! Aqui, você vai encontrar toda a assistência que precisar. Vamos começar com o básico.\n\n**O que é {bot}?** {bot} é um Bot do discord {config:botType} que te permite coletar cartas fantásticas contribuídas pela comunidade, interagir com elas ou trocar elas com seus amigos.\n\nLembre-se, {bot} não reindivica direitos a qualquer das cartas disponíveis - elas pertencem aos seus criadores respectivos."
+            ]
+        },
+        "mobile": {
+            "name": "Versão móvel",
+            "pages": [
+                "Você pode pular essa parte se está usando um computador, laptop ou qualquer outro dispositivo de tela grande.\n\nDevido a possíveis problemas na leitura em certas funções de {bot} em certos dispositivos, nós tempos uma versão móvel condensada que pode ser utilizada com o comando {command:settings}. Essa função é útil principalmente se estiver usando {bot} em seu celular."
+            ]
+        },
+        "roll": {
+            "name": "Rolar cartas",
+            "pages": [
+                "Rolar cartas é uma função central de {bot}. Comece seu jogo por usar o comando {command:roll}.\nAo rolar, uma nova carta vai aparecer e vai ser vinculada a sua conta. Mais detalhes sobre atributos de cartas vão ser discutidos no próximo subcapítulo.\nTodas as cartas roladas estão localizadas no seu harém, seu armazenamento de cartas. Acesse por usar o comando {command:harem}.\n\nSe você achar uma carta rolada indesejada, você poderá vendê-la.\nVender cartas te dá moedas, que podem ser utilizadas em {command:store}. Mais nisso vai ser discutidos nos próximos subcapítulos."
+            ]
+        },
+        "cardsHarems": {
+            "name": "Atributos básicos das cartas",
+            "pages": [
+                "Cada carta tem um atributo de raridade. Para uma lista abrangente de todas as raridades, consulte o capítulo dedicado \"Atributos de cartas\". Neste momento, concentremo-nos na noção de que a raridade é indicada pelas estrelas, definindo, em última análise, o valor da carta. Algumas raridades também desbloqueiam interações distintas, como o Sistema de Encontros, que discutiremos separadamente.\n\nAs cartas contêm IDs exclusivos, como \"ABC-123\". Esses IDs distinguem cartas globais, permitindo o acesso em todos os servidores com {bot}. O significado do ID é simples: a parte inicial, \"ABC\", significa a categoria de imagem da carta, enquanto \"123\" indica o valor de 123° dentro da série \"ABC\".\n\nVariantes adicionam sabor a cartas, introduzindo diversas personalidades. Uma carta, como o ABC, pode ser rolado em múltiplas personalidades. Essas personalidades afetam vários aspectos de jogabilidade que vamos abordar mais tarde, cada uma com suas próprias forças e fraquezas.\n\nVocê pode utilizar o comando {command:card} para visualizar os detalhes da carta. Para fazer isso, você precisará inserir o ID da carta."
+            ]
+        },
+        "limits": {
+            "name": "Limites de rolls, votos e títulos",
+            "pages": [
+                "Por padrão, cada jogador é restrito a {config.title:(name=player)daily} rolls por dia. No entanto, não há necessidade de se preocupar! Você pode facilmente aumentar este limite através de várias atividades, incluindo votar em {bot}.\nPara começar, simplesmente use o comando {command:vote}. Isso permitirá que você explore as vantagens da votação, que também será detalhada em uma seção separada do guia.",
+                "{bot} introduz um sistema de título que permite aumentar seu limite diário de rolls e receber bônus adicionais. Numerosos papéis se inserem neste sistema, e eles serão discutidos em detalhes em uma seção dedicada intitulada \"Títulos e Seus Benefícios.\".\n\nPara o presente, vamos aprofundar o conceito de Títulos de Patrono. Estes títulos podem ser obtidos apoiar o projeto no Patreon. Para saber mais sobre as vantagens associadas, consulte {command:patreon}."
+            ]
+        },
+        "economy": {
+            "name": "Básicos da Economia",
+            "pages": [
+                "Como mencionado anteriormente, você tem a opção de vender cartas que considera não atraentes. Fazer isso resultará em sua remoção permanente da sua coleção, e você receberá uma certa quantidade de moedas determinadas pela raridade do cartão.\n\nVocê pode utilizar estas moedas em {command:store}, onde uma variedade de itens está disponível para seleção. Para começar, você pode considerar a compra de rolls, que permite que você exceda o limite diário e role com mais frequência."
+            ]
+        },
+        "items": {
+            "name": "Itens e inventário",
+            "pages": [
+                "Ao visitar {command:store}, você encontrará várias categorias de itens. A maioria desses itens pode ser usada em seu {command:inventory} uma vez comprado.\n\nVamos focar nas categorias de itens mais importantes.\n\n**Melhoradores** permitem que você aumente a raridade das suas cartas. **Tickets de Rolls** garantem um roll da raridade escolhida. **Garantias de Desejo** permitem que você aumente a chance de rolar um personagem específico."
+            ]
+        },
+        "trading": {
+            "name": "Trocas e leilões",
+            "pages": [
+                "{bot} permite que você troque suas cartas, fundos (que serão discutidos no capítulo \"Gemporium\") e moedas com outros jogadores.\n\nVocê pode se envolver em dois tipos de troca: públicas e privadas. Para uma oferta de troca privada, inicie o comando {command:trade new} e siga as instruções do bot. Lembre-se, trocas privadas só são possíveis com outros membros do servidor.\n\nPara criar uma oferta de negociação pública visível em todos os servidores usando {bot}, utilize o comando {command:auctionhouse}. Lá, você pode iniciar um lance por uma das suas cartas ou alternar para a seção \"Ofertas\" e criar uma oferta para seus itens."
+            ]
+        },
+        "other": {
+            "name": "Outras funcionalidades",
+            "pages": [
+                "Com isso, nós concluímos o breve capítulo \"Primeiro passos\". Porém, nós ainda não exploramos todas as funções do jogo ainda.\n\nSe você está interessado em continuar sua leitura, se sinta livre em proceder para os próximos capítulos. Alternativamente, você pode descobrir as funções do jogo por si mesmo e consultar o guia se encontrar dificuldades.\n\nSe você ainda precisa de assistência em começar ou você não consegue achar uma resposta dentro do {command:guide}, não hesite em chegar no nosso [Servidor de Suporte e Comunidade]({config:urls.server}). Nós estaremos mais que feliz de ajudá-lo com quaisquer perguntas."
+            ]
+        }
+    },
+    "detailedMechanics": {
+        "rarities": {
+            "name": "Raridades e como obtê-las",
+            "pages": [
+                "Raridades podem ser divididas em dois grupos principais: raridades roláveis e raridades especiais que apenas podem ser obtidas por métodos específicos.\n\nVamos começar discutindo cartas roláveis.\n\nTodas essas raridades podem ser obtidas usando o comando {command:roll}, mas cada raridade vem com uma chance distinta.\n\n{rarities:rollable}\n\nPróximo, nós temos raridades especiais como...\n{rarities:special}"
+            ]
+        },
+        "dailyRolls": {
+            "name": "Rolls diários explicados",
+            "pages": [
+                "Rolls diários é uma função crucial em {bot}, provendo você com recursos para expandir sua coleção de cartas.\nAqui está um guia rápido para usar eles ao máximo:\n\n1. **Reabastecimento diário:** Rolls diários são reabastecidos diariamente às {resetHour}.\n2. **Número de rolls:** O número de rolls diários variam baseado no título do jogador.\n3. **Limite de rolls:** A maioria dos títulos tem um limite de 4 vezes o máximo do valor padrão para manter o balanço e evitar a acumulação de rolls.\n\nVocê começa com {config.title:(name=player)daily} rolls diários por padrão. \nSe você tiver {config.title:(name=player)limit} ou mais rolls não usados, você não vai receber mais, porque você vai chegar no limite.\n\nÉ importante notar que um jogador pode ter vários títulos, resultando em rolls adicionais acumulando por cada título, enquanto o limite é definido pelo limite do título selecionado.\n\nAgora, vamos examinar a lista de títulos e seus respectivos limites.\nPor favor, note que o primeiro número representa rolls adicionais, que acumulam com rolls outros títulos incluindo o título de jogador padrão que todo mundo tem. O segundo número é o limite de rolls.\n\n{titles}"
+            ]
+        }
+    },
+    "commands": {
+        "harem": {
+            "name": "Harém",
+            "pages": [
+                "O {command:harem} é um comando para acessar e gerenciar todas as suas cartas. Aqui está uma lista de botões e suas respectivas funções para ajudar você a navegar por sua coleção de cartas:\n\n* {emoji:arrows.left} - página anterior\n* {emoji:arrows.right} - próxima página\n* {emoji:arrows.top} - carta anterior\n* {emoji:arrows.bottom} - próxima carta\n* {emoji:help} - guia\n* {emoji:sort} - alterar a ordem de classificação\n* {emoji:tag} - mudar para a exibição de tags\n* {emoji:glass} - pesquisa por nome ou ID\n* {emoji:select} - selecionar carta"
+            ]
+        },
+        "auctionhouse": {
+            "name": "Casa de Leilões",
+            "pages": [
+                "A Casa de Leilões é um mercado onde é possível criar leilões e ofertas de comércio que são visíveis para jogadores de {bot} em todo o mundo. Independentemente de você compartilhar servidores com outros jogadores, todos podem participar de ofertas ou aceitar suas ofertas.\n\nAqui está uma lista útil de controles de comandos para ajudá-lo a navegar na Casa de Leilões:\n\n* {emoji:arrows.left} - página anterior\n* {emoji:arrows.right} - próxima página\n* {emoji:gavel} - lista de leilões\n* {emoji:trade} - lista de ofertas\n* {emoji:help} - guia\n* {emoji:sort} - mudar a ordem de classificação\n* {emoji:glass} - pesquisar por nome ou ID\n* {emoji:plus} - criar um novo leilão ou oferta"
+            ]
+        }
+    },
+    "dates": {
+        "about": {
+            "name": "Sobre o sistema de encontros",
+            "pages": [
+                "Encontro é uma mecânica opcional que permite aumentar a afeição de suas cartas. É importante notar que apenas as cartas de raridade igual ou superior a {minDateRarity} podem ser datadas.\n\nEnquanto elevar a afeição dos cartões é inteiramente opcional, é necessário atribuir seus cartas um trabalho, permitindo que você ganhe Gemas em vários negócios uma vez que sua afeição é maximizada."
+            ]
+        },
+        "deres": {
+            "name": "Personalidades dere",
+            "pages": [
+                "As personalidades são atributos cruciais para as cartas. Cada carta pode ser rolada com uma das {dereCount} personalidades dere:\n\n{personalities}\n\nA personalidade rolada desempenha um papel significativo na definição de vários aspectos do sua carta, sendo que seu impacto mais importante é nas interações dentro do sistema de encontros."
+            ]
+        },
+        "datePanel": {
+            "name": "Painel de Encontros, Humor das cartas, Presentes",
+            "pages": [
+                "Para iniciar sua jornada de encontros, você pode começar usando o comando {command:date} e inserir o ID de qualquer carta que tenha raridade igual ou superior a {minDateRarity}. Como alternativa, você pode utilizar o comando {command:card} e clicar no botão \"Encontro\".\n\nAo fazer isso, você será direcionado para o painel de encontros. Aqui, você encontrará um breve diálogo, vários campos, um menu de seleção e botões.\n\nO diálogo varia de acordo com a personalidade da carta, mas o que é particularmente importante é o emoji exibido no final do diálogo. Esse emoji significa o **humor** da sua carta, com três opções possíveis: 😡 negativo, 😐 neutro e 😄 positivo.\n\nO humor tem um peso significativo nas interações subsequentes e é um aspecto essencial do sistema de encontros.\n\n* Se o humor for **negativo**, sua carta se recusará a interagir com você, consumindo sua energia.\n* Se o humor for **neutro**, qualquer interação positiva só lhe concederá metade dos pontos de afeição.\n* Se o humor for **positivo**, suas interações serão recompensadas na taxa normal.\n\nO humor da sua carta será degradado em um nível a cada três interações ou se você usar interações incorretas que a carta não gosta.\n\nPara melhorar o humor de sua carta, visite a {command:store} e compre alguns presentes, depois ofereça-os às suas cartas usando o menu de seleção no painel de encontros. Lembre-se de que cada personalidade tem preferências distintas, que você pode descobrir se estiver familiarizado com as personalidades tradicionais de anime/mangá. Caso contrário, você sempre pode experimentar e descobri-las! Vale a pena observar que presentear é a única interação que não requer energia."
+            ]
+        },
+        "activities": {
+            "name": "Atividades e elevação de afeto",
+            "pages": [
+                "Assim que você garantir que o humor da sua carta for positivo, você poderá começar a interagir com ela. Estas atividades inserem-se em categorias diferentes, mas funcionam de forma semelhante, variando em pontos de afeição e de energia necessários.\n\n**Crucialmente, evite repetir a mesma atividade consecutivamente; cartas ficam descontentes se você fizer isso. Seja criativo!**\n\nAo selecionar uma atividade, você verá várias variantes. Por exemplo, em \"Elogiar\", você pode elogiar o sentido, inteligência ou talento do seu cartão. Isso adiciona uma camada extra de desafio - adapte suas ações à personalidade do cartão.\n\nCada personalidade tem ações que preferem, não preferem e neutras. As não preferidas diminuem os pontos de afeto, preferidas os aumentam, e as neutras não têm impacto.\n\nDepois de maximizar a afeição da sua carta, um novo botão, \"Atribuir um Trabalho\", desbloqueia. Use-o para atribuir um carta a um negócio, que será explicado no próximo capítulo do guia."
+            ]
+        }
+    },
+    "businesses": {
+        "about": {
+            "name": "Sobre o sistema de negócios",
+            "pages": [
+                "Os negócios servem como a principal fonte de renda de {emoji:gem} **Gemas**, crucial para rolar nos banners do **Gemporium** (detalhes no próximo capítulo). Esses negócios funcionam essencialmente como mini-jogos que podem ser jogados ao lado de suas cartas, desde que você tenha maximizado sua afeição (consulte o último capítulo para obter detalhes).\n\nVamos dar início às coisas listando os negócios atualmente disponíveis:\n{businesses}\n\nPara iniciar qualquer negócio, use o comando correspondente. Depois, acesse o painel do encontro com a carta e atribua a sua carta ao negócio escolhido. Nos seguintes sub-capítulos, analisaremos coisas específicas sobre os negócios."
+            ]
+        },
+        "cafe": {
+            "name": "Cafeteria",
+            "pages": [
+                "Cafeteria, inspirado em jogos de clicador incremental, onde o centro é por servir café para os clientes, com suas cartas assumindo funções cruciais como trabalhadores. Para crescer este negócio, você pode elevar os atributos de sua cafe para renda passiva ou você pode clicar manualmente para obter Gemas, embora ao custo de energia.\n\nCada atributo corresponde a uma posição específica do trabalhador e o gerenciamento de seus funcionários afeta o desempenho da sua cafeteria. É digno de nota que as personalidades das cartas tenham suas preferências quando se trata de posições, e algumas podem até mesmo se recusar a trabalhar em funções não gostar. \n\nVamos explorar os atributos, suas posições associadas e preferências de personalidade - prossiga para a próxima página.",
+                "1. **Renda passiva** (Chef)\n Renda passiva é essencial para iniciar seus ganhos passivamente, permitindo que sua cafeteria sirva café automaticamente. Ela quantifica o número de {emoji:gem} **Gemas** do seu negócio gera por minuto de serviço. Danderes são ideais para a posição de Chef, destacando-se neste papel.\n2. **Renda por Clique** (Barista)\n Renda por Clique determina o número de {emoji:gem} **Gemas **que você ganha com cada clique manual enquanto vende café. Lembre-se, cada clique consome energia.\n Yanderes brilham como Baristas, proporcionando um desempenho mais eficaz.\n3. **Tempo para Servir** (Servidor)\n O tempo de atendimento gerencia a duração necessária para servir café para um único cliente. Esta posição é favorecida para Derederes.\n4. **Capacidade de Clique** (Caixa)\n A capacidade de clique determina o número de cliques que você pode fazer, e cada clique é recarregado depois de 24 horas. Himederes são a melhor escolha para caixa.\n5. **Popularidade** (Promotor)\n Popularidade aumenta seu negócio atraindo mais clientes. Aumentar a popularidade multiplica a sua renda de {emoji:gem} **Gemas**, especialmente efetiva com Tsunderes na posição do promotor.\n6. **Limite de Armazenamento** (Banqueiro)\n Limite de Armazenamento eleva o limite máximo sobre o número de gemas que seu negócio pode armazenar, Permitir que funcione por períodos mais longos antes de atingir a capacidade. Esta função é perfeita para Kuuderes.",
+                "Uma vez que você designar suas cartas selecionadas para suas posições preferidas, você estará pronto para começar a servir café. Clique no botão \"Começar a Servir\" e aguarde pacientemente até que o processo de servir seja concluído. Depois, você pode coletar as {emoji:gem} **gemas** que você ganhou.\n\nMas o que você deve fazer com todas estas {emoji:gem} **Gemas**? Para isso, vire para o próximo capítulo, onde nos esforçamos no **Gemporium**, guiando você sobre como tirar o máximo proveito dos seus recursos arduamente conquistados."
+            ]
+        }
+    },
+    "gemporium": {
+        "about": {
+            "name": "Sobre o Gemporium",
+            "pages": [
+                "Gemporium ({command:gemporium}) é um lugar verdadeiramente encantador, onde você pode colocar suas Gemas arduamente ganhas para bom uso. A cada algumas semanas, o Gemporium revela novos banners, permitindo que você role gastando suas preciosas {emoji:gem} **Gemas**.\n\nEstes banners são tesouros de diversas recompensas, incluindo itens e cosméticos. Tenha em mente que alguns banners podem ser exclusivos de uma só vez, nunca retornar, enquanto outros seguem um ciclo periódico, reaparecendo a cada poucos meses.\n\nNos próximos sub-capítulos, vamos embarcar em uma jornada para descobrir todos os cosméticos que estão esperando para serem obtidos no Gemporium."
+            ]
+        },
+        "backgrounds": {
+            "name": "Fundos",
+            "pages": [
+                "Os planos de fundo servem como uma maneira agradável de personalizar a aparência do seu harém ou perfil, acrescentando um toque de exclusividade à sua experiência. Há dois tipos distintos de planos de fundo, cada um utilizável exclusivamente para comandos específicos descritos acima.\n\nPara explorar os detalhes dos planos de fundo disponíveis, utilize o comando {command:album background} em conjunto com seus respectivos IDs. Para gerenciar sua coleção de planos de fundo, navegue até {command:inventory} e acesse a categoria Planos de fundo. É importante observar que você só pode ter um plano de fundo ativo para cada comando.\n\nAlém disso, os planos de fundo podem ser negociados. Você tem a opção de oferecê-los na {command:auctionhouse} ou criar uma oferta de troca padrão usando {command:trade new}. Sinta-se à vontade para abraçar a arte da negociação e trocar planos de fundo para enriquecer ainda mais sua coleção."
+            ]
+        }
+    }
+}
